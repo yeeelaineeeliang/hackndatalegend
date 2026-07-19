@@ -28,7 +28,10 @@ Filters:
 - severity
 - minimum review priority
 
-The table preserves deterministic queue rank. The reviewer can open any matching facility.
+Search stays visible in the main queue view; secondary filters are grouped under
+`Filter queue`, so mobile users do not need to open the Streamlit sidebar.
+The table preserves deterministic queue rank. The reviewer can open any matching
+facility.
 
 ### Facility Detail
 
@@ -41,6 +44,10 @@ The detail workflow shows:
 - exact field or extracted-claim receipts
 - claim lists and parse states
 - facility-level source links
+
+The selected facility's decision form appears before the detailed evidence stack.
+This keeps the one-minute demo path short while preserving all flag receipts,
+claims, and source trails in the evidence expander.
 
 Claim themes are keyword-derived navigation aids. They are not verified medical classifications.
 
@@ -92,7 +99,14 @@ Use `app/` as the deployment source directory. Its `app.yaml` starts Streamlit w
 streamlit run app.py
 ```
 
+Do not add `--server.port "${DATABRICKS_APP_PORT:-8000}"` to the command: the
+Apps runtime exec's the command array without a shell, so the variable is not
+expanded and Streamlit crashes on a non-integer port. The platform injects the
+correct port itself (verified in deployment logs: Streamlit binds `8000`).
+
 Databricks Apps installs `app/requirements.txt` during deployment.
+The runtime configuration also disables Streamlit CORS and XSRF handling because
+the Databricks Apps reverse proxy owns those boundaries.
 
 Official references:
 
@@ -108,11 +122,29 @@ Reviewer decisions are durable. `app/review_store.py` is an append-only store:
   to Lakebase Postgres (`review_decisions` table), outside the app filesystem,
   so they survive restarts and redeploys
 - locally, a SQLite file is used for development
-- the sidebar displays the active backend; if Lakebase is configured but
+- the judge-path sidebar displays the active backend; if Lakebase is configured but
   unreachable, the decision form shows an explicit fallback warning instead of
   claiming durable persistence
 - the latest decision per facility defines queue status; history is never
-  overwritten and is visible in the Review log tab with CSV export
+  overwritten and is visible in the Audit log tab with CSV export
 
 Verified in production on `July 19, 2026`: a decision recorded through the
 deployed app was read back directly from the Lakebase instance.
+
+## UI Verification
+
+The judge-facing workflow is regression-tested with Streamlit's app test
+framework and browser-audited at `1440 x 1000` and `390 x 844`.
+
+Verified controls:
+
+- queue search
+- state, issue type, claim theme, severity, review status, and priority filters
+- selected facility
+- decision status
+- reviewer identity
+- decision note
+- clear-filters and record-decision actions
+
+The audit checks that every control is labeled, visible in its active workflow
+state, keyboard-focusable, and does not introduce horizontal page overflow.

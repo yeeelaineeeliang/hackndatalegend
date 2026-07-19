@@ -75,6 +75,13 @@ class AppUiContractTests(unittest.TestCase):
             )
         )
 
+    def test_databricks_runtime_config_uses_proxy_safe_streamlit_settings(self) -> None:
+        app_yaml = (ROOT / "app" / "app.yaml").read_text(encoding="utf-8")
+        self.assertIn("${DATABRICKS_APP_PORT:-8000}", app_yaml)
+        self.assertIn("0.0.0.0", app_yaml)
+        self.assertIn("STREAMLIT_SERVER_ENABLE_CORS", app_yaml)
+        self.assertIn("STREAMLIT_SERVER_ENABLE_XSRF_PROTECTION", app_yaml)
+
 
 if __name__ == "__main__":
     unittest.main()

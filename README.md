@@ -94,7 +94,7 @@ The application under `app/` provides:
 - filterable ranked review queue that reflects live review status
 - facility detail with scores, claims, corroboration state, and flag receipts
 - reviewer decision form: confirm, needs review, incorrect claim, missing evidence, or resolved, plus a durable note
-- append-only review log with CSV export
+- append-only audit log with CSV export
 
 Decisions persist in Lakebase Postgres when deployed on Databricks Apps with a database resource attached, and in local SQLite during development. The latest decision per facility defines its queue status; history is never overwritten.
 

@@ -60,6 +60,7 @@ class AppAssetTests(unittest.TestCase):
         self.assertEqual(self.manifest["queue_rows"], len(self.index))
         self.assertEqual(self.manifest["flag_rows"], len(self.flags))
         self.assertEqual(self.manifest["detail_rows"], len(self.index))
+        self.assertGreaterEqual(self.manifest["eligible_rows"], len(self.index))
         self.assertLess(self.manifest["max_file_bytes"], 10 * 1024 * 1024)
         self.assertEqual(
             sum(item["rows"] for item in self.manifest["files"] if "shard" in item),
