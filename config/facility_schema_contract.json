@@ -1,0 +1,68 @@
+{
+  "contract_version": "1.0.0",
+  "sources": [
+    "Virtue Foundation Scheme Documentation.pdf",
+    "prompts_and_pydantic_models/facility_and_ngo_fields.py",
+    "prompts_and_pydantic_models/free_form.py",
+    "prompts_and_pydantic_models/medical_specialties.py",
+    "prompts_and_pydantic_models/organization_extraction.py"
+  ],
+  "identity_fields": {
+    "name": "string",
+    "facilityTypeId": "enum",
+    "operatorTypeId": "enum",
+    "affiliationTypeIds": "list[enum]"
+  },
+  "core_readiness_fields": {
+    "description": "string",
+    "capability": "list[string]",
+    "procedure": "list[string]",
+    "equipment": "list[string]",
+    "numberDoctors": "integer",
+    "capacity": "integer",
+    "yearEstablished": "integer"
+  },
+  "geography_fields": {
+    "address_line1": "string",
+    "address_line2": "string",
+    "address_line3": "string",
+    "address_city": "string",
+    "address_stateOrRegion": "string",
+    "address_zipOrPostcode": "string",
+    "address_country": "string",
+    "address_countryCode": "string"
+  },
+  "allowed_values": {
+    "facilityTypeId": [
+      "hospital",
+      "pharmacy",
+      "doctor",
+      "clinic",
+      "dentist"
+    ],
+    "operatorTypeId": [
+      "public",
+      "private"
+    ],
+    "affiliationTypeIds": [
+      "faith-tradition",
+      "philanthropy-legacy",
+      "community",
+      "academic",
+      "government"
+    ]
+  },
+  "derived_output_trace_fields": [
+    "source_field",
+    "source_text",
+    "evidence_type",
+    "is_inferred",
+    "confidence",
+    "validation_status"
+  ],
+  "null_semantics": {
+    "null": "not processed or unknown",
+    "empty_list": "processed and no supported facts found"
+  }
+}
+

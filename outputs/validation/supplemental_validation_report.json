@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-07-19T01:36:45.449328+00:00",
+  "overall_status": "passed_with_warnings",
+  "summary": {
+    "checks": 11,
+    "passed": 9,
+    "warnings": 2,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "check_id": "pin.required_columns",
+      "status": "pass",
+      "message": "PIN source contains all required columns.",
+      "observed": []
+    },
+    {
+      "check_id": "pin.format",
+      "status": "pass",
+      "message": "PIN values are six digits.",
+      "observed": 0
+    },
+    {
+      "check_id": "pin.coordinate_quality",
+      "status": "warn",
+      "message": "Invalid coordinates are quarantined and excluded from preferred PIN means.",
+      "observed": {
+        "valid": 151010,
+        "missing_pair": 12006,
+        "out_of_bounds": 1811,
+        "likely_swapped": 791,
+        "incomplete_pair": 9
+      }
+    },
+    {
+      "check_id": "pin.preferred_cardinality",
+      "status": "pass",
+      "message": "Preferred PIN lookup has exactly one row per source PIN.",
+      "observed": {
+        "source_unique_pincodes": 19586,
+        "preferred_rows": 19586,
+        "preferred_unique_pincodes": 19586
+      }
+    },
+    {
+      "check_id": "pin.safe_join_policy",
+      "status": "pass",
+      "message": "Only exact PIN mappings are marked safe for direct joins.",
+      "observed": 0
+    },
+    {
+      "check_id": "pin.preferred_coordinate_bounds",
+      "status": "pass",
+      "message": "Preferred coordinate means contain only validated India coordinate pairs.",
+      "observed": 0
+    },
+    {
+      "check_id": "nfhs.identifier_columns",
+      "status": "pass",
+      "message": "NFHS source contains its district and state identifiers.",
+      "observed": []
+    },
+    {
+      "check_id": "nfhs.snake_case_collisions",
+      "status": "pass",
+      "message": "NFHS headers remain unique after snake_case normalization.",
+      "observed": []
+    },
+    {
+      "check_id": "nfhs.district_grain",
+      "status": "pass",
+      "message": "Clean NFHS output has one row per normalized state and district pair.",
+      "observed": 0
+    },
+    {
+      "check_id": "nfhs.numeric_indicators",
+      "status": "pass",
+      "message": "All cleaned NFHS indicator values are numeric or null.",
+      "observed": 0
+    },
+    {
+      "check_id": "geography.cross_source_match",
+      "status": "warn",
+      "message": "Unmatched NFHS geography pairs require review or spatial assignment before enrichment.",
+      "observed": {
+        "exact_matches": 543,
+        "total_nfhs_pairs": 706,
+        "exact_match_rate": 0.7691,
+        "requires_review": 163
+      }
+    }
+  ]
+}

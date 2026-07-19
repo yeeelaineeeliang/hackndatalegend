@@ -1,0 +1,60 @@
+{
+  "rules_version": "1.1.0",
+  "score_weights": {
+    "readiness": {
+      "completeness": 0.4,
+      "evidence_support": 0.3,
+      "consistency": 0.3
+    },
+    "review_priority": {
+      "readiness_risk": 0.75,
+      "high_leverage": 0.25
+    },
+    "high_leverage": {
+      "capacity": 0.35,
+      "number_doctors": 0.25,
+      "claim_count": 0.25,
+      "source_count": 0.15
+    }
+  },
+  "completeness_weights": {
+    "name": 0.08,
+    "facility_type": 0.07,
+    "operator_type": 0.05,
+    "address_city": 0.05,
+    "address_state": 0.05,
+    "pincode": 0.05,
+    "coordinates": 0.1,
+    "description": 0.1,
+    "capability": 0.12,
+    "procedure": 0.08,
+    "equipment": 0.08,
+    "number_doctors": 0.05,
+    "capacity": 0.07,
+    "year_established": 0.05
+  },
+  "evidence_support": {
+    "source_urls": 0.2,
+    "source_ids": 0.1,
+    "source_content_id": 0.05,
+    "description": 0.05,
+    "claim_quality": 0.25,
+    "claim_corroboration": 0.35,
+    "claim_corroboration_neutral": 0.5,
+    "claim_level_verification_cap": 75
+  },
+  "consistency_penalties": {
+    "state_pincode_disagreement": 25,
+    "invalid_coordinates": 25,
+    "unmapped_facility_type": 15,
+    "invalid_claim_field": 15,
+    "placeholder_claim_field": 10,
+    "capacity_claim_disagreement": 25,
+    "year_claim_disagreement": 20
+  },
+  "claim_semantics": {
+    "parsed_list_completeness": 1.0,
+    "empty_list_completeness": 0.5,
+    "missing_or_invalid_completeness": 0.0
+  }
+}

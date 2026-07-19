@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-07-19T06:06:41.687252+00:00",
+  "queue_rows": 9958,
+  "flag_rows": 43255,
+  "detail_rows": 9958,
+  "detail_shards": 8,
+  "max_file_bytes": 4162384,
+  "files": [
+    {
+      "path": "flags.parquet",
+      "rows": 43255,
+      "bytes": 4162384
+    },
+    {
+      "path": "review_index.parquet",
+      "rows": 9958,
+      "bytes": 1057883
+    },
+    {
+      "shard": 0,
+      "path": "facility_details_00.parquet",
+      "rows": 1298,
+      "bytes": 2253248
+    },
+    {
+      "shard": 1,
+      "path": "facility_details_01.parquet",
+      "rows": 1226,
+      "bytes": 2205751
+    },
+    {
+      "shard": 2,
+      "path": "facility_details_02.parquet",
+      "rows": 1272,
+      "bytes": 2273982
+    },
+    {
+      "shard": 3,
+      "path": "facility_details_03.parquet",
+      "rows": 1226,
+      "bytes": 2156526
+    },
+    {
+      "shard": 4,
+      "path": "facility_details_04.parquet",
+      "rows": 1238,
+      "bytes": 2249950
+    },
+    {
+      "shard": 5,
+      "path": "facility_details_05.parquet",
+      "rows": 1197,
+      "bytes": 2174169
+    },
+    {
+      "shard": 6,
+      "path": "facility_details_06.parquet",
+      "rows": 1249,
+      "bytes": 2188071
+    },
+    {
+      "shard": 7,
+      "path": "facility_details_07.parquet",
+      "rows": 1252,
+      "bytes": 2200503
+    }
+  ]
+}

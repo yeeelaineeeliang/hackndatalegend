@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-07-19T06:06:38.624686+00:00",
+  "rules_version": "1.1.0",
+  "overall_status": "passed_with_warnings",
+  "summary": {
+    "checks": 7,
+    "passed": 6,
+    "warnings": 1,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "check_id": "trust.signal_grain",
+      "status": "pass",
+      "message": "Trust signals contain one row per scoring-eligible facility.",
+      "observed": {
+        "eligible": 9989,
+        "signals": 9989
+      }
+    },
+    {
+      "check_id": "trust.score_bounds",
+      "status": "pass",
+      "message": "All scores are non-null and bounded from 0 to 100.",
+      "observed": 0
+    },
+    {
+      "check_id": "trust.evidence_cap",
+      "status": "pass",
+      "message": "Evidence support cannot imply claim-level verification without aligned spans.",
+      "observed": {
+        "cap": 75,
+        "rows_above_cap": 0
+      }
+    },
+    {
+      "check_id": "trust.flag_referential_integrity",
+      "status": "pass",
+      "message": "Every flag references a scoring-eligible facility.",
+      "observed": 0
+    },
+    {
+      "check_id": "trust.flag_traceability",
+      "status": "pass",
+      "message": "Every flag includes a reason, explanation, evidence, and validation state.",
+      "observed": 0
+    },
+    {
+      "check_id": "trust.queue_order",
+      "status": "pass",
+      "message": "The review queue is unique, sequential, and priority ordered.",
+      "observed": {
+        "queue_rows": 9958,
+        "valid": true
+      }
+    },
+    {
+      "check_id": "trust.claim_level_verification",
+      "status": "warn",
+      "message": "Facility-level URLs do not prove alignment between each claim and source text.",
+      "observed": 9989
+    }
+  ]
+}

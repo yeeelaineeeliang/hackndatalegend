@@ -1,0 +1,1142 @@
+{
+  "generated_at": "2026-07-19T01:36:06.247817+00:00",
+  "profiles": [
+    {
+      "dataset": "india_post_pincode_directory",
+      "path": "data/raw/supplemental/india_post_pincode_directory.csv",
+      "rows": 165627,
+      "columns": 11,
+      "unique_pincodes": 19586,
+      "unique_districts": 749,
+      "unique_states": 36,
+      "missing_coordinates_rows": 12015,
+      "coordinate_status_counts": {
+        "valid": 151010,
+        "missing_pair": 12006,
+        "incomplete_pair": 9,
+        "likely_swapped": 791,
+        "out_of_bounds": 1811
+      },
+      "duplicate_pincode_rows": 17443,
+      "ambiguous_district_pincodes": 1258,
+      "ambiguous_state_pincodes": 52,
+      "max_rows_per_pincode": 153,
+      "top_pincode_row_counts": [
+        {
+          "pincode": "791122",
+          "row_count": 153,
+          "district_count": 1,
+          "state_count": 1,
+          "ambiguous_district": false,
+          "ambiguous_state": false
+        },
+        {
+          "pincode": "791118",
+          "row_count": 149,
+          "district_count": 2,
+          "state_count": 1,
+          "ambiguous_district": true,
+          "ambiguous_state": false
+        },
+        {
+          "pincode": "345001",
+          "row_count": 119,
+          "district_count": 1,
+          "state_count": 1,
+          "ambiguous_district": false,
+          "ambiguous_state": false
+        },
+        {
+          "pincode": "494450",
+          "row_count": 102,
+          "district_count": 1,
+          "state_count": 1,
+          "ambiguous_district": false,
+          "ambiguous_state": false
+        },
+        {
+          "pincode": "790102",
+          "row_count": 98,
+          "district_count": 3,
+          "state_count": 1,
+          "ambiguous_district": true,
+          "ambiguous_state": false
+        },
+        {
+          "pincode": "792110",
+          "row_count": 89,
+          "district_count": 2,
+          "state_count": 1,
+          "ambiguous_district": true,
+          "ambiguous_state": false
+        },
+        {
+          "pincode": "494661",
+          "row_count": 75,
+          "district_count": 1,
+          "state_count": 1,
+          "ambiguous_district": false,
+          "ambiguous_state": false
+        },
+        {
+          "pincode": "793119",
+          "row_count": 75,
+          "district_count": 3,
+          "state_count": 1,
+          "ambiguous_district": true,
+          "ambiguous_state": false
+        },
+        {
+          "pincode": "822125",
+          "row_count": 73,
+          "district_count": 1,
+          "state_count": 1,
+          "ambiguous_district": false,
+          "ambiguous_state": false
+        },
+        {
+          "pincode": "794102",
+          "row_count": 71,
+          "district_count": 2,
+          "state_count": 1,
+          "ambiguous_district": true,
+          "ambiguous_state": false
+        }
+      ],
+      "column_profile": [
+        {
+          "column": "circlename",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_non_missing": 24
+        },
+        {
+          "column": "regionname",
+          "missing_count": 315,
+          "missing_pct": 0.1902,
+          "unique_non_missing": 52
+        },
+        {
+          "column": "divisionname",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_non_missing": 482
+        },
+        {
+          "column": "officename",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_non_missing": 145086
+        },
+        {
+          "column": "pincode",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_non_missing": 19586
+        },
+        {
+          "column": "officetype",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_non_missing": 3
+        },
+        {
+          "column": "delivery",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_non_missing": 2
+        },
+        {
+          "column": "district",
+          "missing_count": 715,
+          "missing_pct": 0.4317,
+          "unique_non_missing": 749
+        },
+        {
+          "column": "statename",
+          "missing_count": 715,
+          "missing_pct": 0.4317,
+          "unique_non_missing": 36
+        },
+        {
+          "column": "latitude",
+          "missing_count": 12007,
+          "missing_pct": 7.2494,
+          "unique_non_missing": 99918
+        },
+        {
+          "column": "longitude",
+          "missing_count": 12002,
+          "missing_pct": 7.2464,
+          "unique_non_missing": 94867
+        }
+      ]
+    },
+    {
+      "dataset": "nfhs5_district_health_indicators",
+      "path": "data/raw/supplemental/nfhs5_district_health_indicators.csv",
+      "rows": 706,
+      "columns": 109,
+      "unique_districts": 698,
+      "unique_states": 36,
+      "columns_with_missing_values": 29,
+      "columns_with_parenthesized_estimates": 48,
+      "top_columns_by_missing_pct": [
+        {
+          "column": "Non-breastfeeding children age 6-23 months receiving an adequate diet16, 17 (%)",
+          "snake_case": "non_breastfeeding_children_age_6_23_months_receiving_an_adequate_diet16_17_pct",
+          "missing_count": 643,
+          "missing_pct": 91.0765,
+          "parenthesized_estimate_count": 59,
+          "unique_non_missing": 56
+        },
+        {
+          "column": "Children age 6-8 months receiving solid or semi-solid food and breastmilk16 (%)",
+          "snake_case": "children_age_6_8_months_receiving_solid_or_semi_solid_food_and_breastmilk16_pct",
+          "missing_count": 642,
+          "missing_pct": 90.9348,
+          "parenthesized_estimate_count": 62,
+          "unique_non_missing": 61
+        },
+        {
+          "column": "Children with diarrhoea in the 2 weeks preceding the survey who received oral rehydration salts (ORS) (Children under age 5 years) (%) ",
+          "snake_case": "children_with_diarrhoea_in_the_2_weeks_preceding_the_survey_who_received_oral_rehydration_salts_ors_children_under_age_5_years_pct",
+          "missing_count": 492,
+          "missing_pct": 69.6884,
+          "parenthesized_estimate_count": 162,
+          "unique_non_missing": 196
+        },
+        {
+          "column": "Children with diarrhoea in the 2 weeks preceding the survey who received zinc (Children under age 5 years) (%) ",
+          "snake_case": "children_with_diarrhoea_in_the_2_weeks_preceding_the_survey_who_received_zinc_children_under_age_5_years_pct",
+          "missing_count": 492,
+          "missing_pct": 69.6884,
+          "parenthesized_estimate_count": 162,
+          "unique_non_missing": 190
+        },
+        {
+          "column": "Children swith diarrhoea in the 2 weeks preceding the survey taken to a health facility or health provider (Children under age 5 years) (%) ",
+          "snake_case": "children_swith_diarrhoea_in_the_2_weeks_preceding_the_survey_taken_to_a_health_facility_or_health_provider_children_under_age_5_years_pct",
+          "missing_count": 492,
+          "missing_pct": 69.6884,
+          "parenthesized_estimate_count": 162,
+          "unique_non_missing": 187
+        },
+        {
+          "column": "Children born at home who were taken to a health facility for a check-up within 24 hours of birth (for last birth in the 5 years before the survey} (%)",
+          "snake_case": "children_born_at_home_who_were_taken_to_a_health_facility_for_a_check_up_within_24_hours_of_birth_for_last_birth_in_the_5_years_before_the_survey_pct",
+          "missing_count": 422,
+          "missing_pct": 59.7734,
+          "parenthesized_estimate_count": 141,
+          "unique_non_missing": 132
+        },
+        {
+          "column": "Children under age 6 months exclusively breastfed16 (%)",
+          "snake_case": "children_under_age_6_months_exclusively_breastfed16_pct",
+          "missing_count": 261,
+          "missing_pct": 36.9688,
+          "parenthesized_estimate_count": 347,
+          "unique_non_missing": 334
+        },
+        {
+          "column": "Children with fever or symptoms of ARI in the 2 weeks preceding the survey taken to a health facility or health provider (Children under age 5 years) (%)  ",
+          "snake_case": "children_with_fever_or_symptoms_of_ari_in_the_2_weeks_preceding_the_survey_taken_to_a_health_facility_or_health_provider_children_under_age_5_years_pct",
+          "missing_count": 224,
+          "missing_pct": 31.728,
+          "parenthesized_estimate_count": 264,
+          "unique_non_missing": 382
+        },
+        {
+          "column": "Births in a private health facility that were delivered by caesarean section (in the 5 years before the survey) (%)",
+          "snake_case": "births_in_a_private_health_facility_that_were_delivered_by_caesarean_section_in_the_5_years_before_the_survey_pct",
+          "missing_count": 150,
+          "missing_pct": 21.2465,
+          "parenthesized_estimate_count": 122,
+          "unique_non_missing": 431
+        },
+        {
+          "column": "Pregnant women age 15-49 years who are anaemic (<11.0 g/dl)22 (%)",
+          "snake_case": "pregnant_women_age_15_49_years_who_are_anaemic_11_0_g_dl_22_pct",
+          "missing_count": 134,
+          "missing_pct": 18.9802,
+          "parenthesized_estimate_count": 421,
+          "unique_non_missing": 430
+        }
+      ],
+      "column_profile": [
+        {
+          "column": "District Names",
+          "snake_case": "district_names",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 698
+        },
+        {
+          "column": "State/UT",
+          "snake_case": "state_ut",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 36
+        },
+        {
+          "column": "Number of Households surveyed",
+          "snake_case": "number_of_households_surveyed",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 185
+        },
+        {
+          "column": "Number of Women age 15-49 years interviewed",
+          "snake_case": "number_of_women_age_15_49_years_interviewed",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 435
+        },
+        {
+          "column": "Number of Men age 15-54 years interviewed",
+          "snake_case": "number_of_men_age_15_54_years_interviewed",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 146
+        },
+        {
+          "column": "Female population age 6 years and above who ever attended school (%)",
+          "snake_case": "female_population_age_6_years_and_above_who_ever_attended_school_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 336
+        },
+        {
+          "column": "Population below age 15 years (%)",
+          "snake_case": "population_below_age_15_years_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 206
+        },
+        {
+          "column": " Sex ratio of the total population (females per 1,000 males)",
+          "snake_case": "sex_ratio_of_the_total_population_females_per_1_000_males",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 267
+        },
+        {
+          "column": "Sex ratio at birth for children born in the last five years (females per 1,000 males)",
+          "snake_case": "sex_ratio_at_birth_for_children_born_in_the_last_five_years_females_per_1_000_males",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 2,
+          "unique_non_missing": 351
+        },
+        {
+          "column": "Children under age 5 years whose birth was registered with the civil authority (%)",
+          "snake_case": "children_under_age_5_years_whose_birth_was_registered_with_the_civil_authority_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 239
+        },
+        {
+          "column": "Deaths in the last 3 years registered with the civil authority (%)",
+          "snake_case": "deaths_in_the_last_3_years_registered_with_the_civil_authority_pct",
+          "missing_count": 1,
+          "missing_pct": 0.1416,
+          "parenthesized_estimate_count": 27,
+          "unique_non_missing": 452
+        },
+        {
+          "column": "Population living in households with electricity (%)",
+          "snake_case": "population_living_in_households_with_electricity_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 123
+        },
+        {
+          "column": "Population living in households with an improved drinking-water source1 (%)",
+          "snake_case": "population_living_in_households_with_an_improved_drinking_water_source1_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 197
+        },
+        {
+          "column": "Population living in households that use an improved sanitation facility2 (%)",
+          "snake_case": "population_living_in_households_that_use_an_improved_sanitation_facility2_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 380
+        },
+        {
+          "column": "Households using clean fuel for cooking3 (%)",
+          "snake_case": "households_using_clean_fuel_for_cooking3_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 489
+        },
+        {
+          "column": "Households using iodized salt (%)",
+          "snake_case": "households_using_iodized_salt_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 166
+        },
+        {
+          "column": "Households with any usual member covered under a health insurance/financing scheme (%)",
+          "snake_case": "households_with_any_usual_member_covered_under_a_health_insurance_financing_scheme_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 470
+        },
+        {
+          "column": "Children age 5 years who attended pre-primary school during the school year 2019-20 (%)",
+          "snake_case": "children_age_5_years_who_attended_pre_primary_school_during_the_school_year_2019_20_pct",
+          "missing_count": 3,
+          "missing_pct": 0.4249,
+          "parenthesized_estimate_count": 155,
+          "unique_non_missing": 362
+        },
+        {
+          "column": "Women (age 15-49) who are literate4 (%)",
+          "snake_case": "women_age_15_49_who_are_literate4_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 361
+        },
+        {
+          "column": "Women (age 15-49)  with 10 or more years of schooling (%)",
+          "snake_case": "women_age_15_49_with_10_or_more_years_of_schooling_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 387
+        },
+        {
+          "column": "Women age 20-24 years married before age 18 years (%)",
+          "snake_case": "women_age_20_24_years_married_before_age_18_years_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 1,
+          "unique_non_missing": 356
+        },
+        {
+          "column": "Births in the 5 years preceding the survey that are third or higher order (%)",
+          "snake_case": "births_in_the_5_years_preceding_the_survey_that_are_third_or_higher_order_pct",
+          "missing_count": 1,
+          "missing_pct": 0.1416,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 70
+        },
+        {
+          "column": "Women age 15-19 years who were already mothers or pregnant at the time of the survey (%)",
+          "snake_case": "women_age_15_19_years_who_were_already_mothers_or_pregnant_at_the_time_of_the_survey_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 1,
+          "unique_non_missing": 171
+        },
+        {
+          "column": "Women age 15-24 years who use hygienic methods of protection during their menstrual period5 (%)",
+          "snake_case": "women_age_15_24_years_who_use_hygienic_methods_of_protection_during_their_menstrual_period5_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 376
+        },
+        {
+          "column": "Current Use of Family Planning Methods (Currently Married Women Age 15-49  years) - Any method6 (%)",
+          "snake_case": "current_use_of_family_planning_methods_currently_married_women_age_15_49_years_any_method6_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 344
+        },
+        {
+          "column": "Current Use of Family Planning Methods (Currently Married Women Age 15-49  years) - Any modern method6 (%)",
+          "snake_case": "current_use_of_family_planning_methods_currently_married_women_age_15_49_years_any_modern_method6_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 375
+        },
+        {
+          "column": "Current Use of Family Planning Methods (Currently Married Women Age 15-49  years) - Female sterilization (%)",
+          "snake_case": "current_use_of_family_planning_methods_currently_married_women_age_15_49_years_female_sterilization_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 442
+        },
+        {
+          "column": "Current Use of Family Planning Methods (Currently Married Women Age 15-49  years) - Male sterilization (%)",
+          "snake_case": "current_use_of_family_planning_methods_currently_married_women_age_15_49_years_male_sterilization_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 54
+        },
+        {
+          "column": "Current Use of Family Planning Methods (Currently Married Women Age 15-49  years) - IUD/PPIUD (%)",
+          "snake_case": "current_use_of_family_planning_methods_currently_married_women_age_15_49_years_iud_ppiud_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 106
+        },
+        {
+          "column": "Current Use of Family Planning Methods (Currently Married Women Age 15-49  years) - Pill (%)",
+          "snake_case": "current_use_of_family_planning_methods_currently_married_women_age_15_49_years_pill_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 180
+        },
+        {
+          "column": "Current Use of Family Planning Methods (Currently Married Women Age 15-49  years) - Condom (%)",
+          "snake_case": "current_use_of_family_planning_methods_currently_married_women_age_15_49_years_condom_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 244
+        },
+        {
+          "column": "Current Use of Family Planning Methods (Currently Married Women Age 15-49  years) - Injectables (%)",
+          "snake_case": "current_use_of_family_planning_methods_currently_married_women_age_15_49_years_injectables_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 45
+        },
+        {
+          "column": "Total Unmet need for Family Planning (Currently Married Women Age 15-49  years)7 (%)",
+          "snake_case": "total_unmet_need_for_family_planning_currently_married_women_age_15_49_years_7_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 187
+        },
+        {
+          "column": "Unmet need for spacing (Currently Married Women Age 15-49  years)7 (%)",
+          "snake_case": "unmet_need_for_spacing_currently_married_women_age_15_49_years_7_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 110
+        },
+        {
+          "column": "Health worker ever talked to female non-users about family planning (%)",
+          "snake_case": "health_worker_ever_talked_to_female_non_users_about_family_planning_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 326
+        },
+        {
+          "column": "Current users ever told about side effects of current method of family planning8 (%)",
+          "snake_case": "current_users_ever_told_about_side_effects_of_current_method_of_family_planning8_pct",
+          "missing_count": 2,
+          "missing_pct": 0.2833,
+          "parenthesized_estimate_count": 66,
+          "unique_non_missing": 451
+        },
+        {
+          "column": "Mothers who had an antenatal check-up in the first trimester  (for last birth in the 5 years before the survey) (%)",
+          "snake_case": "mothers_who_had_an_antenatal_check_up_in_the_first_trimester_for_last_birth_in_the_5_years_before_the_survey_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 1,
+          "unique_non_missing": 383
+        },
+        {
+          "column": "Mothers who had at least 4 antenatal care visits  (for last birth in the 5 years before the survey) (%)",
+          "snake_case": "mothers_who_had_at_least_4_antenatal_care_visits_for_last_birth_in_the_5_years_before_the_survey_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 1,
+          "unique_non_missing": 453
+        },
+        {
+          "column": "Mothers whose last birth was protected against neonatal tetanus (for last birth in the 5 years before the survey)9 (%)",
+          "snake_case": "mothers_whose_last_birth_was_protected_against_neonatal_tetanus_for_last_birth_in_the_5_years_before_the_survey_9_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 1,
+          "unique_non_missing": 203
+        },
+        {
+          "column": "Mothers who consumed iron folic acid for 100 days or more when they were pregnant (for last birth in the 5 years before the survey) (%)",
+          "snake_case": "mothers_who_consumed_iron_folic_acid_for_100_days_or_more_when_they_were_pregnant_for_last_birth_in_the_5_years_before_the_survey_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 1,
+          "unique_non_missing": 463
+        },
+        {
+          "column": "Mothers who consumed iron folic acid for 180 days or more when they were pregnant (for last birth in the 5 years before the survey} (%)",
+          "snake_case": "mothers_who_consumed_iron_folic_acid_for_180_days_or_more_when_they_were_pregnant_for_last_birth_in_the_5_years_before_the_survey_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 1,
+          "unique_non_missing": 423
+        },
+        {
+          "column": "Registered pregnancies for which the mother received a Mother and Child Protection (MCP) card (for last birth in the 5 years before the survey) (%)",
+          "snake_case": "registered_pregnancies_for_which_the_mother_received_a_mother_and_child_protection_mcp_card_for_last_birth_in_the_5_years_before_the_survey_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 1,
+          "unique_non_missing": 137
+        },
+        {
+          "column": "Mothers who received postnatal care from a doctor/nurse/LHV/ANM/midwife/other health personnel within 2 days of delivery (for last birth in the 5 years before the survey) (%)",
+          "snake_case": "mothers_who_received_postnatal_care_from_a_doctor_nurse_lhv_anm_midwife_other_health_personnel_within_2_days_of_delivery_for_last_birth_in_the_5_years_before_the_survey_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 1,
+          "unique_non_missing": 363
+        },
+        {
+          "column": "Average out-of-pocket expenditure per delivery in a public health facility (for last birth in the 5 years before the survey) (Rs.)",
+          "snake_case": "average_out_of_pocket_expenditure_per_delivery_in_a_public_health_facility_for_last_birth_in_the_5_years_before_the_survey_rs",
+          "missing_count": 1,
+          "missing_pct": 0.1416,
+          "parenthesized_estimate_count": 14,
+          "unique_non_missing": 666
+        },
+        {
+          "column": "Children born at home who were taken to a health facility for a check-up within 24 hours of birth (for last birth in the 5 years before the survey} (%)",
+          "snake_case": "children_born_at_home_who_were_taken_to_a_health_facility_for_a_check_up_within_24_hours_of_birth_for_last_birth_in_the_5_years_before_the_survey_pct",
+          "missing_count": 422,
+          "missing_pct": 59.7734,
+          "parenthesized_estimate_count": 141,
+          "unique_non_missing": 132
+        },
+        {
+          "column": "Children who received postnatal care from a doctor/nurse/LHV/ANM/midwife/ other health personnel within 2 days of delivery (for last birth in the 5 years before the survey) (%)",
+          "snake_case": "children_who_received_postnatal_care_from_a_doctor_nurse_lhv_anm_midwife_other_health_personnel_within_2_days_of_delivery_for_last_birth_in_the_5_years_before_the_survey_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 1,
+          "unique_non_missing": 368
+        },
+        {
+          "column": "Institutional births (in the 5 years before the survey) (%)",
+          "snake_case": "institutional_births_in_the_5_years_before_the_survey_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 258
+        },
+        {
+          "column": "Institutional births in public facility (in the 5 years before the survey) (%)",
+          "snake_case": "institutional_births_in_public_facility_in_the_5_years_before_the_survey_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 423
+        },
+        {
+          "column": "Home births that were conducted by skilled health personnel  (in the 5 years before the survey)10 (%)",
+          "snake_case": "home_births_that_were_conducted_by_skilled_health_personnel_in_the_5_years_before_the_survey_10_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 111
+        },
+        {
+          "column": "Births attended by skilled health personnel (in the 5 years before the survey)10 (%)",
+          "snake_case": "births_attended_by_skilled_health_personnel_in_the_5_years_before_the_survey_10_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 255
+        },
+        {
+          "column": "Births delivered by caesarean section (in the 5 years before the survey) (%)",
+          "snake_case": "births_delivered_by_caesarean_section_in_the_5_years_before_the_survey_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 375
+        },
+        {
+          "column": "Births in a private health facility that were delivered by caesarean section (in the 5 years before the survey) (%)",
+          "snake_case": "births_in_a_private_health_facility_that_were_delivered_by_caesarean_section_in_the_5_years_before_the_survey_pct",
+          "missing_count": 150,
+          "missing_pct": 21.2465,
+          "parenthesized_estimate_count": 122,
+          "unique_non_missing": 431
+        },
+        {
+          "column": "Births in a public health facility that were delivered by caesarean section (in the 5 years before the survey) (%)",
+          "snake_case": "births_in_a_public_health_facility_that_were_delivered_by_caesarean_section_in_the_5_years_before_the_survey_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 6,
+          "unique_non_missing": 344
+        },
+        {
+          "column": "Children age 12-23 months fully vaccinated based on information from either vaccination card or mother's recall11 (%)",
+          "snake_case": "children_age_12_23_months_fully_vaccinated_based_on_information_from_either_vaccination_card_or_mother_s_recall11_pct",
+          "missing_count": 13,
+          "missing_pct": 1.8414,
+          "parenthesized_estimate_count": 232,
+          "unique_non_missing": 461
+        },
+        {
+          "column": "Children age 12-23 months fully vaccinated based on information from vaccination card only12 (%)",
+          "snake_case": "children_age_12_23_months_fully_vaccinated_based_on_information_from_vaccination_card_only12_pct",
+          "missing_count": 22,
+          "missing_pct": 3.1161,
+          "parenthesized_estimate_count": 323,
+          "unique_non_missing": 408
+        },
+        {
+          "column": "Children age 12-23 months who have received BCG (%)",
+          "snake_case": "children_age_12_23_months_who_have_received_bcg_pct",
+          "missing_count": 13,
+          "missing_pct": 1.8414,
+          "parenthesized_estimate_count": 232,
+          "unique_non_missing": 220
+        },
+        {
+          "column": "Children age 12-23 months who have received 3 doses of polio vaccine13 (%)",
+          "snake_case": "children_age_12_23_months_who_have_received_3_doses_of_polio_vaccine13_pct",
+          "missing_count": 13,
+          "missing_pct": 1.8414,
+          "parenthesized_estimate_count": 232,
+          "unique_non_missing": 419
+        },
+        {
+          "column": "Children age 12-23 months who have received 3 doses of penta or DPT vaccine (%)",
+          "snake_case": "children_age_12_23_months_who_have_received_3_doses_of_penta_or_dpt_vaccine_pct",
+          "missing_count": 13,
+          "missing_pct": 1.8414,
+          "parenthesized_estimate_count": 232,
+          "unique_non_missing": 373
+        },
+        {
+          "column": "Children age 12-23 months who have received the first dose of measles-containing vaccine (MCV) (%)",
+          "snake_case": "children_age_12_23_months_who_have_received_the_first_dose_of_measles_containing_vaccine_mcv_pct",
+          "missing_count": 13,
+          "missing_pct": 1.8414,
+          "parenthesized_estimate_count": 232,
+          "unique_non_missing": 348
+        },
+        {
+          "column": "Children age 24-35 months who have received a second dose of measles-containing vaccine (MCV) (%)",
+          "snake_case": "children_age_24_35_months_who_have_received_a_second_dose_of_measles_containing_vaccine_mcv_pct",
+          "missing_count": 13,
+          "missing_pct": 1.8414,
+          "parenthesized_estimate_count": 232,
+          "unique_non_missing": 457
+        },
+        {
+          "column": "Children age 12-23 months who have received 3 doses of rotavirus vaccine14 (%)",
+          "snake_case": "children_age_12_23_months_who_have_received_3_doses_of_rotavirus_vaccine14_pct",
+          "missing_count": 13,
+          "missing_pct": 1.8414,
+          "parenthesized_estimate_count": 232,
+          "unique_non_missing": 510
+        },
+        {
+          "column": "Children age 12-23 months who have received 3 doses of penta or hepatitis B vaccine (%)",
+          "snake_case": "children_age_12_23_months_who_have_received_3_doses_of_penta_or_hepatitis_b_vaccine_pct",
+          "missing_count": 13,
+          "missing_pct": 1.8414,
+          "parenthesized_estimate_count": 232,
+          "unique_non_missing": 414
+        },
+        {
+          "column": "Children age 9-35 months who received a vitamin A dose in the last 6 months (%)",
+          "snake_case": "children_age_9_35_months_who_received_a_vitamin_a_dose_in_the_last_6_months_pct",
+          "missing_count": 1,
+          "missing_pct": 0.1416,
+          "parenthesized_estimate_count": 5,
+          "unique_non_missing": 385
+        },
+        {
+          "column": "Children age 12-23 months who received most of their vaccinations in a public health facility (%)",
+          "snake_case": "children_age_12_23_months_who_received_most_of_their_vaccinations_in_a_public_health_facility_pct",
+          "missing_count": 16,
+          "missing_pct": 2.2663,
+          "parenthesized_estimate_count": 252,
+          "unique_non_missing": 212
+        },
+        {
+          "column": "Children age 12-23 months who received most of their vaccinations in a private health facility (%)",
+          "snake_case": "children_age_12_23_months_who_received_most_of_their_vaccinations_in_a_private_health_facility_pct",
+          "missing_count": 16,
+          "missing_pct": 2.2663,
+          "parenthesized_estimate_count": 252,
+          "unique_non_missing": 174
+        },
+        {
+          "column": "Prevalence of diarrhoea in the 2 weeks preceding the survey (Children under age 5 years) (%) ",
+          "snake_case": "prevalence_of_diarrhoea_in_the_2_weeks_preceding_the_survey_children_under_age_5_years_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 157
+        },
+        {
+          "column": "Children with diarrhoea in the 2 weeks preceding the survey who received oral rehydration salts (ORS) (Children under age 5 years) (%) ",
+          "snake_case": "children_with_diarrhoea_in_the_2_weeks_preceding_the_survey_who_received_oral_rehydration_salts_ors_children_under_age_5_years_pct",
+          "missing_count": 492,
+          "missing_pct": 69.6884,
+          "parenthesized_estimate_count": 162,
+          "unique_non_missing": 196
+        },
+        {
+          "column": "Children with diarrhoea in the 2 weeks preceding the survey who received zinc (Children under age 5 years) (%) ",
+          "snake_case": "children_with_diarrhoea_in_the_2_weeks_preceding_the_survey_who_received_zinc_children_under_age_5_years_pct",
+          "missing_count": 492,
+          "missing_pct": 69.6884,
+          "parenthesized_estimate_count": 162,
+          "unique_non_missing": 190
+        },
+        {
+          "column": "Children swith diarrhoea in the 2 weeks preceding the survey taken to a health facility or health provider (Children under age 5 years) (%) ",
+          "snake_case": "children_swith_diarrhoea_in_the_2_weeks_preceding_the_survey_taken_to_a_health_facility_or_health_provider_children_under_age_5_years_pct",
+          "missing_count": 492,
+          "missing_pct": 69.6884,
+          "parenthesized_estimate_count": 162,
+          "unique_non_missing": 187
+        },
+        {
+          "column": "Children Prevalence of symptoms of acute respiratory infection (ARI) in the 2 weeks preceding the survey (Children under age 5 years) (%) ",
+          "snake_case": "children_prevalence_of_symptoms_of_acute_respiratory_infection_ari_in_the_2_weeks_preceding_the_survey_children_under_age_5_years_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 86
+        },
+        {
+          "column": "Children with fever or symptoms of ARI in the 2 weeks preceding the survey taken to a health facility or health provider (Children under age 5 years) (%)  ",
+          "snake_case": "children_with_fever_or_symptoms_of_ari_in_the_2_weeks_preceding_the_survey_taken_to_a_health_facility_or_health_provider_children_under_age_5_years_pct",
+          "missing_count": 224,
+          "missing_pct": 31.728,
+          "parenthesized_estimate_count": 264,
+          "unique_non_missing": 382
+        },
+        {
+          "column": "Children under age 3 years breastfed within one hour of birth15 (%)",
+          "snake_case": "children_under_age_3_years_breastfed_within_one_hour_of_birth15_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 1,
+          "unique_non_missing": 415
+        },
+        {
+          "column": "Children under age 6 months exclusively breastfed16 (%)",
+          "snake_case": "children_under_age_6_months_exclusively_breastfed16_pct",
+          "missing_count": 261,
+          "missing_pct": 36.9688,
+          "parenthesized_estimate_count": 347,
+          "unique_non_missing": 334
+        },
+        {
+          "column": "Children age 6-8 months receiving solid or semi-solid food and breastmilk16 (%)",
+          "snake_case": "children_age_6_8_months_receiving_solid_or_semi_solid_food_and_breastmilk16_pct",
+          "missing_count": 642,
+          "missing_pct": 90.9348,
+          "parenthesized_estimate_count": 62,
+          "unique_non_missing": 61
+        },
+        {
+          "column": "Breastfeeding children age 6-23 months receiving an adequate diet16, 17  (%)",
+          "snake_case": "breastfeeding_children_age_6_23_months_receiving_an_adequate_diet16_17_pct",
+          "missing_count": 5,
+          "missing_pct": 0.7082,
+          "parenthesized_estimate_count": 136,
+          "unique_non_missing": 336
+        },
+        {
+          "column": "Non-breastfeeding children age 6-23 months receiving an adequate diet16, 17 (%)",
+          "snake_case": "non_breastfeeding_children_age_6_23_months_receiving_an_adequate_diet16_17_pct",
+          "missing_count": 643,
+          "missing_pct": 91.0765,
+          "parenthesized_estimate_count": 59,
+          "unique_non_missing": 56
+        },
+        {
+          "column": "Total children age 6-23 months receiving an adequate diet16, 17  (%)",
+          "snake_case": "total_children_age_6_23_months_receiving_an_adequate_diet16_17_pct",
+          "missing_count": 1,
+          "missing_pct": 0.1416,
+          "parenthesized_estimate_count": 51,
+          "unique_non_missing": 287
+        },
+        {
+          "column": "Children under 5 years who are stunted (height-for-age)18 (%)",
+          "snake_case": "children_under_5_years_who_are_stunted_height_for_age_18_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 1,
+          "unique_non_missing": 304
+        },
+        {
+          "column": "Children under 5 years who are wasted (weight-for-height)18 (%)",
+          "snake_case": "children_under_5_years_who_are_wasted_weight_for_height_18_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 1,
+          "unique_non_missing": 240
+        },
+        {
+          "column": "Children under 5 years who are severely wasted (weight-for-height)19 (%)",
+          "snake_case": "children_under_5_years_who_are_severely_wasted_weight_for_height_19_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 1,
+          "unique_non_missing": 162
+        },
+        {
+          "column": "Children under 5 years who are underweight (weight-for-age)18 (%)",
+          "snake_case": "children_under_5_years_who_are_underweight_weight_for_age_18_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 1,
+          "unique_non_missing": 325
+        },
+        {
+          "column": "Children under 5 years who are overweight (weight-for-height)20 (%)",
+          "snake_case": "children_under_5_years_who_are_overweight_weight_for_height_20_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 1,
+          "unique_non_missing": 123
+        },
+        {
+          "column": "Women (age 15-49 years) whose Body Mass Index (BMI) is below normal (BMI <18.5 kg/m2)21 (%)",
+          "snake_case": "women_age_15_49_years_whose_body_mass_index_bmi_is_below_normal_bmi_18_5_kg_m2_21_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 267
+        },
+        {
+          "column": "Women (age 15-49 years) who are overweight or obese (BMI \u226525.0 kg/m2)21 (%)",
+          "snake_case": "women_age_15_49_years_who_are_overweight_or_obese_bmi_25_0_kg_m2_21_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 331
+        },
+        {
+          "column": "Women (age 15-49 years) who have high risk waist-to-hip ratio (\u22650.85) (%)",
+          "snake_case": "women_age_15_49_years_who_have_high_risk_waist_to_hip_ratio_0_85_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 379
+        },
+        {
+          "column": "Children age 6-59 months who are anaemic (<11.0 g/dl)22 (%)",
+          "snake_case": "children_age_6_59_months_who_are_anaemic_11_0_g_dl_22_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 2,
+          "unique_non_missing": 347
+        },
+        {
+          "column": "Non-pregnant women age 15-49 years who are anaemic (<12.0 g/dl)22 (%)",
+          "snake_case": "non_pregnant_women_age_15_49_years_who_are_anaemic_12_0_g_dl_22_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 369
+        },
+        {
+          "column": "Pregnant women age 15-49 years who are anaemic (<11.0 g/dl)22 (%)",
+          "snake_case": "pregnant_women_age_15_49_years_who_are_anaemic_11_0_g_dl_22_pct",
+          "missing_count": 134,
+          "missing_pct": 18.9802,
+          "parenthesized_estimate_count": 421,
+          "unique_non_missing": 430
+        },
+        {
+          "column": "All women age 15-49 years who are anaemic22 (%)",
+          "snake_case": "all_women_age_15_49_years_who_are_anaemic22_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 359
+        },
+        {
+          "column": "All women age 15-19 years who are anaemic22 (%) ",
+          "snake_case": "all_women_age_15_19_years_who_are_anaemic22_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 3,
+          "unique_non_missing": 372
+        },
+        {
+          "column": "Women  age 15 years and above with high (141-160 mg/dl) Blood sugar level23 (%)",
+          "snake_case": "women_age_15_years_and_above_with_high_141_160_mg_dl_blood_sugar_level23_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 87
+        },
+        {
+          "column": "Women age 15 years and above wih very high (>160 mg/dl) Blood sugar level23 (%)",
+          "snake_case": "women_age_15_years_and_above_wih_very_high_160_mg_dl_blood_sugar_level23_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 122
+        },
+        {
+          "column": "Women age 15 years and above wih high or very high (>140 mg/dl) Blood sugar level or taking medicine to control blood sugar level23 (%)",
+          "snake_case": "women_age_15_years_and_above_wih_high_or_very_high_140_mg_dl_blood_sugar_level_or_taking_medicine_to_control_blood_sugar_level23_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 184
+        },
+        {
+          "column": "Men age 15 years and above wih high (141-160 mg/dl) Blood sugar level23 (%)",
+          "snake_case": "men_age_15_years_and_above_wih_high_141_160_mg_dl_blood_sugar_level23_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 99
+        },
+        {
+          "column": "Men (age 15 years and above wih  very high (>160 mg/dl) Blood sugar level23 (%)",
+          "snake_case": "men_age_15_years_and_above_wih_very_high_160_mg_dl_blood_sugar_level23_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 137
+        },
+        {
+          "column": "Men age 15 years and above wih high or very high (>140 mg/dl) Blood sugar level  or taking medicine to control blood sugar level23 (%)",
+          "snake_case": "men_age_15_years_and_above_wih_high_or_very_high_140_mg_dl_blood_sugar_level_or_taking_medicine_to_control_blood_sugar_level23_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 198
+        },
+        {
+          "column": "Women age 15 years and above wih Mildly elevated blood pressure (Systolic 140-159 mm of Hg and/or Diastolic 90-99 mm of Hg) (%)",
+          "snake_case": "women_age_15_years_and_above_wih_mildly_elevated_blood_pressure_systolic_140_159_mm_of_hg_and_or_diastolic_90_99_mm_of_hg_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 148
+        },
+        {
+          "column": "Women age 15 years and above wih Moderately or severely elevated blood pressure (Systolic \u2265160 mm of Hg and/or Diastolic \u2265100 mm of Hg) (%)",
+          "snake_case": "women_age_15_years_and_above_wih_moderately_or_severely_elevated_blood_pressure_systolic_160_mm_of_hg_and_or_diastolic_100_mm_of_hg_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 97
+        },
+        {
+          "column": "Women age 15 years and above wih Elevated blood pressure (Systolic \u2265140 mm of Hg and/or Diastolic \u226590 mm of Hg) or taking medicine to control blood pressure (%)",
+          "snake_case": "women_age_15_years_and_above_wih_elevated_blood_pressure_systolic_140_mm_of_hg_and_or_diastolic_90_mm_of_hg_or_taking_medicine_to_control_blood_pressure_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 205
+        },
+        {
+          "column": "Men age 15 years and above wih Mildly elevated blood pressure (Systolic 140-159 mm of Hg and/or Diastolic 90-99 mm of Hg) (%)",
+          "snake_case": "men_age_15_years_and_above_wih_mildly_elevated_blood_pressure_systolic_140_159_mm_of_hg_and_or_diastolic_90_99_mm_of_hg_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 183
+        },
+        {
+          "column": "Men age 15 years and above wih Moderately or severely elevated blood pressure (Systolic \u2265160 mm of Hg and/or Diastolic \u2265100 mm of Hg) (%)",
+          "snake_case": "men_age_15_years_and_above_wih_moderately_or_severely_elevated_blood_pressure_systolic_160_mm_of_hg_and_or_diastolic_100_mm_of_hg_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 118
+        },
+        {
+          "column": "Men age 15 years and above wih Elevated blood pressure (Systolic \u2265140 mm of Hg and/or Diastolic \u226590 mm of Hg) or taking medicine to control blood pressure (%)",
+          "snake_case": "men_age_15_years_and_above_wih_elevated_blood_pressure_systolic_140_mm_of_hg_and_or_diastolic_90_mm_of_hg_or_taking_medicine_to_control_blood_pressure_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 248
+        },
+        {
+          "column": "Women (age 30-49 years) Ever undergone a screening test for cervical cancer (%)",
+          "snake_case": "women_age_30_49_years_ever_undergone_a_screening_test_for_cervical_cancer_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 89
+        },
+        {
+          "column": "Women (age 30-49 years) Ever undergone a breast examination for breast cancer (%)",
+          "snake_case": "women_age_30_49_years_ever_undergone_a_breast_examination_for_breast_cancer_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 58
+        },
+        {
+          "column": "Women (age 30-49 years) Ever undergone an oral cavity examination for oral cancer (%)",
+          "snake_case": "women_age_30_49_years_ever_undergone_an_oral_cavity_examination_for_oral_cancer_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 53
+        },
+        {
+          "column": "Women age 15 years and above who use any kind of tobacco (%)",
+          "snake_case": "women_age_15_years_and_above_who_use_any_kind_of_tobacco_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 263
+        },
+        {
+          "column": "Men age 15 years and above who use any kind of tobacco (%)",
+          "snake_case": "men_age_15_years_and_above_who_use_any_kind_of_tobacco_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 387
+        },
+        {
+          "column": "Women age 15 years and above who consume alcohol (%)",
+          "snake_case": "women_age_15_years_and_above_who_consume_alcohol_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 136
+        },
+        {
+          "column": "Men age 15 years and above who consume alcohol (%)",
+          "snake_case": "men_age_15_years_and_above_who_consume_alcohol_pct",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "parenthesized_estimate_count": 0,
+          "unique_non_missing": 360
+        }
+      ]
+    }
+  ]
+}

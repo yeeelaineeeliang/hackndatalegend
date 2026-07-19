@@ -1,0 +1,148 @@
+{
+  "generated_at": "2026-07-19T05:09:21.357890+00:00",
+  "source_name": "healthcare_facilities.csv",
+  "overall_status": "passed_with_warnings",
+  "summary": {
+    "checks": 14,
+    "passed": 10,
+    "warnings": 4,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "check_id": "facility.non_empty",
+      "status": "pass",
+      "message": "Facility source contains records.",
+      "observed": 10088
+    },
+    {
+      "check_id": "facility.structural_rows",
+      "status": "warn",
+      "message": "Rows without a valid facility UUID and organization type are quarantined.",
+      "observed": {
+        "structurally_valid": 10000,
+        "quarantined": 88
+      }
+    },
+    {
+      "check_id": "facility.unique_id",
+      "status": "warn",
+      "message": "Duplicate facility IDs are retained for review and exact duplicate copies are ineligible for scoring.",
+      "observed": {
+        "duplicate_ids": 11,
+        "rows_with_duplicate_ids": 22,
+        "exact_duplicate_copies": 11
+      }
+    },
+    {
+      "check_id": "facility.expected_scale",
+      "status": "pass",
+      "message": "Challenge brief describes approximately 10,000 facility rows.",
+      "observed": 10000
+    },
+    {
+      "check_id": "facility.core_columns",
+      "status": "pass",
+      "message": "Core readiness fields can be resolved without ambiguous aliases.",
+      "observed": []
+    },
+    {
+      "check_id": "facility.numberDoctors_parsing",
+      "status": "pass",
+      "message": "numberDoctors values are non-negative and numerically parseable when present.",
+      "observed": {
+        "non_missing": 3630,
+        "parse_failures": 0,
+        "negative_values": 0
+      }
+    },
+    {
+      "check_id": "facility.capacity_parsing",
+      "status": "pass",
+      "message": "capacity values are non-negative and numerically parseable when present.",
+      "observed": {
+        "non_missing": 2516,
+        "parse_failures": 0,
+        "negative_values": 0
+      }
+    },
+    {
+      "check_id": "facility.yearEstablished_parsing",
+      "status": "pass",
+      "message": "yearEstablished values are non-negative and numerically parseable when present.",
+      "observed": {
+        "non_missing": 4782,
+        "parse_failures": 0,
+        "negative_values": 0
+      }
+    },
+    {
+      "check_id": "facility.facilityTypeId_enum",
+      "status": "warn",
+      "message": "facilityTypeId values conform to the challenge schema enumeration.",
+      "observed": [
+        "farmacy",
+        "nursing_home"
+      ]
+    },
+    {
+      "check_id": "facility.operatorTypeId_enum",
+      "status": "warn",
+      "message": "operatorTypeId values conform to the challenge schema enumeration.",
+      "observed": [
+        "government"
+      ]
+    },
+    {
+      "check_id": "facility.capability_list_shape",
+      "status": "pass",
+      "message": "capability preserves list structure; scalar text requires explicit parsing policy.",
+      "observed": {
+        "list_shape_rate": 1.0,
+        "statuses": {
+          "parsed_list": 9944,
+          "missing": 37,
+          "empty_list": 19
+        }
+      }
+    },
+    {
+      "check_id": "facility.procedure_list_shape",
+      "status": "pass",
+      "message": "procedure preserves list structure; scalar text requires explicit parsing policy.",
+      "observed": {
+        "list_shape_rate": 1.0,
+        "statuses": {
+          "parsed_list": 9216,
+          "empty_list": 724,
+          "missing": 60
+        }
+      }
+    },
+    {
+      "check_id": "facility.equipment_list_shape",
+      "status": "pass",
+      "message": "equipment preserves list structure; scalar text requires explicit parsing policy.",
+      "observed": {
+        "list_shape_rate": 1.0,
+        "statuses": {
+          "parsed_list": 7680,
+          "empty_list": 2180,
+          "missing": 140
+        }
+      }
+    },
+    {
+      "check_id": "facility.geography_keys",
+      "status": "pass",
+      "message": "At least one geography key is available for reference enrichment.",
+      "observed": {
+        "address_zipOrPostcode": "address_zipOrPostcode",
+        "address_stateOrRegion": "address_stateOrRegion",
+        "address_city": "address_city",
+        "latitude": "latitude",
+        "longitude": "longitude"
+      }
+    }
+  ]
+}

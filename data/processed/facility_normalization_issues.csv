@@ -1,0 +1,952 @@
+source_row_number,unique_id,name,scoring_eligible,intake_issue_codes,facilityTypeId,facility_type_normalized,facility_type_normalization_action,operatorTypeId,operator_type_normalized,operator_type_normalization_action,address_zipOrPostcode,pincode_normalized,pincode_reference_status,pincode_join_confidence
+10,d9bc3999-4523-4969-aac0-abd6bc415f2e,Sumitra Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,201 301,,,invalid_pincode
+30,34aea2cc-26a4-4edb-a623-80e372ae0ae7,MGM Healthcare,True,,hospital,hospital,unchanged,private,private,unchanged,600029,600029,,unresolved
+31,39b355c6-648e-4a9b-849a-e82467708616,"NH Narayana Superspeciality Hospital, Shalimar",True,,hospital,hospital,unchanged,private,private,unchanged,711 102,,,invalid_pincode
+41,49e0f69c-96c3-448a-af00-81dc0229035f,Sri Ramakrishna Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,641 044,,,invalid_pincode
+45,513d7280-b39e-45a9-b5c6-fc61ae0f7538,St. John's Hospital,True,,hospital,hospital,unchanged,public,public,unchanged,560 034,,,invalid_pincode
+50,675aec61-780e-4cb1-a1db-adaa50defee4,Sugam Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,600019,600019,district_mode_selected,ambiguous_reference_mapping
+63,83361eb2-2897-4850-a437-44957e13c21b,Isha Multispeciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,388 325,,,invalid_pincode
+68,9a7c8cd7-5c16-427e-8e14-2a5c4efa1231,Ganga Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,641 022,,,invalid_pincode
+74,b49d6498-7c51-4544-9328-5e68807aee14,Belle Vue Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,700 064,,,invalid_pincode
+92,f4a30fa3-2f7c-4ac3-82af-57ae3f0cbcb6,"Ganga Hospital, Coimbatore",True,,hospital,hospital,unchanged,private,private,unchanged,641 030,,,invalid_pincode
+108,08344cdb-f455-4c22-8d31-a0a8e849124b,MOSC Medical College Hospital,True,duplicate_unique_id,hospital,hospital,unchanged,private,private,unchanged,682311,682311,exact,exact_reference_mapping
+109,08344cdb-f455-4c22-8d31-a0a8e849124b,MOSC Medical College Hospital,False,duplicate_unique_id,hospital,hospital,unchanged,private,private,unchanged,682311,682311,exact,exact_reference_mapping
+111,0a77c719-b39a-423f-821e-16a965dd95fb,S.S. Dental Hospital,True,,clinic,clinic,unchanged,private,private,unchanged,500032,500032,ambiguous_district,ambiguous_reference_mapping
+120,Dr. Gita Khanna has established Ajanta Hospital and IVF Centre a 100 plus bedded multispeciality hospital of International repute. The state of art IVF Centre of this hospital combines quality, and accountability in equal measures and is providing assisted reproduction techniques of International standards within the reach of every individual. Dr. Anil Khanna has also established Ajanta Hospital,False,invalid_unique_id|invalid_organization_type,"{""coordinates"":[80.99068450927734,26.885332107543945],""type"":""Point""}",,unmapped,26.885332107543945,,unmapped,528,,,invalid_pincode
+122,1d3eba0c-607c-4195-a818-11147ff5d301,Chettinad Hospital and Research Institute,True,,hospital,hospital,unchanged,private,private,unchanged,603 103,,,invalid_pincode
+126,231f141f-cc05-42a9-949a-accf4bab933c,United CIIGMA Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,430115,430115,,unresolved
+129,25da3435-6114-4742-898b-f1cbcd471e43,Asian Institute of Gastroenterology,True,,hospital,hospital,unchanged,private,private,unchanged,500 082,,,invalid_pincode
+130,2770287f-f0a9-4530-b54e-e20f3d8b5a54,"Brahmananda Narayana Multispeciality Hospital, Jamshedpur",True,,hospital,hospital,unchanged,private,private,unchanged,831012,831012,district_mode_selected,ambiguous_reference_mapping
+150,39d34a57-8579-4c30-bd0a-84ff0219c317,Sanjay Gandhi Post Graduate Institute of Medical Sciences,True,,hospital,hospital,unchanged,public,public,unchanged,226 014,,,invalid_pincode
+159,500deb79-33dc-42b7-bf20-299c89a63281,Saifee Hospital Mumbai India,True,,hospital,hospital,unchanged,private,private,unchanged,400010,400010,district_mode_selected,ambiguous_reference_mapping
+163,54946f79-25d8-40a7-b43b-9e41b888fd5d,Kamakshi Memorial Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,600 100,,,invalid_pincode
+173,5f23c957-e5fa-4c66-b850-079f66027342,Sri Krishna Hospital (Proddutur),True,,hospital,hospital,unchanged,private,private,unchanged,516430,516430,,unresolved
+185,73c876e1-fda5-48eb-9a93-27e2763b25ff,Medica North Bengal Clinic Siliguri,True,,hospital,hospital,unchanged,private,private,unchanged,734001,734001,district_mode_selected,ambiguous_reference_mapping
+196,80bf74d5-9308-4525-9309-c8ea1536e231,Sankara Nethralaya,True,,hospital,hospital,unchanged,private,private,unchanged,600 006,,,invalid_pincode
+203,8899400e-c17d-4eb4-a07e-77565f6027af,"Sri Sathya Sai Super Speciality Hospital COVID care centre, Puttaparthi",True,,hospital,hospital,unchanged,private,private,unchanged,515134,515134,district_mode_selected,ambiguous_reference_mapping
+208,8ed2e983-dadf-4caf-b9fa-821975ef8394,CritiCare Asia Multispeciality Hospital Kurla,True,,hospital,hospital,unchanged,private,private,unchanged,400039,400039,,unresolved
+231,aa9f112c-606f-471f-9542-b3e414045573,Kumaran Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,10,,,invalid_pincode
+260,cd31ac18-0f32-476b-b5a5-879a73ae098d,KD Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,382421,382421,district_mode_selected,ambiguous_reference_mapping
+279,e3f82805-a58a-4090-80a2-f68b60298b91,Balco Medical Centre,True,,hospital,hospital,unchanged,private,private,unchanged,493661,493661,district_mode_selected,ambiguous_reference_mapping
+281,e6e7c8da-62a6-46fe-8e21-b1a568782cdd,Aditya Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,504215,504215,ambiguous_state,ambiguous_reference_mapping
+305,0564ac18-9b8c-412d-9423-404067c4f820,Malik Radix Health Care,True,,clinic,clinic,unchanged,private,private,unchanged,110092,110092,district_mode_selected,ambiguous_reference_mapping
+314,0cf03fec-f7a4-48c3-a3de-71ca4a054def,Civil Hospital,True,,hospital,hospital,unchanged,public,public,unchanged,121102,121102,district_mode_selected,ambiguous_reference_mapping
+315,0ed06201-4757-458e-afc3-e4dd6ead237f,Dr. Mehta's Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,600 031,,,invalid_pincode
+338,1f43a674-aa3d-4c59-a9d6-6c89cb535778,Life Care Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,144203,144203,,unresolved
+351,2662d749-586e-4917-a6b3-f16a93f1c652,Umkal Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,122022,122022,,unresolved
+358,2eeec3cb-0514-4547-b62d-c513a5b0567c,Pushpanjali Medical Centre,True,,clinic,clinic,unchanged,private,private,unchanged,110092,110092,district_mode_selected,ambiguous_reference_mapping
+372,3c4af8ee-64fb-4f29-899c-5cf11706b93d,Jivanjyot Hospital,True,,hospital,hospital,unchanged,public,public,unchanged,363330,363330,district_mode_selected,ambiguous_reference_mapping
+383,469f772c-e98e-48bd-b746-463bcf64f08e,Sri Jayadeva Institute of Cardiology,True,,hospital,hospital,unchanged,public,public,unchanged,560 069,,,invalid_pincode
+388,4bbe69d9-4123-4f70-894e-373fcefd9e01,Muljibhai Patel Urological Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,387 001,,,invalid_pincode
+390,4c94dfcb-fe8d-4595-86db-dc83b82c6e85,Shri Vinoba Bhave Civil Hospital,True,,hospital,hospital,unchanged,public,public,unchanged,396230,396230,ambiguous_state,ambiguous_reference_mapping
+398,545b67ba-4982-4b51-91ff-d3325a04f368,"Topiwala National Medical College and BYL Nair Charitable Hospital, Mumbai",True,,hospital,hospital,unchanged,public,public,unchanged,400 008,,,invalid_pincode
+419,6a3479c1-2331-4002-8dac-97ad062b99a9,Sai Institute of Higher Medical Sciences?,True,,hospital,hospital,unchanged,private,private,unchanged,560067,560067,ambiguous_district,ambiguous_reference_mapping
+423,6d83d8b1-c873-4244-b423-caf2b624b473,Jain Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,335513,335513,ambiguous_state,ambiguous_reference_mapping
+432,717c6f01-7802-4cb6-838e-3fbd0063b201,AMRI Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,700098,700098,,unresolved
+436,780e8b7b-bfe1-4c5b-834f-069bc956f5ce,AAKASH HOSPITAL,True,,hospital,hospital,unchanged,private,private,unchanged,382421,382421,district_mode_selected,ambiguous_reference_mapping
+459,8a726189-8efb-4222-a220-98731feac861,Sai Siddhi Urology and Multispeciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,122022,122022,,unresolved
+507,ba37fc5d-ab00-4b0c-987a-dfa6550bd9e8,"Government Maternity Hospital, Tirupati",True,,hospital,hospital,unchanged,public,public,unchanged,517507,517507,district_mode_selected,ambiguous_reference_mapping
+510,bc13473f-27b7-48a2-b3ec-9ac8cff05c74,Arya Vaidya Sala,True,,farmacy,pharmacy,corrected_typo,private,private,unchanged,673592,673592,exact,exact_reference_mapping
+519,c15da265-c0a5-4986-ae91-7f8421abe308,Nizam's Institute of Medical Sciences,True,,hospital,hospital,unchanged,public,public,unchanged,500 082,,,invalid_pincode
+528,cb71f5b5-0944-4cb2-9532-a1da8afbca93,Continental Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,500032,500032,ambiguous_district,ambiguous_reference_mapping
+546,e0b3c833-62ed-46b9-aa05-115b9c9fb400,Bhaskar General Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,75,,,invalid_pincode
+548,e2533fff-8e6a-40a6-a133-05c1c9d0ec93,Kauvery Hospital,True,,hospital,hospital,unchanged,public,public,unchanged,600 004,,,invalid_pincode
+554,e728f9a4-7c7c-49cd-9d70-b6909e29bed9,Royal Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,600401,600401,,unresolved
+564,ec6deb63-ad66-42e5-9af9-d9553c93f028,AIG Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,500032,500032,ambiguous_district,ambiguous_reference_mapping
+566,f0030508-bd9b-481b-99ea-4ae9213904e4,Coimbatore Kidney Centre,True,,hospital,hospital,unchanged,private,private,unchanged,641 045,,,invalid_pincode
+571,f221e6d3-436f-4a0b-8f8f-fbd519b2209f,"Sri Shankara Cancer Hospital and Research Centre, Bengaluru",True,,hospital,hospital,unchanged,private,private,unchanged,560 004,,,invalid_pincode
+572,f2532d6f-3472-4f94-b3f4-da8e48943365,Government General Hospital Gulbarga,True,,hospital,hospital,unchanged,public,public,unchanged,583212,583212,district_mode_selected,ambiguous_reference_mapping
+588,fecd201c-2f67-40bb-8956-ca4f423a0ad2,PSP Medical College Hospital and Research Institute,True,,hospital,hospital,unchanged,private,private,unchanged,631 604,,,invalid_pincode
+597,09c73691-739e-4b31-88ba-2d31c89f7af3,"Narmada Apna Hospital, Hoshangabad",True,,hospital,hospital,unchanged,private,private,unchanged,461001,461001,district_mode_selected,ambiguous_reference_mapping
+633,219af84f-8839-4a61-a7c0-708ec420c904,"SSB Heart And Multispeciality Hospital, Sector 20 A",True,,hospital,hospital,unchanged,private,private,unchanged,121 002,,,invalid_pincode
+644,2ddc7b9f-65ac-40d1-a1a0-6b649ff9d7b2,Moolchand Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,110024,110024,district_mode_selected,ambiguous_reference_mapping
+658,329312ce-72f9-445e-82dd-ca537bec7225,Bansal Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,110065,110065,district_mode_selected,ambiguous_reference_mapping
+659,32f97788-fe6d-4a3a-8129-f8e9a3e87ef0,ESI SD Kamarhati,True,,clinic,clinic,unchanged,public,public,unchanged,58,,,invalid_pincode
+671,3ba2d4c3-6651-4009-9c81-293583383f92,Karnataka Medical College and Research Institute Hubballi,True,,hospital,hospital,unchanged,public,public,unchanged,580022,580022,,unresolved
+677,410f62b6-dc16-4c8f-a939-25ca8215d5b6,Solan Homoeopathic Medical College & Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,173229,173229,district_mode_selected,ambiguous_reference_mapping
+716,5f80001e-76d8-4b42-acd7-a9222098261f,Seth Nandlal Dhoot Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,431210,431210,,unresolved
+717,5fe4b03b-9b0b-4c21-8004-04fdd08ed3c9,Sun Eye Hospital & Laser Centre,True,,hospital,hospital,unchanged,private,private,unchanged,227107,227107,,unresolved
+718,60477c08-33c4-4b95-b38f-545ddd23cdfb,Bhagwan Mahaveer Jain Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,5600,,,invalid_pincode
+722,648cb3ca-8fa8-479c-ae81-70c03b8d53d9,Bapu Nature Cure Hospital & Yogashram,True,,hospital,hospital,unchanged,private,private,unchanged,110 091,,,invalid_pincode
+729,69fa2dc3-3a83-4f25-9c67-3cf65e4314ce,Shivam Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,421021,421021,,unresolved
+739,7330d09f-44c7-4c9b-ad66-df64173537aa,Mahatma Gandhi Medical College and Research Institute,True,,hospital,hospital,unchanged,private,private,unchanged,607403,607403,ambiguous_state,ambiguous_reference_mapping
+748,793e9872-b754-43cc-a135-25aa77b6e8c9,Primary Health Center Tada,True,,clinic,clinic,unchanged,public,public,unchanged,473885,473885,district_mode_selected,ambiguous_reference_mapping
+751,7c385d20-6a63-417b-a336-154bd22a60e7,Jaipur Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,000000,000000,,unresolved
+754,7e420f3f-0cc7-4b8e-811d-7cb54fe1505b,Sharda Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,270001,270001,,unresolved
+759,8300546e-4a13-4410-987c-d1da107d8ba0,Meeran Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,627 811,,,invalid_pincode
+763,84f06705-ee19-4ee1-a974-4bc46a797271,Sewa Hospital & Research Centre,True,,hospital,hospital,unchanged,private,private,unchanged,227208,227208,,unresolved
+765,865e556a-85b8-451c-82bf-5cc1ccbe33d5,Krishna Super Speciality Hospital (A Unit Of Gita Healthcare),True,,hospital,hospital,unchanged,private,private,unchanged,208001,208001,district_mode_selected,ambiguous_reference_mapping
+766,86b438c1-1087-49b1-a1b3-8560344c7fb8,Lakshmi Nursing Home,True,,hospital,hospital,unchanged,private,private,unchanged,560087,560087,district_mode_selected,ambiguous_reference_mapping
+775,8abfc41a-0240-4579-9aa3-7e2203109d28,Mahajan Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,143531,143531,district_mode_selected,ambiguous_reference_mapping
+778,8c16fabd-c494-45ff-a87c-5c80fc2fafcd,Saveetha Dental College and Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,600077,600077,district_mode_selected,ambiguous_reference_mapping
+806,a18c8034-b7bc-48c7-81e3-a2a2078282cb,Jeewan Memorial Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,492007,492007,,unresolved
+819,aa6d8ce2-cdd1-4f0f-b1ac-1a68cd1deb10,Harshitha Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,517501,517501,district_mode_selected,ambiguous_reference_mapping
+853,c5bd42a9-24ae-45d3-97e9-21b2fe0a0486,Vijaya Eye Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,516430,516430,,unresolved
+858,c80fa40f-0eca-47ab-9941-600ca339b29c,"Sri Sai Ayurvedic Medical College and Hospital, Aligarh, Uttar Pradesh",True,,hospital,hospital,unchanged,private,private,unchanged,202 001,,,invalid_pincode
+873,d3855d2d-423c-45ea-948f-2a94d65f6bc8,A. G Padmavatis Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,605110,605110,ambiguous_state,ambiguous_reference_mapping
+889,e0a0c7f8-b375-4fbe-997a-65ede0a721d1,VHM Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,600 093,,,invalid_pincode
+906,eb682cd1-f3d7-4138-9186-b8613c32a53e,District Hospital Samba,True,,hospital,hospital,unchanged,public,public,unchanged,184121,184121,district_mode_selected,ambiguous_reference_mapping
+907,ebff3b90-52c1-463f-b8cd-d6bb206a3d00,"Institute of Mental Health and Hospital, Agra",True,,hospital,hospital,unchanged,public,public,unchanged,282 002,,,invalid_pincode
+923,001f21d5-3cb9-4ae5-b05c-46bc85fed8c3,Kirloskar Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,500063,500063,,unresolved
+925,00fd1dbd-dc4d-47ea-9ffa-68ddf7e5d13f,Bankers Heart Institute,True,,hospital,hospital,unchanged,private,private,unchanged,390015,390015,,unresolved
+936,08ff6beb-cd5f-457f-8149-d396724ee4bb,"Pondicherry Institute of Medical Sciences, Puducherry",True,,hospital,hospital,unchanged,private,private,unchanged,605014,605014,ambiguous_state,ambiguous_reference_mapping
+949,10601a52-61e4-4e30-81b6-c9c60d2cf466,Shekhar Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,560019,560019,,unresolved
+988,2579a260-5d5f-4a9d-a70b-113f17749c7c,"Sri Sathya Sai General Hospital, Prasanthi Nilayam",True,,hospital,hospital,unchanged,private,private,unchanged,515134,515134,district_mode_selected,ambiguous_reference_mapping
+1004,2dc0c78a-d732-4c9b-af06-28a3304a8363,"Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum",True,,hospital,hospital,unchanged,government,public,mapped_synonym,695011,695011,exact,exact_reference_mapping
+1015,32247c86-c4d1-48e3-90fd-422207fb1ff9,Vinodhagan Memorial Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,613 007,,,invalid_pincode
+1018,333d6b82-17a2-4434-b50a-f35f75e9cab2,Triton Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,110019,110019,district_mode_selected,ambiguous_reference_mapping
+1029,3ad12409-c708-4acf-badd-4e25d6f2f1d5,R.V.M Institute of Medical Sciences and Research Centre,True,,hospital,hospital,unchanged,private,private,unchanged,500016,500016,ambiguous_district,ambiguous_reference_mapping
+1046,4299c5f2-f57b-4a34-8013-ecd286de0116,Dr KG Deshpande Memorial Centre,True,,hospital,hospital,unchanged,private,private,unchanged,440 010,,,invalid_pincode
+1055,450c3dd0-ac6b-481a-a80b-37cde92b0e2c,Shah Accident Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,411 006,,,invalid_pincode
+1060,4918bfa2-baa3-44a5-8fcd-f6137fe5e639,TSC Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,695 583,,,invalid_pincode
+1066,4c536d13-417c-4b80-a3dd-5995db8f9aad,Sree Saran Medical Center,True,,hospital,hospital,unchanged,private,private,unchanged,641-602,,,invalid_pincode
+1077,53d08e4b-4dc9-4781-9b85-d4e3464aef9a,Kailash Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,208001,208001,district_mode_selected,ambiguous_reference_mapping
+1097,6138c044-6fdd-42e1-a1c9-a95e3c691a95,Sir Ivan Stedeford Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,600053,600053,district_mode_selected,ambiguous_reference_mapping
+1099,61731339-a1d6-4384-92ee-fce2d11b3338,Sub Divisional Hospital Pusa,True,,hospital,hospital,unchanged,public,public,unchanged,848125,848125,district_mode_selected,ambiguous_reference_mapping
+1102,6321c614-d7bc-424c-b204-9fc1e89f7261,Chacha Nehru Bal Chikitsalya,True,,hospital,hospital,unchanged,public,public,unchanged,110031,110031,district_mode_selected,ambiguous_reference_mapping
+1139,77ac3849-daa9-4618-9094-e1d8e92dab5b,Sunrise Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,682 030,,,invalid_pincode
+1170,86df2052-1648-4700-b662-42336f7c73d9,Himagiri Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,500032,500032,ambiguous_district,ambiguous_reference_mapping
+1181,8c1d0441-6e4d-461f-8e65-8f3dad6d9e2d,Ashoka Nursing Home & Multispeciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,110051,110051,ambiguous_district,ambiguous_reference_mapping
+1188,9264b21d-4aea-460a-9c77-613407df8439,Trustwell Hospitals,True,duplicate_unique_id,hospital,hospital,unchanged,private,private,unchanged,560002,560002,exact,exact_reference_mapping
+1189,9264b21d-4aea-460a-9c77-613407df8439,Trustwell Hospitals,False,duplicate_unique_id,hospital,hospital,unchanged,private,private,unchanged,560002,560002,exact,exact_reference_mapping
+1193,94f59958-9624-44b1-8f9e-69e5b5f915fa,Sachin Hospital,True,,hospital,hospital,unchanged,public,public,unchanged,121102,121102,district_mode_selected,ambiguous_reference_mapping
+1198,99f9bfec-53d5-4bae-b87a-80217d929a7c,Shravan Hospital And Kidney Institute,True,,hospital,hospital,unchanged,private,private,unchanged,440009,440009,,unresolved
+1200,9ae5d1cf-708b-4635-ac45-1896c25e1eae,Image Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,500016,500016,ambiguous_district,ambiguous_reference_mapping
+1201,9b47971c-d5de-486d-bc06-0ba51e8c6f7b,Om Dental Clinic,True,,dentist,dentist,unchanged,private,private,unchanged,380043,380043,,unresolved
+1212,a17000d9-af46-448c-98bb-c501155bfb40,Aditya Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,484001,484001,district_mode_selected,ambiguous_reference_mapping
+1220,a86fecfe-d81f-4f00-86ea-843166b1f212,Sevak Nursing Home,True,,hospital,hospital,unchanged,private,private,unchanged,759104,759104,,unresolved
+1224,a96c189f-783b-4d8c-95cf-abbc2e5cc8a6,Sher-I-Kashmir Institute of Medical Sciences,True,,hospital,hospital,unchanged,public,public,unchanged,190 011,,,invalid_pincode
+1230,ac324809-c674-4a5b-8d90-9bc976684df5,Pratham Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,382421,382421,district_mode_selected,ambiguous_reference_mapping
+1248,b36f3f71-0b8a-4d7f-8b10-12eb7f5bcf60,Yadgire Super Specialty Hospital,True,duplicate_unique_id,hospital,hospital,unchanged,public,public,unchanged,444606,444606,exact,exact_reference_mapping
+1249,b36f3f71-0b8a-4d7f-8b10-12eb7f5bcf60,Yadgire Super Specialty Hospital,False,duplicate_unique_id,hospital,hospital,unchanged,public,public,unchanged,444606,444606,exact,exact_reference_mapping
+1253,b4d1ed99-b81a-4ce0-9df6-18c5079f77e0,Sims Hospital Chennai,True,,hospital,hospital,unchanged,private,private,unchanged,600089,600089,ambiguous_district,ambiguous_reference_mapping
+1255,b5484853-fa77-4030-9a43-1bf349a13ffb,PRS Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,695 002,,,invalid_pincode
+1258,b897a3d8-77f3-4a40-b4ad-2c71af6eec5a,Smile Dental Hub,True,,clinic,clinic,unchanged,private,private,unchanged,110003,110003,district_mode_selected,ambiguous_reference_mapping
+1274,c0a0485f-f024-4a20-9d6d-dabda3337d99,Renai Medicity,True,,hospital,hospital,unchanged,private,private,unchanged,682 025,,,invalid_pincode
+1305,cfe73791-e3a2-44f3-889b-78b852b770b0,Maharshi Atreya Health Centre,True,,hospital,hospital,unchanged,private,private,unchanged,391 330,,,invalid_pincode
+1320,d6070c03-9238-4f2d-9d57-588ce3e3e804,Sree Lakshmi Narayana Institute of Medical Sciences and Hospital,True,,hospital,hospital,unchanged,public,public,unchanged,605502,605502,ambiguous_state,ambiguous_reference_mapping
+1332,d9eb40e5-3a07-4a48-8870-611b239066a9,Avanti Institute of Cardiology Pvt Ltd,True,,hospital,hospital,unchanged,private,private,unchanged,440 012,,,invalid_pincode
+1333,da383bf3-2c2b-4922-bc0c-46f135c98055,All India Institute of Physical Medicine and Rehabilitation,True,,hospital,hospital,unchanged,public,public,unchanged,400 016,,,invalid_pincode
+1335,dc97c031-cec5-48eb-a1c1-d4de6520eb63,Capitol Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,144012,144012,,unresolved
+1350,e3012127-8540-4e3c-9823-7e30ea3f6df0,Sushruta Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,85,,,invalid_pincode
+1362,e995916e-4dfa-431a-8998-9904d5322e1e,Randeep Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,151302,151302,district_mode_selected,ambiguous_reference_mapping
+1366,ed1ce467-ec12-42cf-b6e3-92859add7127,"General Hospital, Thalassery",True,,hospital,hospital,unchanged,public,public,unchanged,686513,686513,district_mode_selected,ambiguous_reference_mapping
+1370,eea7afca-1e40-4aa0-b811-50e38723617a,Homeocare International,True,,clinic,clinic,unchanged,private,private,unchanged,600029,600029,,unresolved
+1393,fb5f7207-f45f-46c7-b0b0-c298500760a8,Max Lab,True,,clinic,clinic,unchanged,private,private,unchanged,110020,110020,district_mode_selected,ambiguous_reference_mapping
+1394,fbaf7beb-e307-424c-a426-24a55bd6a726,"KIMS - Sunshine Hospitals, Begumpet",True,,hospital,hospital,unchanged,private,private,unchanged,500032,500032,ambiguous_district,ambiguous_reference_mapping
+1400,ff59d169-2912-4a9c-a1e4-3d5fe741f467,Dhanush Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,563125,563125,district_mode_selected,ambiguous_reference_mapping
+1426,06bdf654-fc15-49eb-89c5-e3c14010ebe1,Rela Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,603204,603204,district_mode_selected,ambiguous_reference_mapping
+1435,0bd9ec80-6ddb-4643-957b-b444a1dfe778,Annai Velankanni Multispecialty Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,627851,627851,district_mode_selected,ambiguous_reference_mapping
+1438,0c1c7bad-3b9d-4f67-b281-a282a10f7ffc,Shri Ganesh Eye Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,843001,843001,,unresolved
+1446,0ef56260-120c-4a08-af85-505e8eb38718,Sankaralingam Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,629 001,,,invalid_pincode
+1448,0f8375e1-a47c-4959-94c5-313e0e2512a1,City Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,496118,496118,district_mode_selected,ambiguous_reference_mapping
+1452,11ea4ba1-5edb-4f63-9cd0-146153845448,Avantika Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,203001,203001,district_mode_selected,ambiguous_reference_mapping
+1479,1ad78272-a5ed-4401-b65f-746d7b7aabfe,Sudha Hospitals - Salem,True,,hospital,hospital,unchanged,private,private,unchanged,636 004,,,invalid_pincode
+1482,1ca2e7e4-2bb1-4dde-84f8-a711db67833d,Sam's Dental Lounge,True,,dentist,dentist,unchanged,private,private,unchanged,641 012,,,invalid_pincode
+1485,1cfd5fea-0e52-42a3-b4e7-645317b0adc8,Sacred Heart Palliative Care Center (Hospice),True,,hospital,hospital,unchanged,private,private,unchanged,23,,,invalid_pincode
+1490,1f56d05d-c126-435a-b0d3-bd3494195f32,Fathima Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,695086,695086,,unresolved
+1534,2ffa0638-ea61-4e7c-98f3-4d7b24f8d0bd,Apex Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,121102,121102,district_mode_selected,ambiguous_reference_mapping
+1542,33a75ed9-18ea-4fc6-b2fa-039491bfa421,Anandaloke Multi Speciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,734001,734001,district_mode_selected,ambiguous_reference_mapping
+1553,37c2aa84-5601-49e3-ac01-31dfea0a4aa0,Naja Hospital And Research Centre,True,,hospital,hospital,unchanged,private,private,unchanged,000000,000000,,unresolved
+1554,38eeca5f-5bc1-4658-8b24-686e4295ed82,Liberty Hospitals,True,,hospital,hospital,unchanged,,,missing,520007,520007,district_mode_selected,ambiguous_reference_mapping
+1557,39c27df7-5e07-4626-8115-e7676e114de1,Kinder Women’s Hospital and Fertility Centre,True,,clinic,clinic,unchanged,private,private,unchanged,688 539,,,invalid_pincode
+1560,3b9b6b5d-7d87-4bf2-8b64-7e4c2c5d52be,Aditya Diagnostics & Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,786005,786005,,unresolved
+1563,3d5fec3f-5c58-45ad-bc65-1b303fdf9cb5,Dheer Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,160044,160044,,unresolved
+1579,449f1f62-09de-4cd7-9e6a-2ccb8a27ed70,Seven Star Hospital?,True,,hospital,hospital,unchanged,private,private,unchanged,440009,440009,,unresolved
+1620,515fb95f-d589-418f-b510-d8bf7438f884,Cura Imaging & Gastro Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,411010,411010,,unresolved
+1626,52e40ecf-174a-4144-b1f9-2d7621366cae,Sanjeevani Dwarka Path Labs,True,,clinic,clinic,unchanged,private,private,unchanged,110077,110077,district_mode_selected,ambiguous_reference_mapping
+1632,54729c24-1538-44e3-8876-bd1050d50077,BAPS Yogiji Maharaj Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,380 004,,,invalid_pincode
+1638,572bc7f6-685a-4095-9499-c42b28882a8a,Surekha Criticare Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,421003,421003,,unresolved
+1644,58c3c154-6755-47cb-aa1d-c7b8b5e33b84,Regen Healthcare & Diagnostics,True,,clinic,clinic,unchanged,private,private,unchanged,734001,734001,district_mode_selected,ambiguous_reference_mapping
+1645,59e75fce-f892-4ce6-9156-17f1db61c156,Metropolis Lab,True,,hospital,hospital,unchanged,private,private,unchanged,400090,400090,,unresolved
+1672,63bc2cbf-65b3-4f25-a16a-c968f93a2b2c,Pearl Dental Clinic And Kids Dental Zone,True,,clinic,clinic,unchanged,private,private,unchanged,302014,302014,,unresolved
+1680,6614ecff-6127-4de7-8311-d7018d2783aa,Ark Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,56,,,invalid_pincode
+1687,681e2982-5737-4d55-8140-17919d58a335,Samal Care Multispecialty Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,759128,759128,district_mode_selected,ambiguous_reference_mapping
+1688,68257f68-c462-466d-b41f-331a6e5c8243,Sendhil Dental Clinic & Implant Centre,True,,clinic,clinic,unchanged,private,private,unchanged,600037,600037,ambiguous_district,ambiguous_reference_mapping
+1689,689bf0c9-b44e-4d9c-84f1-bbb9634542c9,Sanghi Medical Centre,True,,clinic,clinic,unchanged,private,private,unchanged,110048,110048,district_mode_selected,ambiguous_reference_mapping
+1691,69201515-916a-4304-aeef-e700f8603083,Batra Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,62,,,invalid_pincode
+1700,6d11c931-7396-462f-90a1-ef58eeed1c83,Samarpan General Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,361 004,,,invalid_pincode
+1702,70632559-d977-42e0-a9ee-db89a2d682c9,Vatsalya Hospital,True,,hospital,hospital,unchanged,,,missing,382440,382440,,unresolved
+1704,70a14dce-5b73-4a4e-a15d-c94fbc02e3b6,Rajputana Hospital and Research Centre,True,,hospital,hospital,unchanged,private,private,unchanged,000000,000000,,unresolved
+1708,723aee81-544c-48b2-881b-fdae77fe15d3,Arasan Eye Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,638 011,,,invalid_pincode
+1746,81eeadc6-9026-4e21-8a7b-099ef711f02d,Primary Health Centre Marauna,True,,clinic,clinic,unchanged,public,public,unchanged,811107,811107,district_mode_selected,ambiguous_reference_mapping
+1766,8cb65630-cd35-49b6-b622-af00aea62011,Anuradha Eye Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,416 415,,,invalid_pincode
+1778,92d6bd6a-8adf-49de-8a81-c7d79002193e,Harsini’s Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,600 037,,,invalid_pincode
+1782,946184de-a7c3-4c65-97a8-63ceb263fb5f,"Care Dental Clinic - Dr.Arun Best Dentist in Villivakkam: Painless Treatment, Orthodontist, Root Canal, Implants & More",True,,clinic,clinic,unchanged,private,private,unchanged,600049,600049,district_mode_selected,ambiguous_reference_mapping
+1783,964639b3-08a3-4d5e-ab37-40afc9a1e458,IBS Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,110024,110024,district_mode_selected,ambiguous_reference_mapping
+1788,Such a Centre is a very useful facility for the University’s employees as it provides supervision and care for infants and young children during the daytime,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+1789,| **Dr. Anvita Verma**   ,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+1790,Assistant Professor (Social Work)  ,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+1791,Mobile: +91-9451520000  ,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+1792,Email: verma_anvita@lkouniv.ac.in  ,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+1793,---|---  ,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+1794,| **Dr. Aditya Abha Singh**   ,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+1795,Assistant Professor (Botany)  ,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+1796,Mobile: +91-9838602509  ,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+1797,Email: singh_aa@lkouniv.ac.in  ,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+1798,| **Dr. Niharika**   ,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+1799,Assistant Professor (Law)  ,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+1800,Mobile: +91-8299172969  ,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+1801,"Email: niharika@lkouniv.ac.in""","[""maternalAndChildHealth"",""pediatrics"",""familyMedicine"",""pediatrics"",""neonatologyPerinatalMedicine"",""pediatrics"",""familyMedicine"",""internalMedicine"",""maternalAndChildHealth"",""familyMedicine"",""gynecologyAndObstetrics"",""pediatrics"",""familyMedicine"",""pediatrics"",""familyMedicine"",""maternalAndChildHealth"",""maternalAndChildHealth"",""pediatrics"",""infectiousDiseases"",""pediatrics"",""pediatricCriticalCareMedicine"",""neonatologyPerinatalMedicine"",""maternalAndChildHealth"",""maternalAndChildHealth"",""internalMedicine"",""maternalAndChildHealth"",""internalMedicine"",""maternalAndChildHealth"",""internalMedicine"",""gynecologyAndObstetrics"",""pediatrics"",""neonatologyPerinatalMedicine"",""pediatricCriticalCareMedicine"",""familyMedicine"",""cardiology"",""familyMedicine"",""internalMedicine"",""maternalAndChildHealth"",""dentistry"",""physicalMedicineAndRehabilitation"",""internalMedicine"",""pediatrics"",""familyMedicine"",""maternalAndChildHealth"",""internalMedicine"",""physicalMedicineAndRehabilitation"",""developmental–behavioralPediatrics"",""familyMedicine"",""pediatrics"",""infectiousDiseases""]",False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,26.42313003540039,,,invalid_pincode
+1817,9de3817b-a487-4c97-85a8-698cc6c7123c,"Maharaja Agrasen Medical College, Agroha",True,,hospital,hospital,unchanged,private,private,unchanged,125047,125047,district_mode_selected,ambiguous_reference_mapping
+1831,a35243f6-e2f2-4b59-a784-95225f0669c4,SPS Hospitals Ludhiana,True,,hospital,hospital,unchanged,private,private,unchanged,141009,141009,,unresolved
+1877,b930e823-1a6d-4921-be39-662551565cd1,Vaish Eye Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,110009,110009,district_mode_selected,ambiguous_reference_mapping
+1881,bb6c6ffd-b56f-4e80-8d9a-dcfa2ceb788b,Landmark Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,160034,160034,,unresolved
+1892,c01d319c-0dbe-412f-a381-074685b602bb,Nalam Medical Centre & Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,632 009,,,invalid_pincode
+1912,c8156ed1-b2fd-4310-9a80-7451f03715ed,"MGM Eye Institute 5th Mile, Vidhan Sabha Road, Raipur",True,,hospital,hospital,unchanged,private,private,unchanged,493 111,,,invalid_pincode
+1913,c826aa92-5af9-4291-bc48-a327e1d152b1,Sri Sathya Sai Institute of Higher Medical Sciences,True,,hospital,hospital,unchanged,private,private,unchanged,515 134,,,invalid_pincode
+1914,c8aa3363-35eb-4c70-ae7a-0a86307f49c2,Durgapur Sub Divisional Hospital,True,duplicate_unique_id,hospital,hospital,unchanged,public,public,unchanged,713212,713212,exact,exact_reference_mapping
+1915,c8aa3363-35eb-4c70-ae7a-0a86307f49c2,Durgapur Sub Divisional Hospital,False,duplicate_unique_id,hospital,hospital,unchanged,public,public,unchanged,713212,713212,exact,exact_reference_mapping
+1918,c9518151-2032-4f53-823b-d42acd0aad95,HCG Multi Specialty Hospital,True,duplicate_unique_id,hospital,hospital,unchanged,private,private,unchanged,380006,380006,exact,exact_reference_mapping
+1919,c9518151-2032-4f53-823b-d42acd0aad95,HCG Multi Specialty Hospital,False,duplicate_unique_id,hospital,hospital,unchanged,private,private,unchanged,380006,380006,exact,exact_reference_mapping
+1934,ce78e01f-a59b-4311-9f40-6ea896891dc1,Holy Heart Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,124...,,,invalid_pincode
+1935,cf2b62d4-47ad-4c82-8893-2f72c9321561,Indo-US Super Speciality Hospital & Virinchi Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,500016,500016,ambiguous_district,ambiguous_reference_mapping
+1951,d23e2a5d-fa18-4f89-b63b-f8cd98e7c43b,Chandigarh Clinical Laboratories,True,,clinic,clinic,unchanged,private,private,unchanged,160016,160016,,unresolved
+1962,d5d1d609-1dec-402b-861f-a87318787f49,Rathi Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,305901,305901,district_mode_selected,ambiguous_reference_mapping
+1973,d8989677-f43f-4a3a-a24f-6d5161fdd865,"Shafi Ayurveda Nursing Home, Kuttippuram",True,,clinic,clinic,unchanged,private,private,unchanged,674531,674531,,unresolved
+1991,ddfc13b1-edd5-4950-bf42-76317a817e54,"Sri Venkateswara Institute of Medical Sciences, Tirupati",True,,hospital,hospital,unchanged,public,public,unchanged,517507,517507,district_mode_selected,ambiguous_reference_mapping
+1998,e1021523-5264-4bda-872b-5bfb182111ee,Sundaram Arulrhaj Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,628 002,,,invalid_pincode
+2019,e98c4c7a-199c-4ac5-902b-feb794e788df,Sankar Kartik Netralaya,True,,hospital,hospital,unchanged,private,private,unchanged,208001,208001,district_mode_selected,ambiguous_reference_mapping
+2024,eaf56981-b85f-4102-8b4a-9e4dca60d46c,Amba Health Centre & Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,382421,382421,district_mode_selected,ambiguous_reference_mapping
+2030,edd164fc-db4e-40f4-9880-e1eabe6b1bb2,Surya Multispeciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,410501,410501,district_mode_selected,ambiguous_reference_mapping
+2050,f867fd90-bf0e-41d9-9291-c06497548886,Malik Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,20201,,,invalid_pincode
+2060,fced074a-ce12-47a8-b52e-e40d876fc122,PPK Hospital,True,duplicate_unique_id,hospital,hospital,unchanged,public,public,unchanged,629 165,,,invalid_pincode
+2061,fced074a-ce12-47a8-b52e-e40d876fc122,PPK Hospital,False,duplicate_unique_id,hospital,hospital,unchanged,public,public,unchanged,629 165,,,invalid_pincode
+2069,ff608b82-3a26-4ba7-bb78-b84fd0ed93c2,"Gabani Kidney Hospital - Dhan-Laxmi Complex, Nr. Ayurved College, Station-Lal Darwaja Road, Surat-395 003, Gujarat, India",True,,hospital,hospital,unchanged,private,private,unchanged,395 003,,,invalid_pincode
+2077,0277b0a0-05e0-418d-9763-7b2fe78f636e,Srijan Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,2110...,,,invalid_pincode
+2095,06ef75cc-4c89-4ac0-a305-b302177fcc47,Faith Multispeciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,600049,600049,district_mode_selected,ambiguous_reference_mapping
+2136,119e85d2-d897-405a-a9ce-43610d115483,Megha Path Lab,True,,clinic,clinic,unchanged,private,private,unchanged,160044,160044,,unresolved
+2137,11e38d14-ea6e-4fb4-b952-c865edcda343,Dr. Patels Dental Clinic & Implant Center,True,,clinic,clinic,unchanged,private,private,unchanged,382421,382421,district_mode_selected,ambiguous_reference_mapping
+2139,122c4874-bae0-4c87-bac8-c22e5b0611f8,Delhi Heart & Lungs Institute,True,,hospital,hospital,unchanged,private,private,unchanged,110055,110055,district_mode_selected,ambiguous_reference_mapping
+2141,126d8e0f-a095-4d87-8765-5d3e6d5fdba5,Ayushman Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,462241,462241,,unresolved
+2143,Dr. Bharathi is an Obstetrician and Gynaecologist, located in Mandaiveli,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+2144,She completed her MBBS from Sri Ramachandra University, Chennai. She did her Post-Doctoral fellowship in Reproductive Medicine from Madras Medical Mission,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+2145,She has 9+ years of experience in Obstetrics and Gynaecology,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+2146,"For Instant Booking please call +91 7303555015""","[""gynecologyAndObstetrics"",""reproductiveEndocrinologyAndInfertility"",""familyMedicine"",""reproductiveEndocrinologyAndInfertility"",""gynecologyAndObstetrics"",""familyPlanningAndComplexContraception"",""familyMedicine"",""familyMedicine"",""gynecologyAndObstetrics"",""reproductiveEndocrinologyAndInfertility"",""familyMedicine"",""gynecologyAndObstetrics"",""reproductiveEndocrinologyAndInfertility"",""familyMedicine"",""gynecologyAndObstetrics"",""reproductiveEndocrinologyAndInfertility"",""generalSurgery"",""familyMedicine"",""reproductiveEndocrinologyAndInfertility"",""gynecologyAndObstetrics"",""familyMedicine"",""reproductiveEndocrinologyAndInfertility"",""familyMedicine""]",False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,13.026690483093262,,,invalid_pincode
+2147,13d353ff-aaef-4c09-887e-32fe3f661e26,Goyal Nursing Home,True,,hospital,hospital,unchanged,private,private,unchanged,121102,121102,district_mode_selected,ambiguous_reference_mapping
+2155,16d8ae54-ab97-4d2c-845c-602cfafe8d87,"Dr Shaji's MRI & Medical Research Centre, Kozhikode",True,,clinic,clinic,unchanged,private,private,unchanged,673 004,,,invalid_pincode
+2161,183e17f4-bed7-4929-b159-b97501aa7eba,Dr Rama's Institute For Fertility,True,,hospital,hospital,unchanged,private,private,unchanged,500016,500016,ambiguous_district,ambiguous_reference_mapping
+2169,1aa66ea8-3931-4a5a-accf-2d79b8c4cb9d,Awadh Dental College & Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,831012,831012,district_mode_selected,ambiguous_reference_mapping
+2175,1c04a5d8-f0cd-459c-bdda-dbc9413d5174,New Ramkrishna Seva Sadan,True,,hospital,hospital,unchanged,private,private,unchanged,734001,734001,district_mode_selected,ambiguous_reference_mapping
+2176,1c2e73f0-c94a-41c6-ac3b-5fef18b4bde4,Perfect 32 Dental Clinic and Orthodontic Centre,True,,dentist,dentist,unchanged,private,private,unchanged,497001,497001,district_mode_selected,ambiguous_reference_mapping
+2177,1c51898d-5267-4d14-b503-70f557d58299,Ananta Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,313202,313202,district_mode_selected,ambiguous_reference_mapping
+2197,226266c6-d15a-41a6-bf6b-adb841f0a7d0,Dr. Paul's Skin Laser Centre,True,,clinic,clinic,unchanged,private,private,unchanged,110051,110051,ambiguous_district,ambiguous_reference_mapping
+2198,227565fd-63ed-458b-a2ee-fcc8b927a40f,Prabha Eye Hospital Palwal,True,,hospital,hospital,unchanged,private,private,unchanged,121102,121102,district_mode_selected,ambiguous_reference_mapping
+2205,23c33f71-78f0-411d-b0fc-cdd0c3da3c4a,Sushrut Piles Fistula Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,382009,382009,,unresolved
+2208,2404aae8-7a9e-47f2-88a5-f3a73ca2328d,Sankalp Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,497001,497001,district_mode_selected,ambiguous_reference_mapping
+2226,2b39d214-07ac-4e60-8bf9-99539b799edf,Max Lab - Rajender Nagar (Rajender Nagar),True,,clinic,clinic,unchanged,private,private,unchanged,110051,110051,ambiguous_district,ambiguous_reference_mapping
+2236,2cec25d8-c212-4343-ba67-21b1310f51d4,Sushrutha Ayurvedic Medical College & Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,560-105,,,invalid_pincode
+2252,31625db4-d5c4-4448-b21d-008d8c444a82,Nirmala Nursing Home,True,,hospital,hospital,unchanged,private,private,unchanged,241001,241001,district_mode_selected,ambiguous_reference_mapping
+2256,32d23003-358d-4933-89ae-762f59e17912,Robin Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,40,,,invalid_pincode
+2293,3bfba808-c13b-43be-94cd-c8cbbc622022,Kapadia Hospital (Goregaon),True,,hospital,hospital,unchanged,private,private,unchanged,400062,400062,,unresolved
+2299,3d442edf-a3fe-4e74-8405-4ded2e21872a,Apple Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,452008,452008,,unresolved
+2313,42741218-9041-4a04-98d3-3242acedebe9,Sparsh Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,66,,,invalid_pincode
+2322,43f9ec34-c62f-485a-b1ff-9d56f74d7c9f,Rama Healthcare Multispeciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,734001,734001,district_mode_selected,ambiguous_reference_mapping
+2325,445f764a-44fb-42f5-96e9-6909e8854d06,"GCS Medical College, Hospital & Research Centre",True,,hospital,hospital,unchanged,private,private,unchanged,380025,380025,,unresolved
+2326,447a4cd7-fd86-4476-a606-126c8c35a08d,Chennai Fertility Center and Research Institute - Chennai,True,,clinic,clinic,unchanged,private,private,unchanged,600029,600029,,unresolved
+2333,466d16b1-2baf-4c25-ac5b-235cea9b5a87,Sachin Mamta Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,462021,462021,,unresolved
+2335,46c8e07b-de88-4054-8440-c3d86cd0143b,House of Diagnostics,True,,clinic,clinic,unchanged,private,private,unchanged,110025,110025,ambiguous_state,ambiguous_reference_mapping
+2339,4992d6c4-3a7e-4174-99e0-592b270fa4b3,Dental Persona,True,,dentist,dentist,unchanged,private,private,unchanged,110019,110019,district_mode_selected,ambiguous_reference_mapping
+2341,49b30f06-c812-48c2-9ab3-002d68864d13,Grace Hospital,True,,hospital,hospital,unchanged,,,missing,110077,110077,district_mode_selected,ambiguous_reference_mapping
+2357,4ee1bf0e-8cbf-407f-aed7-a86a708cd741,MAA Women's Hospital & IVF Center,True,,hospital,hospital,unchanged,private,private,unchanged,382424,382424,district_mode_selected,ambiguous_reference_mapping
+2367,509c6668-953b-4d13-b198-5659718b54e6,Kanha Children Hospital,True,,hospital,hospital,unchanged,,,missing,492007,492007,,unresolved
+2381,54c46617-47bb-4705-add2-c64dbe0bce89,Ved Dental & Aesthetic Clinic,True,,dentist,dentist,unchanged,private,private,unchanged,208001,208001,district_mode_selected,ambiguous_reference_mapping
+2388,56bcf2b5-6066-41f1-8131-f6ab5ea36ccb,Healing Rehab - Prosthetics and Orthotics Care,True,,clinic,clinic,unchanged,private,private,unchanged,382424,382424,district_mode_selected,ambiguous_reference_mapping
+2428,62c0e954-be86-466d-a911-a8b3ae01a49b,Dr. Ajayan'S Multispeciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,400 709,,,invalid_pincode
+2435,> [**Pathankot**]  ,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+2436,> One of the greatest ways to feel that this health centre cares about its individuals would be to remove all be concerned about coming, must be in individual regions of the hospital or,False,invalid_unique_id|invalid_organization_type,kie,,unmapped,"{""coordinates"":[75.5718994140625,31.32871437072754],""type"":""Point""}",,unmapped,0,,,invalid_pincode
+2439,649cd7d9-058c-4fd9-a90b-4970f23b12ce,Sri Harihar Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,175125,175125,district_mode_selected,ambiguous_reference_mapping
+2449,68d7d244-50a1-4786-bf09-2b7db8654d33,Prashanth Fertility Research Centre,True,,clinic,clinic,unchanged,private,private,unchanged,600 031,,,invalid_pincode
+2457,"Our main aim is to provide a treatment-oriented complete diagnosis with more accurate highly dedicated and experienced radiologists and skilled staff members.""","[""radiology"",""radiology"",""cardiothoracicRadiology"",""emergencyMedicine"",""familyMedicine"",""radiology"",""familyMedicine"",""radiology"",""familyMedicine"",""radiology""]",False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,22.560779571533203,,,invalid_pincode
+2458,6b2b248f-d208-454a-9c43-51f030120187,Sangam Netralya,True,,hospital,hospital,unchanged,private,private,unchanged,160070,160070,,unresolved
+2459,6b56ff4c-75e7-4f15-bf6c-e3b323ec0999,SGL Super Speciality Charitable Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,144 022,,,invalid_pincode
+2481,7334bfce-5c67-42e8-97ad-6d3bc1ab4c3c,Dr. Venkataramana Heart and Maternity Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,517501,517501,district_mode_selected,ambiguous_reference_mapping
+2482,7346f35c-499c-42c6-b2eb-9e82cbe31b3a,Vijay Marie Hospital,True,,hospital,hospital,unchanged,,,missing,500264,500264,,unresolved
+2548,87228117-8931-4606-a339-ef0e90057f84,Aakash Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,600 019,,,invalid_pincode
+2549,878f290d-5cb5-4253-b2ef-283c62ccbbca,Meenakshi Ammal Dental College and Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,600095,600095,district_mode_selected,ambiguous_reference_mapping
+2556,8839883f-5e2b-4e8c-885b-57477273f091,Rainbow Medinova Diagnostic Services,True,,clinic,clinic,unchanged,private,private,unchanged,NAGPUR-10,,,invalid_pincode
+2564,8a5332aa-b1ca-4dd6-97e7-bc152efafa43,Baraut Medicity Multi Specialty Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,250611,250611,district_mode_selected,ambiguous_reference_mapping
+2586,912ddb79-01f3-42b2-b293-55450828ab09,Shiv Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,360003,360003,district_mode_selected,ambiguous_reference_mapping
+2629,9ef9dee2-2688-40c9-8b71-4bc1ec4ec3c1,Apple Multi Speciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,500 008,,,invalid_pincode
+2654,a5fed193-b8a2-40cd-98b2-e7e205a19187,Dr. Firdosi’s Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,497001,497001,district_mode_selected,ambiguous_reference_mapping
+2661,a7aab77b-89a7-4b57-beab-6dbfc936ad5c,Olive Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,110019,110019,district_mode_selected,ambiguous_reference_mapping
+2670,a9aa94d6-fa47-4ec9-8274-08e96a390a73,RNR's Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,517501,517501,district_mode_selected,ambiguous_reference_mapping
+2672,aa1bca39-e513-4582-bed8-f563805d6f07,MIOT International,True,,hospital,hospital,unchanged,private,private,unchanged,600089,600089,ambiguous_district,ambiguous_reference_mapping
+2680,Sri Sai Lions Netralaya started as a 10 bed Eye Hospital. Thanks to God and the tireless work of management and its specialized medical team, this multi-facility Eye Hospital counted with 70 beds as well as with many specialized services and advanced diagnostic equipments. It has survived and expanded due to the active support of numerous of well wishers,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+2681,  Currently,,False,invalid_unique_id|invalid_organization_type,85.15049743652344,,unmapped,00e60e06-25ed-43b3-a5fd-e39a0104729f,,unmapped,,,,missing_pincode
+2701,b1ea1e58-1281-4cb8-9bfb-3b7ae49ddaee,Goyal Piles and Laser Centre,True,,clinic,clinic,unchanged,private,private,unchanged,85,,,invalid_pincode
+2725,b9fd981b-84a2-48cb-bd11-c865cca48f3a,Shreya Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,560060,560060,district_mode_selected,ambiguous_reference_mapping
+2745,bef72402-a57c-487b-b7ed-266ac28f9468,Institute Of Genetics & Hospital For Genetic Diseases,True,,hospital,hospital,unchanged,public,public,unchanged,500016,500016,ambiguous_district,ambiguous_reference_mapping
+2750,bf879903-caed-4dce-ac44-72abd05094df,Astha hair clinic & Transplant Centre,True,,clinic,clinic,unchanged,private,private,unchanged,360003,360003,district_mode_selected,ambiguous_reference_mapping
+2758,c11d5319-e27e-4110-ba02-54a63dd48dbf,"Shri Vinayak Hospital, Shahpur",True,,hospital,hospital,unchanged,private,private,unchanged,273 006,,,invalid_pincode
+2777,c622b9e0-b81f-4069-94ff-f7508e8f1477,"Dhanwantari Hospital Centre for Psychiatric Care, Raipur, Chhattisgarh India",True,,hospital,hospital,unchanged,private,private,unchanged,493661,493661,district_mode_selected,ambiguous_reference_mapping
+2778,It activities of the centre focus on the areas of early intervention," the capital of Chhattisgarh.""",False,invalid_unique_id|invalid_organization_type,21.083206176757812,,unmapped,81.65721130371094,,unmapped,3,,,invalid_pincode
+2782,c7eb6761-b629-4eae-9b11-a8a73d2952ed,Unicare Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,410501,410501,district_mode_selected,ambiguous_reference_mapping
+2808,d0de31a6-5811-4db3-a8d3-55c77bb48a64,Infocus Diagnostics Nikol,True,,clinic,clinic,unchanged,private,private,unchanged,382346,382346,,unresolved
+2810,venkateswara diagnostic is doing more for health today than ever done before. We invest constantly in the most cutting-edge technology to provide the very best scan results for our patients,,False,invalid_unique_id|invalid_organization_type,"[""https://venkateswaradiagnosticcentre.com/"",""https://www.medindia.net/directories/labs/venkateswara-diagnostic-centre-chennai-tamil-nadu-40958-1.htm"",""https://www.mediyaar.com/chennai/labs/kcl-diagonstic-centre-tondiarpet.html"",""https://www.diagnosticcentres.in/diagnostic-centres/tamil-nadu/chennai/venkateswara-diagnostic-center-perumbakkam.html"",""https://www.facebook.com/112564788328363"",""https://www.diagnosticcentres.in/diagnostic-centres/tamil-nadu/chennai/venkateswara-diagnostic-centre.html"",""https://www.facebook.com/VenkateswaraDiagnosticCentre1/"",""https://www.facebook.com/110654166238127"",""https://www.facebook.com/682318155304977"",null,null]",,unmapped,,,missing,"{""coordinates"":[80.19386291503906,12.916261672973633],""type"":""Point""}",,,invalid_pincode
+2818,d3edcb41-d409-4def-9fae-4ad25a036855,The Muslim Ambulance Society Diagnostic Center,True,,hospital,hospital,unchanged,private,private,unchanged,400010,400010,district_mode_selected,ambiguous_reference_mapping
+2826,d6783435-4195-41e3-95c9-d8619c1fc420,Dr Prashant Pattnaik's SS Urological Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,4000050,,,invalid_pincode
+2838,d9f765fd-ce97-4976-9c9b-2cd571fd1c5c,Rangani Medicare And Dental Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,360003,360003,district_mode_selected,ambiguous_reference_mapping
+2842,da54b8c0-9b5b-407c-8f23-d73104fc5cd5,Indira IVF Kanpur,True,,clinic,clinic,unchanged,private,private,unchanged,208001,208001,district_mode_selected,ambiguous_reference_mapping
+2846,dbe17a04-dbaf-41bc-a626-f092382b645b,Naisarg Ortho Speciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,390005,390005,,unresolved
+2848,dccc306a-a7d6-4d3b-96d4-8d8a240a2ab5,Aarogya Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,110092,110092,district_mode_selected,ambiguous_reference_mapping
+2857,ded1dd57-b711-4874-9dcb-e2f66cdad203,Salem Gopi Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,636 007,,,invalid_pincode
+2859,df9db680-b001-4b58-8041-1823014a4d49,SMH-Cancer Centre,True,,hospital,hospital,unchanged,private,private,unchanged,110092,110092,district_mode_selected,ambiguous_reference_mapping
+2864,e07366cd-0dae-4274-9a4d-9a77f59c7156,Arihant Orthopeadic Hospital Ambawadi,True,,hospital,hospital,unchanged,private,private,unchanged,380 015,,,invalid_pincode
+2890,e67e983b-186b-4627-a7a0-ef811a6a0b31,Dr. Rupali's Medical & Diagnostics,True,,clinic,clinic,unchanged,private,private,unchanged,110044,110044,district_mode_selected,ambiguous_reference_mapping
+2893,e6f3ae66-644c-40b3-a2d5-90c9fd0a62a7,Smart City Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,462013,462013,,unresolved
+2895,e82c4790-c1af-492c-aa93-593ff37d857a,Sachdeva Diagnostics,True,,clinic,clinic,unchanged,private,private,unchanged,110019,110019,district_mode_selected,ambiguous_reference_mapping
+2911,ef5441f3-bbc7-4239-9ea9-cc8ecf121d5c,Meenakshi Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,613 005,,,invalid_pincode
+2923,f26e2bbb-1f55-4e35-b3cf-a6a60b40b53c,World Dental Specialities,True,,clinic,clinic,unchanged,private,private,unchanged,400 036,,,invalid_pincode
+2931,f520fe76-c527-42d4-a561-640621188a7f,Dr. Lad’s Navjeevan Hospital,True,,nursing_home,,unmapped,private,private,unchanged,422002,422002,exact,exact_reference_mapping
+2940,f8588ca9-14f7-48cb-b71c-90d91d710ad1,Mehi Skin Clinic - Sevoke Road,True,,clinic,clinic,unchanged,private,private,unchanged,734001,734001,district_mode_selected,ambiguous_reference_mapping
+2947,fa6249ad-63f4-43be-ba98-be8c63a65b1e,Kins Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,734001,734001,district_mode_selected,ambiguous_reference_mapping
+2957,fcae3838-af96-42d3-bb82-b1566958c294,Padmashree Diagnostics,True,,clinic,clinic,unchanged,private,private,unchanged,560 040,,,invalid_pincode
+2987,032d7695-df4d-4de8-bf00-e1bab05d53cb,Sr Diagnostics,True,,clinic,clinic,unchanged,private,private,unchanged,500025,500025,,unresolved
+2995,050479fe-82a8-404b-a41b-a61d15eb9577,Jindal Hospital & Cancer Centre,True,,hospital,hospital,unchanged,private,private,unchanged,121102,121102,district_mode_selected,ambiguous_reference_mapping
+3003,068f6095-85f9-4d46-b3a7-b7209bfbd4c2,Health Point A Multispecialty Hospital Blood Bank,True,,hospital,hospital,unchanged,,,missing,7000 25,,,invalid_pincode
+3035,0b76e711-fcd9-421c-b088-b4e99ccdcb71,Shree Parshvanath Jain Hospital & Research Centre Beawar,True,,hospital,hospital,unchanged,private,private,unchanged,305901,305901,district_mode_selected,ambiguous_reference_mapping
+3043,0cf4808a-78ce-4541-9c80-e0796677c7e7,Machave Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,411029,411029,,unresolved
+3047,0d6ae848-145e-4d6b-9c83-1c943c038332,32 Smile Stone Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,110014,110014,ambiguous_district,ambiguous_reference_mapping
+3086,15d98412-dbb0-487e-b9f8-1916f98232ac,Khosla Hospital,True,,hospital,hospital,unchanged,public,public,unchanged,141009,141009,,unresolved
+3091,17fd3d32-fbc5-47be-bd65-7763bd967d69,Swami Samarth Diagnostic Centres,True,,clinic,clinic,unchanged,private,private,unchanged,PUNE-09,,,invalid_pincode
+3094,18a0b6a3-8792-43ef-8753-47548e4aab02,Jyotirmay Eye Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,40601,,,invalid_pincode
+3096,18e90980-e711-406e-9644-b6f4a797cabc,Dr. Parthasarathy Memorial Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,600 088,,,invalid_pincode
+3103,1a0f7290-f227-49fe-9b92-a8c698a165d8,Malhotra Super Speciality Hospital,True,duplicate_unique_id,hospital,hospital,unchanged,private,private,unchanged,173205,173205,exact,exact_reference_mapping
+3104,1a0f7290-f227-49fe-9b92-a8c698a165d8,Malhotra Super Speciality Hospital,False,duplicate_unique_id,hospital,hospital,unchanged,private,private,unchanged,173205,173205,exact,exact_reference_mapping
+3114,1ca027f8-4f61-44b0-88db-13a361608535,Subam Fetal Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,625 016,,,invalid_pincode
+3141,21c309e4-9ae9-4587-b233-0fbad2c1d5c3,Siliguri Speech and Hearing Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,734001,734001,district_mode_selected,ambiguous_reference_mapping
+3146,22fbc724-7d28-4ca4-a5db-cc674c36f1e5,Shankar Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,244715,244715,district_mode_selected,ambiguous_reference_mapping
+3163,27aef849-665c-4b99-848f-e8bfafcb2a73,Pentamed Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,110009,110009,district_mode_selected,ambiguous_reference_mapping
+3170,288bb055-0366-4b8f-b71b-147dc49d083a,Mumbai Retina Centre,True,,clinic,clinic,unchanged,private,private,unchanged,400 054,,,invalid_pincode
+3186,2cbfa0f8-9049-4161-a8b4-9b4a9f9fb2ea,Sri Manakula Vinayagar Medical College and Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,605107,605107,ambiguous_state,ambiguous_reference_mapping
+3201,2f7486d4-9949-4551-926f-4d1d1a27447e,Prudent Dental Care,True,,clinic,clinic,unchanged,private,private,unchanged,603 103,,,invalid_pincode
+3203,2fcfb5bd-2d76-4f3f-a1a7-502009b9ba22,Sristi Hospitals & Research Centre,True,,hospital,hospital,unchanged,private,private,unchanged,786005,786005,,unresolved
+3204,2feb9894-ac7d-4a1a-be23-3d928fc9863e,Rootcare Multispeciality Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,110051,110051,ambiguous_district,ambiguous_reference_mapping
+3207,307dc552-f0f5-4e7f-8b9c-ec1338077844,Kids N Clan Advanced Healthcare,True,,clinic,clinic,unchanged,private,private,unchanged,110092,110092,district_mode_selected,ambiguous_reference_mapping
+3210,30dd0b4f-5992-44c0-95d3-bbb4eb339bd9,Sri Sai FACE CT SCAN Centre,True,,clinic,clinic,unchanged,private,private,unchanged,10,,,invalid_pincode
+3214,317216a8-63bb-4543-b6f6-ca817b794db0,R.K. Dental Clinic - Laser & Cosmetic Centre,True,,clinic,clinic,unchanged,private,private,unchanged,600 080,,,invalid_pincode
+3226,346e3374-da86-47bf-90bb-6118667c77a8,Prakash Eye Centre,True,,clinic,clinic,unchanged,private,private,unchanged,110009,110009,district_mode_selected,ambiguous_reference_mapping
+3233,35edc2f1-035c-43d4-89af-ba82834ef976,East End Fertility Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,39,,,invalid_pincode
+3237,36501bee-69ca-407a-9ed7-dd9636c078d4,Knee & Ortho Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,600116,600116,district_mode_selected,ambiguous_reference_mapping
+3252,3872ea66-d8f6-4175-a177-4bd66852cb4d,Vishnu Dental College,True,,hospital,hospital,unchanged,private,private,unchanged,534 202,,,invalid_pincode
+3257,39bd7760-9103-4936-8f37-c968c6f7c5aa,Tula Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,121102,121102,district_mode_selected,ambiguous_reference_mapping
+3283,3d535332-f4ab-458c-b346-2427621b1d97,Dr. Gaikwad's Critical Care Centre,True,,hospital,hospital,unchanged,private,private,unchanged,440009,440009,,unresolved
+3306,409237a0-b4ca-4740-8b19-40429f6fe4fe,Kristu Jyoti Hospital Samba,True,,hospital,hospital,unchanged,private,private,unchanged,184121,184121,district_mode_selected,ambiguous_reference_mapping
+3331,4687438b-fb12-4728-a4fb-29e2398a54c7,Saksham Healthcare,True,,clinic,clinic,unchanged,private,private,unchanged,83,,,invalid_pincode
+3356,4b4d5556-faef-45de-8dfe-cac634c48c7e,"Dr. Madhavi Retina Eye Care, Reddy And Reddys Colony",True,,clinic,clinic,unchanged,private,private,unchanged,517501,517501,district_mode_selected,ambiguous_reference_mapping
+3385,520a748d-bedc-4a67-844c-afe5a8305521,Dr. Gargi Acharya’s Bopal Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,380025,380025,,unresolved
+3401,547f6f09-3974-4a2f-b458-c9a4b664518f,Katiyar Nursing Home,True,,hospital,hospital,unchanged,private,private,unchanged,241001,241001,district_mode_selected,ambiguous_reference_mapping
+3413,5790feca-537c-4b3c-b6a3-3e78afa039ff,Satyarthi Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,801302,801302,district_mode_selected,ambiguous_reference_mapping
+3421,58c1e876-c2bb-4167-b30c-ecfddd1d69ef,Khetan Dental Care,True,,clinic,clinic,unchanged,private,private,unchanged,208001,208001,district_mode_selected,ambiguous_reference_mapping
+3452,5e7b658e-8fe8-4f23-95a4-1bb4103d7358,32 Teeth Dental Care,True,,clinic,clinic,unchanged,private,private,unchanged,641 037,,,invalid_pincode
+3454,5eb06b07-8c36-412c-8a3e-b2990d221d87,Eyeland Eye Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,500010,500010,ambiguous_district,ambiguous_reference_mapping
+3462,5fef0b90-42eb-4087-8a03-3db2db94c693,Argade Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,411029,411029,,unresolved
+3464,6051631b-11fc-4ba1-90d7-1f2deec55b12,Shree Jeewan Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,110014,110014,ambiguous_district,ambiguous_reference_mapping
+3473,628217ab-a276-485e-84fc-2623250f6596,Mohan Dai Oswal Cancer Treatment & Research Foundation,True,,hospital,hospital,unchanged,private,private,unchanged,141009,141009,,unresolved
+3474,629b3b35-fca4-467d-bbec-c798961705ee,Latika Eye & Maternity Specialty Clinic Goregaon West,True,,clinic,clinic,unchanged,private,private,unchanged,400062,400062,,unresolved
+3514,Under the ageis of Choithram Group,,False,invalid_unique_id|invalid_organization_type,75.75413513183594,,unmapped,08f3d9666086a7a90355f64c2d1f389b,,unmapped,,,,missing_pincode
+3519,6b2599d2-0d81-4dbf-b4de-d5cd35eb9a68,Raj Nursing Home,True,,hospital,hospital,unchanged,private,private,unchanged,151302,151302,district_mode_selected,ambiguous_reference_mapping
+3544,715be3c3-6ef8-4888-81d7-a857fb5bd46c,Indira IVF Fertility Center - Siliguri,True,,clinic,clinic,unchanged,private,private,unchanged,734001,734001,district_mode_selected,ambiguous_reference_mapping
+3545,71913555-ed0c-4b2a-91b5-7acbe473f8ed,"Gleneagles Hospital, Richmond Road, Bengaluru",True,,hospital,hospital,unchanged,private,private,unchanged,560060,560060,district_mode_selected,ambiguous_reference_mapping
+3552,7285f2bc-13d9-42ed-adc0-d2f8ee5275e6,Guru Jambheshwar Multispeciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,125047,125047,district_mode_selected,ambiguous_reference_mapping
+3553,72c1e64d-5ab5-4c89-9d8e-331ea22fe7d2,Currex Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,560049,560049,ambiguous_district,ambiguous_reference_mapping
+3583,7a493dee-cc9f-43db-851e-792f1db1cd1b,Happy Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,382424,382424,district_mode_selected,ambiguous_reference_mapping
+3607,7f319de8-cfab-4922-b584-4be076471aed,Eye Solutions - The complete eye hospital,True,,hospital,hospital,unchanged,private,private,unchanged,36,,,invalid_pincode
+3613,With an objective to enhance the experience of 25 glorious years of running Manorama Ultrascan in Ranaghat and Chakdaha,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+3614,Manorama Hospital is an 494 bedded hospital housed in beautifully landscaped area of 1.18 acres of land. It has a 2 lakh square-feet closed area with Deluxe, 10 -bedded Neonatal Intensive Care Unit,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+3615,With expertise and excellence being the cornerstones of Manorama Hospital ,494,False,invalid_unique_id|invalid_organization_type,"[""https://www.manoramahospitex.org/about/manorama-hospitex"",""https://www.manoramahospitex.org/"",""https://www.manoramahospitex.org/doctor-details/dr-krishanu-banik"",""https://www.manoramahospitex.org/doctor-details/dr-pradipta-guha"",""http://www.manoramahospitex.org/"",""https://www.manoramahospitex.org/about/from-the-desk-of-medical-super"",""https://www.manoramahospitex.org/contact"",""https://www.zoominfo.com/c/manorama-hospitex-pvt-ltd/397568994"",""https://www.indiamart.com/manorama-hospitex-pvt-ltd/aboutus.html"",""https://www.justdial.com/Chakdah/24-Hours-Dentists/nct-10000372"",""https://www.facebook.com/549081398608476"",""https://tracxn.com/d/legal-entities/india/manorama-hospitex-private-limited/__phsyVlJwm-44vLQMw8BbuabPf2B6Xkubt2X9AWDsgRE"",""https://www.justdial.com/Bongaon/Private-Hospitals/nct-10390288"",""https://www.manoramahospitex.org/diagnostic-centre-in-nadia"",""https://shg.wbscl.in/home/hospital_list/SS8xTEFYQS9ET3kvSmVMbVBYNU5JVHZuM1BUSnFNQkduNU9sL1F1Q1F5SlYweTJNanNmOWdDZ0ovRVJDOTZleUo0dmFjakRkdjAvRmVpQ3M3MC82eVE9PQ==/5"",""https://shg.wbscl.in/home/hospital_list"",""https://wbxpress.com/list-of-class-i-hospitals-under-west-bengal-health-scheme/"",""https://shg.wbscl.in/home/hospital_list/UWNjSTMzTEw5UUVEMGIzQXVwUC9DdVlPeE5TVE9FellQMVhWWVNBbjkyTTNWNjZTZ3RvZmUzbTk1SVBzSGRMVmxOMXdaeXpYbDdrVjh6TVVTc1dvUlE9PQ==/3"",null]",,unmapped,,,missing,"{""coordinates"":[88.55764770507812,23.170246124267578],""type"":""Point""}",,,invalid_pincode
+3622,81968d65-c865-4bf5-b797-934c4561d6a4,Gayathri Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,517501,517501,district_mode_selected,ambiguous_reference_mapping
+3627,827327e5-d9c1-43c2-8941-e9ecc1a80200,Canning Madrasi Piles and Fistula Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,743329,743329,district_mode_selected,ambiguous_reference_mapping
+3628,82a57475-1064-4e66-a8e7-2f6f844a382b,Topstars Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,520007,520007,district_mode_selected,ambiguous_reference_mapping
+3646,87159bca-5d93-4a20-a918-ee66bfbf306b,"Apollo Clinic - Amtala, Kolkata",True,,clinic,clinic,unchanged,private,private,unchanged,743 398,,,invalid_pincode
+3658,89b3a72f-70ef-4ab9-85b8-1d686c56e089,Atal Memorial Cancer Care,True,,hospital,hospital,unchanged,private,private,unchanged,462 016,,,invalid_pincode
+3677,8dadd8be-ecc9-435f-9a8b-53c1c9839fd6,Divine Multispeciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,382421,382421,district_mode_selected,ambiguous_reference_mapping
+3680,8e631670-3e21-42ab-939c-e3305d4693de,"Swaram Hearing Aid Centre, Cochin, Kerala",True,,clinic,clinic,unchanged,private,private,unchanged,COCHIN-16,,,invalid_pincode
+3687,8f96471c-81ff-44d1-a24c-fda24873e12f,Apollo Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,517501,517501,district_mode_selected,ambiguous_reference_mapping
+3696,90e433dc-662f-40e6-83cf-b657d79b5eda,D evmata Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,462021,462021,,unresolved
+3700,9197ce16-3913-4e26-ade8-5e4b9a20c5b0,Pearl Dental and Implant Centre,True,,clinic,clinic,unchanged,private,private,unchanged,734001,734001,district_mode_selected,ambiguous_reference_mapping
+3701,91b4b14c-6af9-4eff-b69f-680baae7f50c,Kurinji Hospital,True,,hospital,hospital,unchanged,public,public,unchanged,636 004,,,invalid_pincode
+3706,92e6b44e-982a-43fc-bf94-41eaf71249a9,Keeran Eye Care,True,,clinic,clinic,unchanged,private,private,unchanged,110048,110048,district_mode_selected,ambiguous_reference_mapping
+3707,93643549-c266-4626-a168-c8997335c629,Ab Hospital,True,,hospital,hospital,unchanged,,,missing,600037,600037,ambiguous_district,ambiguous_reference_mapping
+3725,96ad68a3-8278-4504-9c4f-0d141b17ae9d,Sai Sudha Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,533001,533001,district_mode_selected,ambiguous_reference_mapping
+3753,**Services:**,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+3754,  * **Micro Incision Cataract Surgery(MICS)**,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+3755,  * **Phacoemulsification & Advanced Cataract Surgery **,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+3756,  * **Surgical Vitreo-retinal**,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+3757,  * **Corneal Transplant**,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+3758,  * **Implantable Contact Lens(ICL) and Refractive Surgeries**,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+3759,  * **Glaucoma Clinic**,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+3760,  * **Pediatric Cataract Surgery**,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+3761,  * **Ophthalmology**,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+3762,  * **Low Vision Aid**,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+3763,  * **Contact Lens & Optical Services**,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+3764,  * **Oculoplasty**,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+3765,Established Year,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+3766,1987,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+3767,""",null,null,null,""[""""ophthalmology""""","""""cataractAndAnteriorSegmentSurgery""""",False,invalid_unique_id|invalid_organization_type,"""""cataractAndAnteriorSegmentSurgery""""",,unmapped,"""""retinaAndVitreoretinalOphthalmology""""",,unmapped,"""""ophthalmology""""",,,invalid_pincode
+3788,9ecd585d-3976-4cf3-ab58-60766b255d04,Satsar Hospital Batala,True,,hospital,hospital,unchanged,private,private,unchanged,143500,143500,,unresolved
+3817,a5637b69-68fa-42cd-adf7-6d8a0e1dfcc5,Goalpara Civil Hospital,True,,hospital,hospital,unchanged,public,public,unchanged,783121,783121,,unresolved
+3818,a571a119-5b0c-4adb-8626-1797b13afef2,Varna Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,563102,563102,,unresolved
+3836,a8d82d45-fd20-45b5-8d01-392ebecb7069,Maya Sanyal Clinic & Nursing Home,True,,clinic,clinic,unchanged,private,private,unchanged,734001,734001,district_mode_selected,ambiguous_reference_mapping
+3839,a99169aa-ad37-4b39-af36-f334e8f07fa1,"Dr. Shamer Singh Memorial Radio- Diagnostic Center SCF 13-14, Sector 16-D, Chandigarh, India",True,,clinic,clinic,unchanged,private,private,unchanged,160016,160016,,unresolved
+3847,abc45713-e356-4f3c-853c-04b8fea4b4e4,Gandhinagar Fetal Medicine Centre,True,,clinic,clinic,unchanged,private,private,unchanged,382411,382411,,unresolved
+3857,We specialize in 652+ surgeries,,False,invalid_unique_id|invalid_organization_type,08f3da5d5e468b2a03d47c01e6c4c057,,unmapped,"[""https://www.justdial.com/Hissar/Gynaecologist-Obstetrician-Doctors-in-Hissar-Sector-14/nct-10551087/page-4"",""https://www.medicineindia.org/hospitals-in-state/haryana"",""https://www.drlogy.com/ayushman-bharat/hospitals/haryana/hisar/lifeline-institute-of-medical-sciences"",""https://www.policyx.com/health-insurance/network-hospitals/star-health-hisar-haryana/"",""https://www.justdial.com/Fatehabad-Haryana/Laparoscopy-Hospitals-in-Alika/nct-11380927"",""https://www.gconnect.in/defence-services/echs/echs.html"",""https://indialei.in/detailed-information/42801955/894500FHDVEYVCZX5940/lifeline-institute-of-medical-sciences/"",""https://www.facebook.com/179780832060636"",""https://www.facebook.com/100268282042981"",null]",,unmapped,kie,,,invalid_pincode
+3860,ad3a5892-83e5-4dee-a087-d74c6c24b43f,National Institute Of Gastroenterology And Liver Diseases,True,,hospital,hospital,unchanged,private,private,unchanged,500 034,,,invalid_pincode
+3871,ae711d74-537e-4b53-9d44-84e17eb89a53,Shanti Nursing Home,True,,hospital,hospital,unchanged,private,private,unchanged,734001,734001,district_mode_selected,ambiguous_reference_mapping
+3874,af0146d5-d99e-44c0-a121-d3ada0dfc482,The Rejuvene Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,360 001,,,invalid_pincode
+3889,b1ab2762-16d1-44de-8247-76673accdba7,Ahmed Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,190015,190015,ambiguous_district,ambiguous_reference_mapping
+3892,b223f92d-0a2a-4c54-82ab-e049cdf58104,Rajam Medical Centre and Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,641 021,,,invalid_pincode
+3893,b239fac5-e419-4f83-ae10-a2372bac4bf6,Radha Raman Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,CUTTACK-9,,,invalid_pincode
+3908,b473554c-1c37-46e2-a853-dcf3d242a70f,Vivekananda Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,500016,500016,ambiguous_district,ambiguous_reference_mapping
+3917,b5fd4d34-89d4-4337-bb16-1e5df88215c2,Lk Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,500047,500047,ambiguous_district,ambiguous_reference_mapping
+3927,b6ec9f3b-46ad-45df-92cd-dd0a11595b17,Daya Hospital,True,,hospital,hospital,unchanged,,,missing,673633,673633,district_mode_selected,ambiguous_reference_mapping
+3931,b83354be-c38e-4621-9247-e579615b2d51,Rewa Nursing Home,True,,hospital,hospital,unchanged,private,private,unchanged,461001,461001,district_mode_selected,ambiguous_reference_mapping
+3976,c0a88000-42d6-42f6-9f78-4e446dce03a1,Advanced Centre for Eyes,True,,clinic,clinic,unchanged,private,private,unchanged,141 001,,,invalid_pincode
+3982,c18abfea-dadd-4b50-bfcb-f432b74260fb,Garg Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,203001,203001,district_mode_selected,ambiguous_reference_mapping
+3983,c1d1697c-adfb-459c-967d-242bd320019b,Dr'S Diamond Dental & Cosmetics,True,,dentist,dentist,unchanged,private,private,unchanged,520007,520007,district_mode_selected,ambiguous_reference_mapping
+3986,c1ffc959-c843-43b0-a155-21a949bedea2,Deepam Specialty Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,636 201,,,invalid_pincode
+3989,c2385b1d-3443-44c1-9647-02dfbe148f48,Modern Diagnostic & Research Centre,True,,clinic,clinic,unchanged,private,private,unchanged,700098,700098,,unresolved
+3991,c250d425-7c9b-4f30-8341-41f6047bd77c,Dr. Khade Superspeciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,410501,410501,district_mode_selected,ambiguous_reference_mapping
+3999,c50ba793-081d-4429-9f5e-93bcb437f661,Family Dental Clinic And Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,314001,314001,district_mode_selected,ambiguous_reference_mapping
+4032,cb5fd722-e578-4958-8eb4-0f7960cab4e6,Apollo Sugar Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,492007,492007,,unresolved
+4033,cb6c45cd-80ed-47ea-ba1c-6068d081b1b0,Star Dental Hospital & Root Canal Centre,True,,hospital,hospital,unchanged,private,private,unchanged,517501,517501,district_mode_selected,ambiguous_reference_mapping
+4047,cdcc342f-b707-4a15-9f5a-a869354d0a9e,Lall Nursing And Maternity Home,True,,hospital,hospital,unchanged,private,private,unchanged,122021,122021,,unresolved
+4068,d1238b8a-d0b9-405d-82df-0657654d1fe3,Balaji Dental & Orthodontic Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,517501,517501,district_mode_selected,ambiguous_reference_mapping
+4095,d643f869-169b-4597-bb15-1335ebaba9d7,Chanddni Hospital,True,duplicate_unique_id,hospital,hospital,unchanged,private,private,unchanged,324005,324005,exact,exact_reference_mapping
+4096,d643f869-169b-4597-bb15-1335ebaba9d7,Chanddni Hospital,False,duplicate_unique_id,hospital,hospital,unchanged,private,private,unchanged,324005,324005,exact,exact_reference_mapping
+4105,d911e733-6ee7-4e41-a728-8bb9358404dd,Krishnaya Institute of Cardioc & Fetal Science,True,,hospital,hospital,unchanged,private,private,unchanged,700105,700105,district_mode_selected,ambiguous_reference_mapping
+4125,dbf2822a-6a77-4ad0-8f08-b080fad1c477,Bharti Children & Cardiac Diabetic Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,41027,,,invalid_pincode
+4128,dc57255f-d957-42df-b6cc-ed07f05b1f82,"Nucleus Pathology Laboratory - Sheshadri Apartments, Rambag colony, Paud Road, Pune - 38",True,,,,missing,,,missing,38,,,invalid_pincode
+4155,e173a725-cf85-479d-8e15-093c9a1a4409,Health Corner Speciality Clinic - Chandrayangutta,True,,clinic,clinic,unchanged,private,private,unchanged,500005,500005,district_mode_selected,ambiguous_reference_mapping
+4161,e3055496-1a80-4d0f-92f2-3006bcb80f42,"Apollo Clinic 1, Cosmic Enclave, Opposite SBI Bank (Sama Branch) Near GIPCL Circle,Vadodara-390008",True,,clinic,clinic,unchanged,private,private,unchanged,390008,390008,missing_geo,ambiguous_reference_mapping
+4168,e3e0514a-1dc5-48fb-9827-e8cf904e3332,"Infinit Dental Solutions - Jayanagar 9th block, South Bangalore",True,,clinic,clinic,unchanged,private,private,unchanged,560069,560069,,unresolved
+4205,ee0186ca-3f59-4063-9b98-9ab52842b3a7,Hair Transplant in Delhi,True,,clinic,clinic,unchanged,private,private,unchanged,110048,110048,district_mode_selected,ambiguous_reference_mapping
+4227,f451de69-af72-4a53-8fa9-ecaa45fcf26d,Rajarhat Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,700135,700135,district_mode_selected,ambiguous_reference_mapping
+4240,f71b47e9-1504-40f9-9256-706f6173280b,Mamta Super Speciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,492007,492007,,unresolved
+4251,f8c1524a-7643-491f-be7f-a4ac747f7d75,Saavi Diagnostic Centre,True,,clinic,clinic,unchanged,private,private,unchanged,700023,700023,district_mode_selected,ambiguous_reference_mapping
+4255,f904b115-9432-489d-b86a-898977baee55,"Dhanvantari Homoeopathic Medical College And Hospital & Research Centre, Nashik",True,,hospital,hospital,unchanged,private,private,unchanged,422 008,,,invalid_pincode
+4258,Our hospital is uniquely equipped to handle the distinct medical needs of women at all stages of life," we offer compassion and excellent care.""",False,invalid_unique_id|invalid_organization_type,23.013490676879883,,unmapped,72.52645111083984,,unmapped,0,,,invalid_pincode
+4272,fc857e36-8192-40c9-af66-d2c7c7d478a8,SRM Diagnostics,True,,clinic,clinic,unchanged,private,private,unchanged,600089,600089,ambiguous_district,ambiguous_reference_mapping
+4277,fe23dd4d-7cca-47b3-aad4-293b62e32cb2,Shraddha Heart Hospital,True,duplicate_unique_id,hospital,hospital,unchanged,private,private,unchanged,400086,400086,exact,exact_reference_mapping
+4278,fe23dd4d-7cca-47b3-aad4-293b62e32cb2,Shraddha Heart Hospital,False,duplicate_unique_id,hospital,hospital,unchanged,private,private,unchanged,400086,400086,exact,exact_reference_mapping
+4284,ff56070d-d567-402d-b738-1e8f8789766c,Swapna Healthcare,True,,hospital,hospital,unchanged,private,private,unchanged,500 016,,,invalid_pincode
+4288,00361ecc-7edf-4799-ad64-5831d6eda89a,Gunam Hospital - Hosur,True,,hospital,hospital,unchanged,private,private,unchanged,635 109,,,invalid_pincode
+4302,01da102f-8e41-456d-a2fb-3c87124af1f1,Niramaya Polyclinic and Diagnostics,True,,clinic,clinic,unchanged,private,private,unchanged,700135,700135,district_mode_selected,ambiguous_reference_mapping
+4308,02a3b541-de4e-42d8-95e0-c6dbc700f5dc,Dr. Susheela Tiwari Government Hospital,True,,hospital,hospital,unchanged,public,public,unchanged,263129,263129,,unresolved
+4319,04ab2a19-31d3-4f5b-843f-97143b1be64e,"Patanjali Wellness Centre – Swami Parmanand Prakritik Chikitsalaya (Vinod Nagar, New Delhi)",True,,hospital,hospital,unchanged,private,private,unchanged,110092,110092,district_mode_selected,ambiguous_reference_mapping
+4322,04d8217d-b4c7-4cd4-b94a-649af55d716f,Helios Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,517501,517501,district_mode_selected,ambiguous_reference_mapping
+4344,07ca968a-e4ea-4fad-ad4f-55123435a3b2,Wound and Vein Advance Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,400062,400062,,unresolved
+4349,08d4967a-b02f-4373-aace-2db8f64b0e27,Imkongliba Memorial District Hospital,True,,hospital,hospital,unchanged,public,public,unchanged,798601,798601,district_mode_selected,ambiguous_reference_mapping
+4352,09338cdb-11b0-4b37-9361-694e7d4bc255,Chaudhary Ehsan Kareem Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,208001,208001,district_mode_selected,ambiguous_reference_mapping
+4363,0ac3da4a-b461-43f5-893a-5c193dbbac45,Satya Children Care Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,517501,517501,district_mode_selected,ambiguous_reference_mapping
+4366,0b27409a-97f4-4468-94d5-2e4d52cd96c4,Dr. Mathur Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,302014,302014,,unresolved
+4394,0fe3fe7f-f1d9-4332-9147-2c35de3179f0,"Sun Medical And Research Centre Thrissur, Kerala, India - 680 001",True,,hospital,hospital,unchanged,private,private,unchanged,680 001,,,invalid_pincode
+4395,0ff86be5-edf1-453a-a21f-bfb8bf277128,"Westend Eye Hospital - Near Vimalalayam, Kacheripady, Chittoor Road Cochin 18, Kerala, India",True,,hospital,hospital,unchanged,private,private,unchanged,18,,,invalid_pincode
+4406,11db1856-af79-473a-83cb-2ff087e839f8,The Big Banyan Healthcare,True,,clinic,clinic,unchanged,private,private,unchanged,560049,560049,ambiguous_district,ambiguous_reference_mapping
+4437,16fe30ba-4894-404e-af54-c28652126a6f,KP Multi Speciality Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,600112,600112,,unresolved
+4449,18eaa161-f30b-4861-8ce9-a2300cca3932,Raja Superspeciality Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,600037,600037,ambiguous_district,ambiguous_reference_mapping
+4482,2004642f-169a-4109-94d7-64eb920a2f2b,Viswananda Heritage Ayurveda Clinic and Panchakarma Center,True,,clinic,clinic,unchanged,private,private,unchanged,42,,,invalid_pincode
+4492,21c00074-a64d-4f5c-8ebc-70efa64da1bb,Monaris Skin and Hair Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,110024,110024,district_mode_selected,ambiguous_reference_mapping
+4495,Our clinic provides comprehensive solutions for acne, fungal infections,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,2025-12-20,,,invalid_pincode
+4504,2438a69f-55a6-4cbc-b4e7-ede6707157d2,B. D. Pandey District Hospital Blood Bank,True,,hospital,hospital,unchanged,public,public,unchanged,262529,262529,district_mode_selected,ambiguous_reference_mapping
+4514,2605d8bd-380a-4ad5-b170-408e1dcdd1be,Dipali Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,583201,583201,district_mode_selected,ambiguous_reference_mapping
+4525,277e82f0-241a-458a-b9fc-e32d2b3dfcba,Sabine Hospital and Research Centre,True,duplicate_unique_id,hospital,hospital,unchanged,private,private,unchanged,686674,686674,,unresolved
+4526,277e82f0-241a-458a-b9fc-e32d2b3dfcba,Sabine Hospital and Research Centre,False,duplicate_unique_id,hospital,hospital,unchanged,private,private,unchanged,686674,686674,,unresolved
+4530,27f1d676-0bd0-463e-b03a-05d467877f69,WUS Health Centre,True,,hospital,hospital,unchanged,private,private,unchanged,110007,110007,district_mode_selected,ambiguous_reference_mapping
+4531,28091975-adbd-4746-b752-dbf84ee237eb,Manokamna Hospital,True,,hospital,hospital,unchanged,,,missing,734001,734001,district_mode_selected,ambiguous_reference_mapping
+4538,29420e17-02f2-4e46-be93-eaad83fa3521,Indrawati Devi Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,800018,800018,,unresolved
+4542,29e21b4c-f860-41b0-a9bd-e19790af7bda,R.K. Hospital,True,,hospital,hospital,unchanged,,,missing,110042,110042,district_mode_selected,ambiguous_reference_mapping
+4546,2a539b32-7041-413e-9e2b-44296a7657cc,Ayush Hospital And Diagnostic Center,True,,hospital,hospital,unchanged,private,private,unchanged,786005,786005,,unresolved
+4547,2a5453b6-cfa4-4b43-8919-e7df18ccf1cb,Align 32 Family Dental Care Centre,True,,clinic,clinic,unchanged,private,private,unchanged,413300,413300,,unresolved
+4566,2c9462bd-4960-41f7-8754-e4feac9f2b77,ESI Hospital,True,,hospital,hospital,unchanged,public,public,unchanged,502334,502334,district_mode_selected,ambiguous_reference_mapping
+4585,30139d30-e820-426e-8acd-75f9db9de84c,Agasthya Ayurvedic Medical Center,True,,hospital,hospital,unchanged,private,private,unchanged,688550,688550,,unresolved
+4604,325be5e7-5b85-473b-bab6-a6e46120011f,Inodaya Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,533003,533003,district_mode_selected,ambiguous_reference_mapping
+4612,33178d9b-d925-4fa8-9965-0af0ac0ba7e1,SRK Scan Centre,True,,clinic,clinic,unchanged,private,private,unchanged,613 007,,,invalid_pincode
+4617,345ebf51-1bdd-4e21-89c9-91c90f7bda86,Apex Dental and Health Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,110084,110084,district_mode_selected,ambiguous_reference_mapping
+4626,358e9c46-2636-41a5-bac2-144c838e567b,Jaisee Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,625010,625010,,unresolved
+4636,36556485-61f1-44a2-9d39-361a5cd6925d,"Shri Mahavir Hospital Ambikapur, Chhattisgarh",True,,hospital,hospital,unchanged,private,private,unchanged,497001,497001,district_mode_selected,ambiguous_reference_mapping
+4659,3914defc-e17b-4932-b560-a601eb95e0ab,Aaxis Hospitals,True,,hospital,hospital,unchanged,,,missing,560067,560067,ambiguous_district,ambiguous_reference_mapping
+4682,3aef8f00-e950-4e69-b688-b1deaa619f9b,Shubham Nursing Home,True,,hospital,hospital,unchanged,private,private,unchanged,231307,231307,district_mode_selected,ambiguous_reference_mapping
+4689,3c0c8325-7198-4bc3-87ec-0a1409f37372,Kalra Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,110024,110024,district_mode_selected,ambiguous_reference_mapping
+4715,3f7e7649-c1c0-46be-b320-45192b55bf89,Jeevan Women Care Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,87,,,invalid_pincode
+4718,3f97b772-d399-4790-bf87-6508e7744681,Navjeeva Ayurvedic Dispensary,True,,farmacy,pharmacy,corrected_typo,private,private,unchanged,431002,431002,exact,exact_reference_mapping
+4723,4119f83a-4a23-49f0-8d75-69ceb7532e4e,Khandelwal Dental and Skin Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,11,,,invalid_pincode
+4725,415adc21-4032-4c18-9bfe-b12ae0dcdb63,Umakant Eye Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,583201,583201,district_mode_selected,ambiguous_reference_mapping
+4730,41ff825c-3955-4b42-82a2-ee08663f6846,Say Cheese Multispecialty Dental Clinic - Gachibowli,True,,clinic,clinic,unchanged,private,private,unchanged,500032,500032,ambiguous_district,ambiguous_reference_mapping
+4761,479743d8-f28c-4056-b12e-829bad5e3115,Miracle Women & Children's Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,560049,560049,ambiguous_district,ambiguous_reference_mapping
+4768,484daa30-8221-455a-af92-e7d5784b18c0,Meenakshi Speech & Hearing Clinics,True,,clinic,clinic,unchanged,private,private,unchanged,110048,110048,district_mode_selected,ambiguous_reference_mapping
+4775,4947d7f1-c91c-4078-a3aa-37536b7d1c48,Global Agnikarma Centre,True,,clinic,clinic,unchanged,private,private,unchanged,382346,382346,,unresolved
+4798,4c3e0a68-4ebb-4d07-a08c-328f0fb11e39,Dr. Dr. Obul Reddy Heart Care & Multi Speciality Centre,True,,,,missing,private,private,unchanged,533003,533003,district_mode_selected,ambiguous_reference_mapping
+4809,4d482e1f-2970-484e-a94d-6e228458798f,Ginni skin and laser hospital,True,,clinic,clinic,unchanged,private,private,unchanged,121102,121102,district_mode_selected,ambiguous_reference_mapping
+4820,4ef64bf6-489e-4b9b-a1a4-862c0f2a3e0a,Tarakeswar Rural Hospital Hoogly,True,,hospital,hospital,unchanged,public,public,unchanged,712410,712410,district_mode_selected,ambiguous_reference_mapping
+4821,4efd0dab-d828-4560-9091-500c48954561,Vision Multi Specialty Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,533440,533440,ambiguous_district,ambiguous_reference_mapping
+4824,4f29d1ab-d901-4de6-81c7-23141741b025,Surya Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,822112,822112,district_mode_selected,ambiguous_reference_mapping
+4868,549251c6-97b1-414a-a78f-95127f7b5d19,Smilesparks Dental & Orthodontic Center,True,,dentist,dentist,unchanged,private,private,unchanged,10,,,invalid_pincode
+4876,5575eb04-a2ed-4357-ab04-b9dbfa6a510d,Vatsalya Children Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,221102,221102,,unresolved
+4881,55f5d11c-7761-4264-917d-c32ffdbf1c88,Sai Medicare,True,,pharmacy,pharmacy,unchanged,private,private,unchanged,734001,734001,district_mode_selected,ambiguous_reference_mapping
+4908,58ff33e2-7e14-409b-8753-ace4557a15b3,Spandana Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,560039,560039,,unresolved
+4914,59bfb79a-5c19-4da0-a85b-b1c3eed73c08,"National Institute of Homoeopathy, Kolkata",True,,hospital,hospital,unchanged,public,public,unchanged,700 106,,,invalid_pincode
+4940,5c8a6651-ac4a-4292-b0ff-ed9525284112,MAA E.N.T. Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,500 033,,,invalid_pincode
+4967,613140d0-3318-4ccc-a50f-4868df72b67f,Focus Dental Care Gachibowli,True,,clinic,clinic,unchanged,private,private,unchanged,500032,500032,ambiguous_district,ambiguous_reference_mapping
+4990,644fd371-64f7-46eb-8002-ac77bf300585,Neuro Care Hospital Jaipur,True,,hospital,hospital,unchanged,private,private,unchanged,302023,302023,,unresolved
+4997,65206cf8-b10a-44e7-9f55-f6d343c38be9,"Ikshan Eye Hospital and LASER Centre, Nagpur",True,,hospital,hospital,unchanged,private,private,unchanged,440011,440011,,unresolved
+5015,67409c4c-a2eb-4f4e-926d-cb18f14488b3,"Kejriwal Stone Clinic & Kidney Care Centre, Sevoke Road, Siliguri",True,,clinic,clinic,unchanged,private,private,unchanged,734001,734001,district_mode_selected,ambiguous_reference_mapping
+5024,68c61109-4989-47f6-be28-88f41e288dec,Cee Dee Diagnostics Palam Delhi,True,,clinic,clinic,unchanged,private,private,unchanged,110077,110077,district_mode_selected,ambiguous_reference_mapping
+5027,69b2e64c-5a97-4ada-ab87-47ede45e3dd3,Baby Steps Fertility Centre,True,,clinic,clinic,unchanged,private,private,unchanged,600095,600095,district_mode_selected,ambiguous_reference_mapping
+5033,6b47653b-ae68-4bf6-aaee-ed2bf05cbc72,City Smiles Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,390008,390008,missing_geo,ambiguous_reference_mapping
+5046,6cfc9ae4-b1ec-4f54-907b-e7c3af15178a,Sunrise Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,110065,110065,district_mode_selected,ambiguous_reference_mapping
+5063,6fa191c3-09f0-4eab-b38e-cb9daac83dc0,Port View Nursing Home,True,,hospital,hospital,unchanged,private,private,unchanged,700023,700023,district_mode_selected,ambiguous_reference_mapping
+5078,71a5b59c-23ad-4744-8a5a-f1d8c8afdf58,Hans Charitable Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,110009,110009,district_mode_selected,ambiguous_reference_mapping
+5079,71e14683-1963-45b5-ae18-b8aa1e712c71,Sukruthi Orthopedics and Joint Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,560069,560069,,unresolved
+5081,71fb9193-4246-45bc-89bc-acf66da75ecc,Diacare Diabetes Specialities Center,True,,clinic,clinic,unchanged,private,private,unchanged,643011,643011,,unresolved
+5092,73ab1b1b-2352-4e3d-929e-058147aa376a,Aastha Medical Centre,True,,clinic,clinic,unchanged,private,private,unchanged,110024,110024,district_mode_selected,ambiguous_reference_mapping
+5095,73fb1425-7c6f-413d-9279-573445b62452,Dr Varun's Dental Clinic,True,,dentist,dentist,unchanged,private,private,unchanged,380000,380000,,unresolved
+5096,749d791f-857e-4de6-b774-9d4ac7e3e93c,Mothers Speciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,600053,600053,district_mode_selected,ambiguous_reference_mapping
+5099,We specialize in 883+ surgeries,4,False,invalid_unique_id|invalid_organization_type,08f3d32534cd998d03b0bda3b1839e82,,unmapped,"[""https://www.justdial.com/Pathankot/24-Hours-Gynaecologist-Doctors/nct-11097568"",""https://www.scribd.com/document/820578841/All-Hospital-Final-List-Sheet2-1"",""https://www.drlogy.com/ayushman-bharat/hospitals/punjab/amritsar/gupta-multispeciality-hospital-amritsar"",""https://www.tribuneindia.com/news/amritsar/another-hospital-in-the-dock-300562/"",""https://watchdoq.com/blog/hospitals/amritsar/gupta-multispeciality-hospital"",""https://www.facebook.com/386844161831620"",""https://www.practo.com/amritsar/hospital/gupta-multispeciality-hospital-sant-avenue"",""https://amritsar.nic.in/public-utility/gupta-multispeciality-hospital/"",""https://www.eka.care/doctor/dr-r-k-gupta-general-medicine-amritsar"",null]",,unmapped,kie,,,invalid_pincode
+5106,764025d8-bfd6-4c0d-84f8-5e7bf4d80255,Mewar Hospital Shahdol,True,,hospital,hospital,unchanged,,,missing,484001,484001,district_mode_selected,ambiguous_reference_mapping
+5122,7930b04c-c4c3-4662-8328-c659e4133d63,Prasanthi Hospital,True,,hospital,hospital,unchanged,,,missing,222321,222321,,unresolved
+5123,7949a693-719c-4069-8616-3d6b669b12f0,Dr Padmaja Fertility Centre,True,,clinic,clinic,unchanged,private,private,unchanged,500 007,,,invalid_pincode
+5136,7b4e2f09-08a1-4121-8c9b-9038368425d8,Sapthagiri Eye Care Centre,True,,clinic,clinic,unchanged,private,private,unchanged,517501,517501,district_mode_selected,ambiguous_reference_mapping
+5152,7cd67680-91f8-459e-8919-d876714af1e3,Mukherjee Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,734001,734001,district_mode_selected,ambiguous_reference_mapping
+5187,824fd82c-e0cc-411f-a8e8-55944f02477a,Chennai Heritage Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,600 106,,,invalid_pincode
+5209,86460013-b5cc-4cf0-b68d-feea973c6c3f,Parvathy Medical Centre,True,,farmacy,pharmacy,corrected_typo,private,private,unchanged,643001,643001,exact,exact_reference_mapping
+5210,867883b6-18d5-4208-859a-6a15f6b3e91f,Diet N Nutrition,True,,doctor,doctor,unchanged,private,private,unchanged,144004,144004,,unresolved
+5236,8a7f0671-bf7c-4feb-a6b7-222b7ab84443,Dr Chawla Implant & Orthodontic Centre,True,,clinic,clinic,unchanged,private,private,unchanged,110009,110009,district_mode_selected,ambiguous_reference_mapping
+5256,8c8cbb15-6b6b-4b4e-856a-2360c582fd48,"Kashmir Eye Hospital, Srinagar",True,,hospital,hospital,unchanged,private,private,unchanged,190015,190015,ambiguous_district,ambiguous_reference_mapping
+5269,8f03caac-4bc4-4360-bbe5-754279312811,Nashik Fertility Center,True,,hospital,hospital,unchanged,private,private,unchanged,13,,,invalid_pincode
+5271,8fbe44ce-41bf-42f9-9acc-87363f0429fe,Clinic Elegance,True,,clinic,clinic,unchanged,private,private,unchanged,110048,110048,district_mode_selected,ambiguous_reference_mapping
+5286,9184efcd-db04-46d7-baeb-9fdf811fce56,Asha Kiran Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,45,,,invalid_pincode
+5287,91b1e99f-195c-4826-9c25-a2b48b5a9f33,Hubli Super Speciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,580-031,,,invalid_pincode
+5288,91feb7b2-c442-478a-99ac-d5a9228c93d4,Faith Infertility And IVF Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,201009,201009,district_mode_selected,ambiguous_reference_mapping
+5291,925c4372-f5aa-4fe5-a0f3-fe2127d99619,Aastha Dental Care,True,,dentist,dentist,unchanged,private,private,unchanged,305994,305994,,unresolved
+5295,931cb84f-82c9-4849-a282-9a9b639d0349,Arisjuvady Mental Health Center,True,,clinic,clinic,unchanged,private,private,unchanged,7,,,invalid_pincode
+5299,9421d561-c902-40b4-9550-3fda485d3cf4,Blooming Smiles Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,302121,302121,,unresolved
+5312,95e03397-4a89-431e-9e7a-c3bf12413190,Sarvoday Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,360110,360110,district_mode_selected,ambiguous_reference_mapping
+5313,95f35d21-a8c6-4822-8acc-ebddcbfdcb62,Shravana Hearing Aid Centre - Bangalore,True,,clinic,clinic,unchanged,private,private,unchanged,5600019,,,invalid_pincode
+5331,975e993b-d229-47c0-8a38-151685479592,Kamti Healthcare Diagnostics,True,,clinic,clinic,unchanged,private,private,unchanged,734088,734088,,unresolved
+5338,98f817f4-b135-4274-bc2a-39a04cc8700b,Dheeraj Bafna Jain Physiotherapy Center,True,,clinic,clinic,unchanged,private,private,unchanged,600108,600108,,unresolved
+5347,9a5cb946-0faa-4315-a102-f2b8954710b1,Family Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,110092,110092,district_mode_selected,ambiguous_reference_mapping
+5391,9f3c6c60-8512-4a1d-be69-54b262d521eb,Medigo Multispeciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,517502,517502,district_mode_selected,ambiguous_reference_mapping
+5393,9f50c953-cd35-474b-a335-7e79def380c2,Ashwin Scan,True,,clinic,clinic,unchanged,private,private,unchanged,600053,600053,district_mode_selected,ambiguous_reference_mapping
+5400,a0131848-5491-4442-a3fb-ac5d47edae28,Vidyasagar Institute of Mental Health and Neuro and Allied Sciences,True,,hospital,hospital,unchanged,private,private,unchanged,110065,110065,district_mode_selected,ambiguous_reference_mapping
+5404,a0c357ba-ca01-41f8-8428-b36a94a35096,"Yadav Dental Care Clinic - Balrampur, Balrampur",True,,clinic,clinic,unchanged,private,private,unchanged,271200,271200,,unresolved
+5462,a948a2d7-b57a-4df6-b082-d8e5b86a214b,Civil Hospital Palwal,True,,hospital,hospital,unchanged,public,public,unchanged,121102,121102,district_mode_selected,ambiguous_reference_mapping
+5485,ac1fdfb4-f5d3-4b43-b6ba-fbe6e2fbd09d,Meraki Dental Studio - Best Dentist In Delhi India,True,,dentist,dentist,unchanged,private,private,unchanged,110049,110049,district_mode_selected,ambiguous_reference_mapping
+5487,ac30d25e-ad53-48a3-abcb-0c70d81299c5,Lodha Hospital And Maternity Home,True,,hospital,hospital,unchanged,private,private,unchanged,411029,411029,,unresolved
+5488,ac3b8d41-a4f1-4e61-a55c-a988b4882c71,Newlife Fertility Centre – Siliguri,True,,clinic,clinic,unchanged,private,private,unchanged,734004,734004,district_mode_selected,ambiguous_reference_mapping
+5494,acb3758a-65ec-4f60-84f1-9e8db712be7b,Ganesh Ortho Trauma & Medical Centre,True,,clinic,clinic,unchanged,private,private,unchanged,110051,110051,ambiguous_district,ambiguous_reference_mapping
+5495,acbf6224-a6a4-48b5-b65e-79a48877b673,Urja Ayurveda Panchakarma Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,39,,,invalid_pincode
+5497,Their staff at Green Dental Clinic provides complete dental care with the highest standard of treatment,,False,invalid_unique_id|invalid_organization_type,"[""https://mediniz.com/public/feeds/Top-10-Best-Dental-Clinics-in-Patna"",""https://www.indiamart.com/green-dental-care-patna/"",""https://www.justdial.com/Patna/Green-Dental-Care-Opp-Saket-Galaxy-Boring-Road/0612PX612-X612-170425174643-M9T2_BZDET"",""https://www.justvisitonline.com/listing/Patna/dental-clinic-in-boring-road"",""https://www.mappls.com/place-green+dental+care+best+dentists-b-150-near+saket+galaxy-sri+ram+path-west+boring+canal+road-patna-bihar-800013-OXR1MX@zdata=MjUuNjIwNTM5Kzg1LjEyMTY2OSsxNytPWFIxTVgrKw==ed"",""http://www.greendentalcare.in/"",""https://www.facebook.com/613645765451688"",""https://happysmiledentalcare.in/12-popular-cosmetic-dental-procedures-available-in-patna-your-complete-guide-to-a-perfect-smile/"",""https://www.eka.care/clinic/green-dental-care-328-77925758"",null]",,unmapped,,,missing,"{""coordinates"":[85.12193298339844,25.620325088500977],""type"":""Point""}",,,invalid_pincode
+5506,ad4b5e23-b438-4572-b4bc-8cae98985b9d,Dr. Sabadra's Advanced Dentistry Center,True,,clinic,clinic,unchanged,private,private,unchanged,400023,400023,,unresolved
+5534,b0e6c53b-b12f-4024-b089-7de2ca0bda16,Kailash Cancer Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,391 760,,,invalid_pincode
+5569,b582556c-5532-4a17-86c9-ab638d7ddcf3,Dr Sinha Acupuncture Clinic – M-53 Kalkaji New Delhi,True,,clinic,clinic,unchanged,private,private,unchanged,110019,110019,district_mode_selected,ambiguous_reference_mapping
+5586,b7ebc06d-a35e-4382-8acd-b4621d330687,Nimbus Eye Centre,True,,hospital,hospital,unchanged,private,private,unchanged,160044,160044,,unresolved
+5591,b8d2eb96-5ea2-4946-9d69-e12af15634ba,Unikare Hospital,True,,hospital,hospital,unchanged,,,missing,302011,302011,,unresolved
+5603,ba77e8e8-1596-48b3-933b-e5dad5c98dca,"Dentes Clinic – 207 East Veli Street, Madurai – 625 001",True,,clinic,clinic,unchanged,private,private,unchanged,625 001,,,invalid_pincode
+5606,bafdfd43-51a2-413a-b0b9-bb19275c2833,"Laxmi Dental Clinic - Gandhinagar, Gujarat, India",True,,clinic,clinic,unchanged,private,private,unchanged,382024,382024,,unresolved
+5615,bc049b3b-735a-432c-b2eb-d597298571aa,Saranya Ayurveda Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,641 105,,,invalid_pincode
+5625,bd573ccc-780e-4781-a939-5285adf7fe00,Mother Divine Fertility,True,,clinic,clinic,unchanged,private,private,unchanged,110048,110048,district_mode_selected,ambiguous_reference_mapping
+5637,bfb3f876-ea26-4eed-bbf1-ab8d67965239,Smile Delhi ,True,,clinic,clinic,unchanged,private,private,unchanged,110025,110025,ambiguous_state,ambiguous_reference_mapping
+5639,bff54c37-55a6-42ae-8f5c-738c95a2271e,Amara Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,517520,517520,district_mode_selected,ambiguous_reference_mapping
+5640,c013e4d7-6f8e-47a0-83f3-95a497180770,Prashamsa Hospital,True,,hospital,hospital,unchanged,,,missing,500010,500010,ambiguous_district,ambiguous_reference_mapping
+5647,c11d175a-ae2b-4b31-90b5-fe73b3a040cb,Vanni Hospital,True,duplicate_unique_id,hospital,hospital,unchanged,public,public,unchanged,626101,626101,exact,exact_reference_mapping
+5648,c11d175a-ae2b-4b31-90b5-fe73b3a040cb,Vanni Hospital,False,duplicate_unique_id,hospital,hospital,unchanged,public,public,unchanged,626101,626101,exact,exact_reference_mapping
+5656,c22c77ea-e633-427c-b4f0-0c0ded9371cb,Ankur Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,322202,322202,district_mode_selected,ambiguous_reference_mapping
+5662,c2b79056-3772-459b-8693-8ed128e86e46,Swaasthya Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,517300,517300,,unresolved
+5664,c2c2f471-241c-489e-9d0d-e422fa66ff7f,Cygnus J K Hindu Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,110007,110007,district_mode_selected,ambiguous_reference_mapping
+5670,c3523a04-8453-47dd-8b0b-b9b301a25480,Rani Eye Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,148023,148023,district_mode_selected,ambiguous_reference_mapping
+5674,c3eb6ccc-7516-4493-af90-147d01fb8464,PROSTHOTOUCHDentalCare,True,,dentist,dentist,unchanged,private,private,unchanged,382009,382009,,unresolved
+5697,ca1701ea-df26-4e85-af75-53e41a424f51,Orange Dental Clinic & Maxillofacial Surgery Center,True,,clinic,clinic,unchanged,private,private,unchanged,440009,440009,,unresolved
+5700,ca4aca78-9612-4fe5-93dc-eb28fa8a4cc6,Mahe Institute of Dental Sciences and Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,673 310,,,invalid_pincode
+5702,cb099d20-e980-4c70-bf2b-f80ee98bddf9,"Dental DNA – City Dental Hospital & Research Center, Japla",True,,hospital,hospital,unchanged,private,private,unchanged,822115,822115,district_mode_selected,ambiguous_reference_mapping
+5715,cc868995-7551-441c-b86d-3648e98924e7,Mahajan Imaging & Labs,True,,clinic,clinic,unchanged,private,private,unchanged,110024,110024,district_mode_selected,ambiguous_reference_mapping
+5725,ce43c06e-ad54-4a03-84cf-dadadba21646,Nova IVF Fertility - Ranchi,True,,clinic,clinic,unchanged,private,private,unchanged,834 009,,,invalid_pincode
+5729,cf141af9-03dc-4bda-8d45-22c15882b505,Anil X-Ray & Pathology,True,,clinic,clinic,unchanged,private,private,unchanged,497001,497001,district_mode_selected,ambiguous_reference_mapping
+5732,cfa1d2a0-f0d0-4c60-b1e9-44ab871f3e59,Dr Chikara Dental Care and Implant Centre,True,,clinic,clinic,unchanged,private,private,unchanged,247776,247776,district_mode_selected,ambiguous_reference_mapping
+5733,cfa7aa31-c7cb-4f44-9a9b-daf0a3a48962,Centre Point Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,440009,440009,,unresolved
+5735,cfc83238-642a-498f-8e61-d8e9aa124cd1,Hope International Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,533005,533005,district_mode_selected,ambiguous_reference_mapping
+5753,d232fc53-e4d0-4cea-bd7f-6e3c263ecc0a,Quality Care Lab,True,,clinic,clinic,unchanged,private,private,unchanged,533003,533003,district_mode_selected,ambiguous_reference_mapping
+5761,d40967c4-3ae4-4d3e-a3c3-e93f820adc57,Uma Super Speciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,831018,831018,,unresolved
+5794,d9178b81-b6a0-4558-a977-7760e67ba8c2,Fims Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,131031,131031,,unresolved
+5811,db319f68-14bb-42df-881e-c78c563d9803,Ashirvad Joint Replacement Center,True,,hospital,hospital,unchanged,private,private,unchanged,385500,385500,,unresolved
+5818,dbb5e053-5882-4319-983b-3da9e80dd9b6,Capital Dental Clinic,True,,dentist,dentist,unchanged,private,private,unchanged,382421,382421,district_mode_selected,ambiguous_reference_mapping
+5852,df194c53-510a-4b2d-b201-fb7cb59dd495,Adarsh Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,600 014,,,invalid_pincode
+5868,e22f6de9-371b-404c-b9b1-ece9c854f97e,Acharaya Vinoba Bhave Rural Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,442 004,,,invalid_pincode
+5879,e3e48c58-9887-4e18-8c94-e5969fdab1bc,Aditya Ayurveda Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,678609,678609,,unresolved
+5880,e3ffcff7-81ab-4837-a6e5-3113403d66b6,Arogyaman Dental Care,True,,clinic,clinic,unchanged,private,private,unchanged,477011,477011,,unresolved
+5900,e5efd386-a9b5-449c-8bae-c295742d7085,Dr. Kumar’s Homeopathy & Mental Health Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,67,,,invalid_pincode
+5915,e8307411-3c6f-4ad6-90c5-3e5fcba88e9c,"Jay's Dental Care (47, Madipakkam Main Road, Madipakkam, Chennai - 600 091, Tamilnadu, INDIA)",True,,dentist,dentist,unchanged,private,private,unchanged,600 091,,,invalid_pincode
+5933,eb149585-a85e-44ad-9d48-551fbb304db6,St Anthonys Hospital,True,,hospital,hospital,unchanged,,,missing,600060,600060,district_mode_selected,ambiguous_reference_mapping
+5947,ed690a91-fa70-4712-99ec-744732f91a1e,Dr. Benny’s Dentistree,True,,dentist,dentist,unchanged,private,private,unchanged,689122,689122,district_mode_selected,ambiguous_reference_mapping
+5953,edff8634-16d4-40b8-860f-9141e3ebb1ef,Mind Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,80026,,,invalid_pincode
+5954,ee03f573-219c-4f8c-ac6f-a67454bbf921,Dr. Dipankar Poddar Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,700030,700030,district_mode_selected,ambiguous_reference_mapping
+5955,ee32d41e-8330-468f-9a3f-ac6ee0ea1ab9,Vinod Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,148023,148023,district_mode_selected,ambiguous_reference_mapping
+5960,ef274515-777a-4f93-86c2-2fc361ba743a,Bina Clinic Eye Care Centre,True,,clinic,clinic,unchanged,private,private,unchanged,390005,390005,,unresolved
+5962,ef738029-aec2-4165-b712-2716914bf97d,Muskaan Dental & Physiotherapy Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,110092,110092,district_mode_selected,ambiguous_reference_mapping
+5989,f39c50ea-75db-4958-8072-db30fa61c434,Aishwaryam Speciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,636 005,,,invalid_pincode
+5991,f3b72b9c-262e-4bc6-8a5d-1548af04aa35,Hindu Rao Hospital,True,,hospital,hospital,unchanged,public,public,unchanged,110007,110007,district_mode_selected,ambiguous_reference_mapping
+5993,f3d903e7-cc15-4a40-a944-25af1459e07f,Pune Institute Of Nephro Urology,True,,hospital,hospital,unchanged,private,private,unchanged,431027,431027,,unresolved
+6020,f7e5db30-d9a3-435a-aa0d-9a2fb358f7e4,Global Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,272151,272151,district_mode_selected,ambiguous_reference_mapping
+6027,  * __Biochemistry,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+6028,  *  __Microbiology,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+6029,  *  __Histopathology,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+6030,  *  __Hematology,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+6031,  *  __Immunlogy,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+6032,  *  __Serology,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+6033,  *  __Clinical Pathology,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+6034,  *  __Molecular Biology,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+6035,  *  __Genomics,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+6036,"  *  __Oncology""","[""radiology"",""cardiology"",""gastroenterology"",""infectiousDiseases"",""neonatologyPerinatalMedicine"",""clinicalPathology"",""histopathology"",""hematology"",""microbiology"",""immunology"",""serology"",""molecularBiology"",""genomics"",""medicalOncology"",""pathology"",""radiology"",""pathology"",""gynecologyAndObstetrics"",""clinicalPathology"",""radiology"",""radiology"",""familyMedicine"",""radiology"",""pathology"",""infectiousDiseases"",""cardiology"",""pathology"",""diagnosticRadiology""]",False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,11.009271621704102,,,invalid_pincode
+6041,fa083021-f5dc-4596-8ebb-1098cfec38f7,Brilliance Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,797112,797112,district_mode_selected,ambiguous_reference_mapping
+6052,fc09081f-3fc0-4dc8-b314-2c5d4f07f37b,Shubh Imaging Center (Dr. Vishal Bhardava),True,,farmacy,pharmacy,corrected_typo,private,private,unchanged,390019,390019,exact,exact_reference_mapping
+6064,fe0b29b3-b3c0-4d42-9bb5-23f27213ebd2,Skin Lush Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,110009,110009,district_mode_selected,ambiguous_reference_mapping
+6069,fe976a51-7e30-44fc-9b81-918da27e9b7b,Gulmohur Eye Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,400 101,,,invalid_pincode
+6108,03054526-05c1-438f-aca0-ee5a10313b5e,Dingra Dental and Facial Cosmetic Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,110061,110061,ambiguous_district,ambiguous_reference_mapping
+6115,03dc40d2-98e8-45f5-8de9-85822c2535ea,Chiguru Child Care Centre,True,,clinic,clinic,unchanged,private,private,unchanged,573 201,,,invalid_pincode
+6117,03e98c5a-c24c-41ff-aa68-6b17dfc88bae,Khanna Eye Centre,True,,clinic,clinic,unchanged,private,private,unchanged,110092,110092,district_mode_selected,ambiguous_reference_mapping
+6122,041bc292-e55c-425b-96ee-470258f5a4e3,Chavan Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,500005,500005,district_mode_selected,ambiguous_reference_mapping
+6157,07c4e75d-c425-4032-b83f-30a279d4d058,Ziolis Pathlab And Multispeciality Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,734004,734004,district_mode_selected,ambiguous_reference_mapping
+6172,08ccdd11-5eb3-4eaa-9e96-dd518b67a4b4,"Dr Anil Kumar's Eye Hospital, Madurai Branch",True,,hospital,hospital,unchanged,private,private,unchanged,625 016,,,invalid_pincode
+6173,08debf77-bd13-4128-a085-15f9d4083ce6,Dr. Batra's Dentistree,True,,dentist,dentist,unchanged,private,private,unchanged,390008,390008,missing_geo,ambiguous_reference_mapping
+6186,0aec4f83-07e7-4827-8af7-9e87655a3a03,Niky Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,382029,382029,,unresolved
+6193,0ba21a6d-2cbc-4b32-ace7-fa83101e0929,Dr.Mandeep's Dental World,True,,clinic,clinic,unchanged,private,private,unchanged,144400,144400,,unresolved
+6222,0f6c18e4-ac11-4afd-9697-c0900d83e028,Horizon Hospital and Research Institute,True,,hospital,hospital,unchanged,,,missing,795010,795010,district_mode_selected,ambiguous_reference_mapping
+6232,104aeec3-8791-4fa1-afb1-449c09a569b9,Dr Latha’s Dental Kraft,True,,dentist,dentist,unchanged,private,private,unchanged,605014,605014,ambiguous_state,ambiguous_reference_mapping
+6243,11c43b0f-920c-4691-add7-ff95db818e21,Pushp Hospital,True,,hospital,hospital,unchanged,,,missing,422 009,,,invalid_pincode
+6244,11e9a377-8c93-4363-b506-6a36a3b21444,Braces and Dental Centre,True,,dentist,dentist,unchanged,private,private,unchanged,110009,110009,district_mode_selected,ambiguous_reference_mapping
+6246,12293a04-9dbd-4a11-8d0f-015814ec28e0,Dr. Aditi's Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,400 602,,,invalid_pincode
+6284,15f6e1e3-ddeb-4f94-a427-104b6d52ce91,OMSAI MULTISPECIALITY DENTAL CLINIC,True,,clinic,clinic,unchanged,private,private,unchanged,431600,431600,,unresolved
+6290,169ccebe-2ba3-466f-8d7b-e8cd855e6dcb,Studio32,True,,clinic,clinic,unchanged,private,private,unchanged,403600,403600,,unresolved
+6322,1ae265da-8968-4a71-90df-4187c291b8c7,Sanjeevani Eye Hospital & Laser Vision Centre,True,,hospital,hospital,unchanged,private,private,unchanged,421003,421003,,unresolved
+6348,1d815336-8ddf-43ea-953d-e34a4efbe3dd,Trust Multispeciality Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,533005,533005,district_mode_selected,ambiguous_reference_mapping
+6353,1e5b33be-1ba7-4039-9b78-98b7c4d49779,Arora's Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,52,,,invalid_pincode
+6375,20afd12e-242d-4759-91de-cff0d4be40c9,Stork Pain Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,67,,,invalid_pincode
+6384,21516697-be33-449a-a1e4-cae97312f41f,AJ Subaitha Medical Centre,True,,farmacy,pharmacy,corrected_typo,private,private,unchanged,600008,600008,exact,exact_reference_mapping
+6399,23868261-0bd0-4b6d-a096-245f3c410048,"Sharp Sight Centre, New Delhi",True,,hospital,hospital,unchanged,private,private,unchanged,110092,110092,district_mode_selected,ambiguous_reference_mapping
+6403,23ba84ed-ceb3-47fa-a876-370d6ce2e167,Maxima Thyro Diabetic Care,True,,clinic,clinic,unchanged,private,private,unchanged,600080,600080,,unresolved
+6404,23d5a2c9-da9d-4db6-b50b-0b6acb219f98,GARG Dental CARE,True,,dentist,dentist,unchanged,private,private,unchanged,148024,148024,district_mode_selected,ambiguous_reference_mapping
+6409,24412ab2-2fce-4625-8da2-0083860623d8,Dietitian Divya Gandhi's Diet and Nutrition Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,110052,110052,district_mode_selected,ambiguous_reference_mapping
+6415,24bddccd-4a6a-45e2-b03f-f5ec046e6f21,Life Care Health Centre,True,,clinic,clinic,unchanged,private,private,unchanged,244924,244924,ambiguous_state,ambiguous_reference_mapping
+6416,2535280f-9751-4b1b-952e-40820dc530c0,R. N. Kapadia & Company Chemist & Druggist,True,,farmacy,pharmacy,corrected_typo,private,private,unchanged,400002,400002,exact,exact_reference_mapping
+6431,273ec168-5913-41c4-b580-adea0a7e4d97,Shree Hareeyam Arya Vaidyasala,True,,hospital,hospital,unchanged,private,private,unchanged,6700 011,,,invalid_pincode
+6442,299866a7-b9af-4d6a-97c1-b0b0bead06af,Top Notch Dental Clinic,True,,dentist,dentist,unchanged,private,private,unchanged,110019,110019,district_mode_selected,ambiguous_reference_mapping
+6460,2c111f44-3b73-4842-be51-98147a3943a2,Kalyani Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,96,,,invalid_pincode
+6491,2fa45bce-bce4-416f-a9e7-06324bac58ba,"Smiles N Braces Orthodontic Care Centre, Jamshedpur",True,,clinic,clinic,unchanged,private,private,unchanged,831012,831012,district_mode_selected,ambiguous_reference_mapping
+6497,30255969-53ad-47da-83d5-a380f71a67ca,Dadda Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,285001,285001,district_mode_selected,ambiguous_reference_mapping
+6499,3057301e-4a0a-41c9-9d84-fdefbfedc7a9,Lifeaid Medical Centre,True,,clinic,clinic,unchanged,private,private,unchanged,122022,122022,,unresolved
+6540,35bcd48b-8187-4082-ade8-ea6133401a2b,Alam Dental Care & Implant Centre,True,,dentist,dentist,unchanged,private,private,unchanged,831012,831012,district_mode_selected,ambiguous_reference_mapping
+6579,3a2d6e6f-e10d-4a7f-9be0-40231b76190e,Asopa Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,302024,302024,,unresolved
+6592,3b7c281e-3946-4cb2-8520-5c29e4c38e6b,Paaranu IVF & Fetal Medicine Center,True,,clinic,clinic,unchanged,private,private,unchanged,359009,359009,,unresolved
+6596,3bbbe939-7b0d-4123-8adf-c8d9725bd92f,Vikas Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,322202,322202,district_mode_selected,ambiguous_reference_mapping
+6598,3c227c48-b997-43aa-8bb7-3f4bf36454f0,Amvision Eye & Child Care,True,,clinic,clinic,unchanged,private,private,unchanged,110092,110092,district_mode_selected,ambiguous_reference_mapping
+6602,3c89005b-873f-4827-a9b8-67f59f630c5c,District Hospital Seppa,True,,hospital,hospital,unchanged,public,public,unchanged,790102,790102,district_mode_selected,ambiguous_reference_mapping
+6609,3cf51da5-cd54-40aa-b8d3-edccd90e243b,Nova Dental Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,382421,382421,district_mode_selected,ambiguous_reference_mapping
+6625,3e8ed81c-e238-4b31-9dc8-195c3edcb63a,"Hearing Aid Center Delhi - No.143, Rishabh Vihar, Near Cross River Mall, Karkardooma, Opposite Aditya Mall, Delhi - 110092",True,,clinic,clinic,unchanged,private,private,unchanged,110092,110092,district_mode_selected,ambiguous_reference_mapping
+6627,We offer a complete product range of diagnostic centre,,False,invalid_unique_id|invalid_organization_type,85.7743911743164,,unmapped,08f3c8e4161710a00303e18d2ca8093f,,unmapped,,,,missing_pincode
+6635,3f5c2e3c-01b6-4a78-b6cd-fe2f81de5a8f,Nanda Dental Clinic,True,,dentist,dentist,unchanged,private,private,unchanged,110024,110024,district_mode_selected,ambiguous_reference_mapping
+6638,3fc1cb91-b14c-4dd0-b488-7f0d97a9c28d,Eden Medical Centre,True,,hospital,hospital,unchanged,private,private,unchanged,797112,797112,district_mode_selected,ambiguous_reference_mapping
+6654,41751d2d-5b66-49c1-a176-93c18a19a1ba,Om Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,360003,360003,district_mode_selected,ambiguous_reference_mapping
+6676,445f5b41-6931-4862-a181-c7d1273f7c51,Shree Sai Oral Care and Implant Centre,True,,clinic,clinic,unchanged,private,private,unchanged,396 445,,,invalid_pincode
+6685,44f6029d-d2b0-4dee-96f6-b32f8e9d33f1,Samyuktha Healthcare & Diagnostics - Porur,True,,clinic,clinic,unchanged,private,private,unchanged,600116,600116,district_mode_selected,ambiguous_reference_mapping
+6690,454abedb-ba6a-40dc-af5e-ddbc173392ed,Maruti dental clinic,True,,clinic,clinic,unchanged,private,private,unchanged,394600,394600,,unresolved
+6701,46f1868e-a0c4-4f22-a95c-b3043846836d,"SAAOL Experience Center Dehradun (SAAOL Heart and Wellness Research Institute) Shivpuri, Hariyawala Kalan, Dehradun, Uttarakhand-248141",True,,clinic,clinic,unchanged,private,private,unchanged,248141,248141,,unresolved
+6730,4a65bcb5-84be-45ee-9c4a-ae5d471fa9bd,Sree Sanvi Oncology and Rheumatology Center,True,,hospital,hospital,unchanged,private,private,unchanged,517501,517501,district_mode_selected,ambiguous_reference_mapping
+6733,4ad0af97-9fb3-4f2e-b86d-10a0fa5477d9,Scan - X Dental Diagnostic Centre,True,,dentist,dentist,unchanged,private,private,unchanged,395101,395101,,unresolved
+6758,4dd6e8a2-523e-4138-bba5-9c9e1c8dfb99,"Molvi Ibrahim Mulla Memorial Hospital, 228, Bardoli Road, Kabilpore, Navsari - 396424",True,,hospital,hospital,unchanged,private,private,unchanged,396424,396424,,unresolved
+6790,51844456-c63a-42ce-86b9-96e1d9fa0a14,Aakar Plastic Surgery Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,390015,390015,,unresolved
+6825,5440dafe-be8d-46ac-bb2b-8b3c21fc0866,Sudeep Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,305994,305994,,unresolved
+6828,5449a7cd-c486-4d79-bcbf-687de4bfa8bf,iScan Imaging Centre,True,,clinic,clinic,unchanged,private,private,unchanged,400036,400036,,unresolved
+6853,566dc3bd-db0d-448d-a82e-85bf84649cf2,Rudraksh Dental Care,True,,dentist,dentist,unchanged,private,private,unchanged,400062,400062,,unresolved
+6890,5a183642-ac1b-4d86-98ac-924063b3f512,BMS Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,560019,560019,,unresolved
+6893,5a6fe956-8f33-4fbe-b232-1de883afc999,Gillurkar Multispeciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,000000,000000,,unresolved
+6900,5b2085b4-dedf-400a-b96e-14fe82ff0033,Thulir Kidz Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,600116,600116,district_mode_selected,ambiguous_reference_mapping
+6903,5b3fc978-1f1c-49c0-8e21-10d69b0e434f,Government Ayurveda Dispensary,True,,farmacy,pharmacy,corrected_typo,public,public,unchanged,671313,671313,exact,exact_reference_mapping
+6921,5ecc32b2-917a-4ecf-8ab5-1d1a7bf12cc4,Lenjem Hospital,True,,hospital,hospital,unchanged,public,public,unchanged,798601,798601,district_mode_selected,ambiguous_reference_mapping
+6931,60221e5c-ae3a-4ae9-8e93-9810701aac3a,Dr. Aaphale Eye Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,400 601,,,invalid_pincode
+6936,611cd52b-3556-4214-9c56-06431e589c88,Smile Creations Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,900092,900092,,unresolved
+6953,6390cf01-e968-47ea-b5af-30b4acf63439,Mangalam Eye Hospital And Laser Centre,True,,hospital,hospital,unchanged,private,private,unchanged,360490,360490,district_mode_selected,ambiguous_reference_mapping
+6955,63a98497-07ae-4af1-b0cc-7fd3cf561988,Anand Multispeciality Hospital,True,,hospital,hospital,unchanged,,,missing,39,,,invalid_pincode
+6961,6439a466-5d68-46c3-a68c-b6d1532d00bc,Dr S S Chatterjee Heart Centre,True,,hospital,hospital,unchanged,private,private,unchanged,17,,,invalid_pincode
+6978,66c46f2b-d0a5-4ce4-bb1e-d8806e8f0777,Dr. Adusumilli Gopinath (Winning Smiles Dental Lounge),True,,dentist,dentist,unchanged,private,private,unchanged,500032,500032,ambiguous_district,ambiguous_reference_mapping
+6988,6800b4f9-57f3-47ac-af30-8ec22ffa6b3d,Eversmile Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,400047,400047,,unresolved
+6989,6843bf09-cd11-4390-a119-f79bf60ae23e,Gujarat Imaging Center,True,,clinic,clinic,unchanged,private,private,unchanged,380 009,,,invalid_pincode
+7000,68e447d6-729a-43be-ac54-fe8f5dc47f64,Galaxy Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,713200,713200,,unresolved
+7006,69c64493-25a8-4999-9916-b752efc49f03,Balaji Robotic Rehab Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,636 009,,,invalid_pincode
+7031,6bab57b4-d525-41d6-a871-6b32361dc8ff,Dr Anita Singh's Clinic Obs & Gynae Noida Extension,True,,clinic,clinic,unchanged,private,private,unchanged,201009,201009,district_mode_selected,ambiguous_reference_mapping
+7038,6cedbce4-78b3-441d-88b8-7c433fa71e29,Netaji Nursing Home,True,,hospital,hospital,unchanged,private,private,unchanged,742202,742202,district_mode_selected,ambiguous_reference_mapping
+7078,71355b1c-70ca-4d31-9570-b4d8b648a104,Mano Lab & Maruthi Scan Centre,True,,clinic,clinic,unchanged,private,private,unchanged,600050,600050,ambiguous_district,ambiguous_reference_mapping
+7090,72765b59-f54e-40c5-92ee-79f8a5be2369,"Medispa Laser, Cosmetic & Hair Transplant Surgery Center",True,,clinic,clinic,unchanged,private,private,unchanged,302 021,,,invalid_pincode
+7115,74e96b62-4413-4bd6-bb5f-3e4c2915e056,"Dr Mahadik Kidney Stone and Psoriasis Cure Clinic - Sector 10, Navi Mumbai",True,,clinic,clinic,unchanged,private,private,unchanged,412206,412206,district_mode_selected,ambiguous_reference_mapping
+7124,75c607d5-f51f-4c4d-b72b-1fd45314a2fc,"LJ Eye Institute, Ambala, India",True,,clinic,clinic,unchanged,private,private,unchanged,134 003,,,invalid_pincode
+7180,7dafbbc8-075f-413b-a432-bd16eb0e22e1,Sreehari Ayurvedic Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,560067,560067,ambiguous_district,ambiguous_reference_mapping
+7197,7f7b6b53-ebef-493e-87bb-e6506621a03c,Kusum Multispeciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,,,,missing_pincode
+7203,801ec362-e529-47f2-ba3d-bebb483005d5,Dr. B. G Rudrappa Nursing Home,True,,hospital,hospital,unchanged,private,private,unchanged,560 025,,,invalid_pincode
+7205,80836e21-8570-45a4-9a89-895c819897af,Sanjeevni Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,825409,825409,district_mode_selected,ambiguous_reference_mapping
+7210,81858335-8557-40a8-81b0-d74a5e6150d7,Shubhdin Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,400036,400036,,unresolved
+7230,831d71ca-51f8-45b6-8f20-367d3ce61d48,MP Heart Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,110048,110048,district_mode_selected,ambiguous_reference_mapping
+7233,837c51fb-74d3-4230-828b-e66e59a4eaec,Archana Multispeciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,517501,517501,district_mode_selected,ambiguous_reference_mapping
+7252,8609281a-ddbb-4aec-810c-dc1e62f43ac7,Tele Diagnostic Health Care Centre,True,,clinic,clinic,unchanged,private,private,unchanged,734001,734001,district_mode_selected,ambiguous_reference_mapping
+7258,86a33104-2959-4ddf-aeda-4e6f42b2395d,The Family Tree Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,517501,517501,district_mode_selected,ambiguous_reference_mapping
+7287,8a9fc5f8-c7d9-42c1-b131-f67d42d4b200,The Orchid Dental,True,,clinic,clinic,unchanged,private,private,unchanged,110049,110049,district_mode_selected,ambiguous_reference_mapping
+7354,91830330-f644-4169-a703-9dc18635617b,PEARL WHITE DENTAL CLINIC,True,,clinic,clinic,unchanged,private,private,unchanged,411 001,,,invalid_pincode
+7356,Our Services,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+7357,LAB provides services in Hematology and Clinical Pathology,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+7358,Performance Guaranteed,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+7359,Our laboratory facilities are modern and comply with health and safety standards. We are always dedicated to providing you with unparalleled service. So whether you are a healthcare provider or a patient,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+7360,"Discount for Senior Citizens 10% off.""","[""pathology"",""hematology"",""clinicalPathology"",""emergencyMedicine"",""internalMedicine"",""pathology"",""pathology"",""pathology"",""pathology"",""familyMedicine""]",False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,29.714052200317383,,,invalid_pincode
+7385,94acaff7-7eb6-4fbd-9067-fcdbb0223ec3,"Krishna IVF Clinic, Visakhapatnam",True,,clinic,clinic,unchanged,private,private,unchanged,530 002,,,invalid_pincode
+7389,94fa207d-4344-4222-8b9a-e62038031932,Parumala Hospital,True,,hospital,hospital,unchanged,,,missing,689 626,,,invalid_pincode
+7395,95bcea5f-2594-400c-beb9-90fe09ff06ce,AB Superspeciality Eye Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,492007,492007,,unresolved
+7417,995ec217-a3a2-483f-bc05-d47cde0a2582,Sparsh Children Hospital & Nicu,True,,hospital,hospital,unchanged,private,private,unchanged,382715,382715,,unresolved
+7430,9ae14ea4-f4d8-4908-9a69-0533ab4eeda3,"Pranay Jyoti Homoeo Chikitshalaya , Dr. A K Barukial",True,,clinic,clinic,unchanged,private,private,unchanged,782136,782136,district_mode_selected,ambiguous_reference_mapping
+7431,9aee17a7-9e57-4b5e-9804-97c0c2177c2f,ANS Super Speciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,201308,201308,,unresolved
+7433,9b165ad0-c11e-4e13-b4a7-58f0154ed672,32 Pearls Dental Clinic And Implant Centre,True,,clinic,clinic,unchanged,private,private,unchanged,492006,492006,,unresolved
+7436,9bb8715a-99ae-455c-af35-a9e82deb30c6,Mahalakshmi Hospital,True,,hospital,hospital,unchanged,,,missing,600053,600053,district_mode_selected,ambiguous_reference_mapping
+7439,9bf1ed12-0c72-4939-ace0-19758ecaa30b,Narayan Ultrasound and Diagnostic Center,True,,clinic,clinic,unchanged,private,private,unchanged,120001,120001,,unresolved
+7464,9e999deb-15d7-47ab-a0f7-57b2175cbcc3,"Agilus Diagnostics - No 735/5Main Road BuraiBurari New Delhi, Delhi - 110084",True,,clinic,clinic,unchanged,private,private,unchanged,110084,110084,district_mode_selected,ambiguous_reference_mapping
+7468,9fa3cee3-90f6-4dd0-87bc-c828206f72d7,Hunjan Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,141009,141009,,unresolved
+7481,a0de2e3f-dda3-4182-bbc5-b056f658883c,Shivay Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,382450,382450,district_mode_selected,ambiguous_reference_mapping
+7485,a198aba6-0a16-4300-87b6-7a3313ceb55c,Get Healthy Happy Family Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,700135,700135,district_mode_selected,ambiguous_reference_mapping
+7490,a2a9d0cd-e6ce-4248-943a-8309084b8e7f,Cadabam’s Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,560 078,,,invalid_pincode
+7491,a2b0887a-0b72-43e9-ae8d-a54094a63927,Akeela Dental Care,True,,clinic,clinic,unchanged,private,private,unchanged,17,,,invalid_pincode
+7502,a3c0742d-52a5-4eb6-bbb3-ef280410b23b,Novadent Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,400010,400010,district_mode_selected,ambiguous_reference_mapping
+7504,a3fc4729-69fb-4fb8-8a3a-ae39fbb9da16,Netralayam (Mukundapur),True,,hospital,hospital,unchanged,private,private,unchanged,099,,,invalid_pincode
+7512,"Latest posts by Neoretina (see all)""","[""internalMedicine"",""ophthalmology"",""retinaAndVitreoretinalOphthalmology"",""internalMedicine"",""familyMedicine"",""internalMedicine"",""internalMedicine"",""retinaAndVitreoretinalOphthalmology"",""ophthalmology"",""internalMedicine"",""retinaAndVitreoretinalOphthalmology"",""internalMedicine""]",False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,17.39667510986328,,,invalid_pincode
+7513,a4defaec-ed55-4c25-9d91-b446f9d73637,Alchemy Plastic Surgery & Aesthetics,True,,clinic,clinic,unchanged,private,private,unchanged,390015,390015,,unresolved
+7519,a6264e1e-42e3-44bd-a3a9-5d38274ca77f,DoonVeda Healthcare Centre,True,,clinic,clinic,unchanged,private,private,unchanged,4011057,,,invalid_pincode
+7540,a822fded-b197-4824-b3f3-f413b4d29270,Dr. P. Bhasin Pathlabs (P),True,,clinic,clinic,unchanged,private,private,unchanged,110048,110048,district_mode_selected,ambiguous_reference_mapping
+7547,a8fd98d2-d91b-47b4-ae91-b985d064819f,Samwarthika Ayurveda Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,686 661,,,invalid_pincode
+7552,a9934e59-a604-4bdc-8489-2ebb6b9842d7,"Dr. Leo's World Of Dentistry, MM Bethel Complex, Asramam, Kollam, Kerala – 691 002",True,,clinic,clinic,unchanged,private,private,unchanged,691 002,,,invalid_pincode
+7555,aa0a250f-9bf0-4d16-8935-f26c3e36c6e3,Malar Dental Centre,True,,clinic,clinic,unchanged,private,private,unchanged,638 402,,,invalid_pincode
+7567,aaf4df14-d5fc-43fb-bf66-56c4c704ad09,SPAND Multispecialty Hospital,True,,hospital,hospital,unchanged,,,missing,831012,831012,district_mode_selected,ambiguous_reference_mapping
+7571,ab138959-6495-4551-b75d-926c39e519bc,Medcare Diagnostics - Goregaon,True,,clinic,clinic,unchanged,private,private,unchanged,400 062,,,invalid_pincode
+7573,ab39d833-52e5-42b5-a89a-6f0b3674eff6,First Step IVF,True,,clinic,clinic,unchanged,private,private,unchanged,18,,,invalid_pincode
+7593,acbad930-80cb-450b-afe2-ce4fec98a1dd,Shree Siddheshwar Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,423200,423200,,unresolved
+7632,b1a80b3d-4a82-4fc4-ba45-caba0d7b35a1,Arthritis & Joint Replacement Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,10,,,invalid_pincode
+7647,b37fb08b-ebc6-4d93-9ef1-ab1473c6117b,Parul Nursing Home,True,,hospital,hospital,unchanged,private,private,unchanged,382715,382715,,unresolved
+7648,b386c34b-b2b2-4ef7-a9bd-c45a3e4c0bcb,Alshifa Multispeciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,110025,110025,ambiguous_state,ambiguous_reference_mapping
+7649,b38c2ee5-1a9d-4908-ae6c-cbda191f36a6,SpHear Clinic Patna,True,,clinic,clinic,unchanged,private,private,unchanged,800 016,,,invalid_pincode
+7652,b3e62107-af9b-44f6-99ce-42a2bfe36b0f,Smile Avenue Multispecialty Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,440011,440011,,unresolved
+7655,b420cd4a-bc18-4a6e-92af-5a960fa733f8,Abhirachna Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,110049,110049,district_mode_selected,ambiguous_reference_mapping
+7659,b46acf8d-9c83-4bc2-a3a2-de722f1d214a,Darshanam Eye And Dental Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,382009,382009,,unresolved
+7682,b6d0f3aa-3c29-42ee-b0fb-e86768a0684f,Atal Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,285001,285001,district_mode_selected,ambiguous_reference_mapping
+7692,b7f11d83-773b-47e6-abd9-2577490c770e,Lotus Ayur Care,True,,hospital,hospital,unchanged,private,private,unchanged,560 032,,,invalid_pincode
+7696,b85ac517-25ee-4819-9325-e888dcfa718b,"Tejasri Dental Chilakaluripet, Andhra Pradesh",True,,dentist,dentist,unchanged,private,private,unchanged,522616,522616,district_mode_selected,ambiguous_reference_mapping
+7705,b96b3ac5-f4a0-4f4f-acc2-296ffefe9d93,"M/S Tarakeswar Appollo Multispeciality Hospital - Singti, Howrah, West Bengal",True,,hospital,hospital,unchanged,private,private,unchanged,712410,712410,district_mode_selected,ambiguous_reference_mapping
+7706,b971c16b-9a1d-4c73-89b7-40252d4ae026,Ambady Scan Centre - Thrissur,True,,clinic,clinic,unchanged,private,private,unchanged,680 003,,,invalid_pincode
+7723,bb1f220b-8c51-4212-b355-a3102355ed39,Tulasi Healthcare,True,,hospital,hospital,unchanged,private,private,unchanged,122 102,,,invalid_pincode
+7737,bc4d71cb-909e-45b3-8e46-f51d5348e7ce,Haripriya Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,517501,517501,district_mode_selected,ambiguous_reference_mapping
+7790,c3c94375-ce96-4a27-867d-36da82a185e7,Mubarak Hospital,True,,hospital,hospital,unchanged,,,missing,190018,190018,district_mode_selected,ambiguous_reference_mapping
+7826,c79541ba-3856-4eda-b132-5b560d4c7d8e,Naavya Eye Care,True,,clinic,clinic,unchanged,private,private,unchanged,400036,400036,,unresolved
+7834,c8064e6a-4033-4ca0-b103-ee08dea6289f,Jaya Skin Clinic - Greater Kailash,True,,clinic,clinic,unchanged,private,private,unchanged,110048,110048,district_mode_selected,ambiguous_reference_mapping
+7851,c9fd8354-7074-4eea-8286-b77b499ead1a,Sachdeva Netralaya,True,,hospital,hospital,unchanged,private,private,unchanged,180 004,,,invalid_pincode
+7860,ca63c642-7a2c-413b-9468-02f5754a2d8d,Dharan Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,636 201,,,invalid_pincode
+7862,ca8b7af8-1b2c-4a7f-9885-8b2854440ce1,Huma Specialists Hospital and Research Centre,True,,hospital,hospital,unchanged,private,private,unchanged,600 035,,,invalid_pincode
+7875,cc1f0865-4cdd-4fd4-9e3c-6cf7e4d5b965,Dr. Akshat Multispeciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,382424,382424,district_mode_selected,ambiguous_reference_mapping
+7887,cd700d28-55ab-497f-99be-094043d59c16,Aditya Multi Specialty Ayurvedic Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,533100,533100,,unresolved
+7906,cf033ca0-c835-4cb8-b335-1639460c1704,Lakshya Cancer Hospital,True,,hospital,hospital,unchanged,,,missing,57,,,invalid_pincode
+7907,cf2a35c3-51ef-4a89-9b44-1eaf4bcbd5ee,Disha Eye Hospital Asansol,True,,hospital,hospital,unchanged,private,private,unchanged,713300,713300,,unresolved
+7912,cfb3e865-c2ac-4b06-a364-19dd8b81cd2a,Divine Multispeciality Hospital & Cancer Center,True,,hospital,hospital,unchanged,private,private,unchanged,110084,110084,district_mode_selected,ambiguous_reference_mapping
+7914,cfbbc044-9db3-46da-aa59-979de27e0fe0,Delhi Dental Center,True,,clinic,clinic,unchanged,private,private,unchanged,110051,110051,ambiguous_district,ambiguous_reference_mapping
+7917,"complete Ayurvedic treatment.....join us ......to make nature as your buddy....""","[""familyMedicine"",""physicalMedicineAndRehabilitation"",""familyMedicine"",""familyMedicine"",""familyMedicine"",""familyMedicine"",""endocrinologyAndDiabetesAndMetabolism"",""familyMedicine"",""familyMedicine""]",False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,28.985538482666016,,,invalid_pincode
+7927,d0c33da2-de94-4673-ae16-899ed4a8a486,Shiv Shakti Herbal Ayurveda Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,85,,,invalid_pincode
+7934,d1073447-b397-400b-b8f6-c2c0369a340c,Brindha General & Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,636400,636400,,unresolved
+7953,d2d94430-fe24-41a4-8c48-96a04aa33d0b,Assa Diagnostics & Nursing Home,True,,hospital,hospital,unchanged,private,private,unchanged,791102,791102,district_mode_selected,ambiguous_reference_mapping
+7956,d40cfd3b-6fed-4e76-b8b2-e582715fbbe0,De Rich Smile Dental Care & Implant Centre,True,,clinic,clinic,unchanged,private,private,unchanged,500016,500016,ambiguous_district,ambiguous_reference_mapping
+7966,d58f9b11-b77c-455a-a6ee-8980756f673b,Saravana Diagnostic Centre,True,,clinic,clinic,unchanged,private,private,unchanged,600049,600049,district_mode_selected,ambiguous_reference_mapping
+7969,d59866af-483b-4aba-aa36-57ded325b48b,Sudarshan Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,517583,517583,district_mode_selected,ambiguous_reference_mapping
+7978,d667d834-22c2-4a46-99a1-f24b454424c6,Shree Ganesh Dental Clinic And Implant Center,True,,clinic,clinic,unchanged,private,private,unchanged,AHMEDABAD-8,,,invalid_pincode
+7988,d74c3a09-f55a-4b6a-94f8-8448056c1345,Apollo Hospitals - Kakinada,True,,hospital,hospital,unchanged,private,private,unchanged,533001,533001,district_mode_selected,ambiguous_reference_mapping
+7998,d82ab2f5-9461-44ae-9c12-72f900f99e31,Dr Pal’s Face Center,True,,clinic,clinic,unchanged,private,private,unchanged,600 092,,,invalid_pincode
+8037,dc2b980e-68ba-48fa-8c1a-e994891637c6,"Sriram Dental Clinic, Nanganallur",True,,clinic,clinic,unchanged,private,private,unchanged,600060,600060,district_mode_selected,ambiguous_reference_mapping
+8048,ddb64124-40ba-4eed-82ce-22d6a3687f51,Oberoi Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,"144005, 144008, 144001",,,invalid_pincode
+8068,df486955-ac6b-4549-a306-fcf5e0affdf4,Lofty Health clinic,True,,clinic,clinic,unchanged,private,private,unchanged,713300,713300,,unresolved
+8078,e048e293-454e-4425-b2df-62ae1b8bb557,Dr. Manjeet Institute of Critical Care - DMICC,True,,hospital,hospital,unchanged,private,private,unchanged,302023,302023,,unresolved
+8085,e0ef3022-e432-4ec8-ba09-f70b54b07b58,Celica Medical Center,True,,clinic,clinic,unchanged,private,private,unchanged,682 915,,,invalid_pincode
+8094,e22f0978-c9b5-485c-aea7-c074ce10327f,Rasi Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,623611,623611,,unresolved
+8102,e2cfb9e9-db42-4d0c-9ed8-3571d9bf6d3c,Dr.MahaLaxmi Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,500016,500016,ambiguous_district,ambiguous_reference_mapping
+8112,e3bfbcf5-2f6b-4a8d-b392-d149a3c73a98,Mukilan Speciality Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,600053,600053,district_mode_selected,ambiguous_reference_mapping
+8118,e495780c-285a-4612-a618-19ab75d10fe6,Shri Ganesh Lab,True,,,,missing,private,private,unchanged,134002,134002,,unresolved
+8125,e5687192-84f9-47f9-9fe2-5b4ed40fbd93,Dentart Dental Care,True,,dentist,dentist,unchanged,private,private,unchanged,673633,673633,district_mode_selected,ambiguous_reference_mapping
+8131,e61063fc-06af-4cd8-925d-ded933eebd39,Laxmi Medical and Surgical Care Centre,True,,clinic,clinic,unchanged,private,private,unchanged,000000,000000,,unresolved
+8146,e7f67926-1513-4011-a349-2cfe2148aa39,Superlife Physiotherapy Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,600112,600112,,unresolved
+8152,e887980f-3d2c-42e0-8195-afdd67688452,Dentitude Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,,,,missing_pincode
+8157,e9680e97-afa2-4c5f-ad73-27ba4fe057d2,Patel Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,272151,272151,district_mode_selected,ambiguous_reference_mapping
+8158,We specialize in 59+ surgeries,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+8159,At Patel Hospital,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+8160,"... More""","[""internalMedicine"",""internalMedicine"",""internalMedicine"",""cardiacSurgery"",""vascularSurgery"",""internalMedicine"",""cardiacSurgery"",""internalMedicine"",""internalMedicine"",""internalMedicine"",""internalMedicine""]",False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,26.7883358001709,,,invalid_pincode
+8163,e9cb63d4-50a5-4d60-8491-b691c8c0874a,Spectra Eye Hospital - Greater Kailash-1,True,,hospital,hospital,unchanged,private,private,unchanged,110048,110048,district_mode_selected,ambiguous_reference_mapping
+8164,e9e43804-1184-4d2c-b5f1-ba3ebbac9c5b,Shri Mahavir Medical Centre,True,,clinic,clinic,unchanged,private,private,unchanged,63,,,invalid_pincode
+8166,ea0aaa90-943b-4167-bf29-f83e90697f5a,Amma Children'S Hospital,True,,hospital,hospital,unchanged,,,missing,517501,517501,district_mode_selected,ambiguous_reference_mapping
+8177,A modern body,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+8178,In antiquity remains the roots of a science,,False,invalid_unique_id|invalid_organization_type,08f6189259aa5742032b548fbd63f818,,unmapped,"[""https://sbayurvedahospital.com/about-doctor.php"",""https://www.sbayurvedahospital.com/"",""https://www.facebook.com/177956205400408"",""https://www.facebook.com/sbayurvedahospital/"",null]",,unmapped,kie,,,invalid_pincode
+8229,ef3d65db-fec0-4bec-afac-9c76377dbd56,Toothwise,True,,clinic,clinic,unchanged,private,private,unchanged,400036,400036,,unresolved
+8255,f2564676-c8b7-48b2-95e5-28f55d047f0c,Galaxy Hospital,True,,hospital,hospital,unchanged,public,public,unchanged,121102,121102,district_mode_selected,ambiguous_reference_mapping
+8256,f2630827-482d-43b7-a691-326731f9b43f,CityLife Dental,True,,dentist,dentist,unchanged,private,private,unchanged,110092,110092,district_mode_selected,ambiguous_reference_mapping
+8265,f3beface-15a0-4f79-b144-aa86ed942c5d,North Star Hospital & Joint Replacement Centre,True,,hospital,hospital,unchanged,,,missing,208001,208001,district_mode_selected,ambiguous_reference_mapping
+8303,f76623ee-7dcf-4025-9cae-aaf3545569c2,"Jindal Naturecure Institute, Bengaluru",True,,hospital,hospital,unchanged,private,private,unchanged,560 073,,,invalid_pincode
+8311,f7cd06a2-e695-473f-9b6c-0759e1b65264,Dr. Hahnemann Homoeopathy Medical College & Research Centre,True,,hospital,hospital,unchanged,private,private,unchanged,637 408,,,invalid_pincode
+8313,f7ece9df-3cce-42ae-ae4f-d406de0e2720,Johnson's Dental Extacy,True,,clinic,clinic,unchanged,private,private,unchanged,533100,533100,,unresolved
+8333,f9601b43-542f-4e40-aad0-8e438415a531,NRG Speciality Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,600089,600089,ambiguous_district,ambiguous_reference_mapping
+8334,f98ae35a-aadc-4e80-b2eb-ae1dc609b699,Dr. Joseph Ortho Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,613 007,,,invalid_pincode
+8337,f9a77e48-d7f1-47f8-8b5c-1d8b2b1a8801,Nareddy Care,True,,hospital,hospital,unchanged,private,private,unchanged,517507,517507,district_mode_selected,ambiguous_reference_mapping
+8338,f9b26e8a-69eb-4db0-b20f-0490c19a0869,Suraj Clinic,True,,clinic,clinic,unchanged,,,missing,MUMBAI-70,,,invalid_pincode
+8363,fc584849-519f-4485-bdaf-57d1822c05a9,Master Dental Care,True,,dentist,dentist,unchanged,private,private,unchanged,148023,148023,district_mode_selected,ambiguous_reference_mapping
+8388,ffc86dde-f357-4c60-bb2f-31716b02e94e,Jethwa Eye Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,38800,,,invalid_pincode
+8395,008845c9-4be5-4b0a-afd3-ca552f10a286,Cenegenics India,True,,clinic,clinic,unchanged,private,private,unchanged,560 052,,,invalid_pincode
+8396,008f8550-efd3-4da5-bab2-66b6254cf24b,Siliguri United Daycare Centre,True,,hospital,hospital,unchanged,private,private,unchanged,734001,734001,district_mode_selected,ambiguous_reference_mapping
+8401,01673d9b-caf3-4ed6-abfa-618064970ccd,Aroma Diagnostics,True,,farmacy,pharmacy,corrected_typo,private,private,unchanged,190023,190023,exact,exact_reference_mapping
+8405,01826eff-1dc6-4b9f-8dcd-cab7336eb688,Aayush Multispeciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,363631,363631,,unresolved
+8411,0201050b-de4b-46ab-9425-68147e690173,Veda Hospital & Kidney Centre,True,,hospital,hospital,unchanged,private,private,unchanged,10,,,invalid_pincode
+8428,02cab6b1-76d8-47d5-8cbb-a5a20798a046,Dr.Hardik's Superspeciality Dental Care and Implant Center,True,,clinic,clinic,unchanged,private,private,unchanged,390015,390015,,unresolved
+8430,030a6ae1-66eb-431c-a1db-3924e7a17980,"KVR Hospital Moradabad Road, Kashipur",True,,hospital,hospital,unchanged,private,private,unchanged,244713,244713,district_mode_selected,ambiguous_reference_mapping
+8451,04e14df2-0612-4593-9e68-6084c024fd5d,Drishti Eye Centre,True,,,,missing,,,missing,734001,734001,district_mode_selected,ambiguous_reference_mapping
+8464,05abcf38-9153-4fff-b656-080332fe63d8,The Dentist House,True,,dentist,dentist,unchanged,private,private,unchanged,600029,600029,,unresolved
+8475,064735a8-5610-41eb-adb0-5117d54c94de,Tarang Speech and Hearing Clinics - East Delhi,True,,clinic,clinic,unchanged,private,private,unchanged,110092,110092,district_mode_selected,ambiguous_reference_mapping
+8482,06f5c76a-9d52-4e38-b9bb-4b43905753c6,Manisha Nursing Home,True,,hospital,hospital,unchanged,private,private,unchanged,000000,000000,,unresolved
+8486,07639626-9462-45ad-8379-c379235bd304,Rajdhani Dental Care Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,110092,110092,district_mode_selected,ambiguous_reference_mapping
+8487,076a5398-708a-4e30-8b93-76ce3b1e1c8c,Mahanadi Hospital and Research Centre,True,,hospital,hospital,unchanged,,,missing,492011,492011,,unresolved
+8505,0909d828-1244-47b8-b0b1-5d6049f58cf0,Santkrupa Multispeciality Hospital,True,,hospital,hospital,unchanged,,,missing,422400,422400,,unresolved
+8511,09b027b3-3bdf-4610-988b-555333fa713a,Paedendo Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,600 040,,,invalid_pincode
+8522,0ad30825-ee82-4d1b-9a3b-6175446968de,"Sanjeevani Neuro and Multi Speciality Hospital, Bankim Nagar, Siliguri",True,,hospital,hospital,unchanged,private,private,unchanged,734001,734001,district_mode_selected,ambiguous_reference_mapping
+8542,0cb29a73-7f11-4d91-b0c6-619aee5b8da7,Varaprada Ayurvedic Centre,True,,hospital,hospital,unchanged,private,private,unchanged,560019,560019,,unresolved
+8551,0d53bde1-aa03-4364-9911-7652ec426f3d,Dr. Tiny Tusks Dental,True,,dentist,dentist,unchanged,private,private,unchanged,600050,600050,ambiguous_district,ambiguous_reference_mapping
+8567,0ee89a39-cdb7-4261-a644-36f0edfd5a4e,Shrihari Imaging Centre,True,,clinic,clinic,unchanged,private,private,unchanged,382009,382009,,unresolved
+8578,10453d92-2092-4a27-8835-dbdc70521f94,Medplus,True,,farmacy,pharmacy,corrected_typo,,,missing,560102,560102,exact,exact_reference_mapping
+8596,1164d989-8dc8-4858-986f-deab1769901f,Railway Hospital,True,,hospital,hospital,unchanged,public,public,unchanged,583201,583201,district_mode_selected,ambiguous_reference_mapping
+8604,120db189-79a4-41c2-8622-950328ff1f6b,Rr Homoeo,True,,clinic,clinic,unchanged,private,private,unchanged,520007,520007,district_mode_selected,ambiguous_reference_mapping
+8610,12a7f108-100c-4b7f-af8c-928e94a870e4,Keshav Dental Care,True,,dentist,dentist,unchanged,private,private,unchanged,854304,854304,district_mode_selected,ambiguous_reference_mapping
+8612,132480eb-1bd8-4aa5-aefe-f2291860c0dd,DNS Dental Care - Implant & Orthodontic Centre,True,,dentist,dentist,unchanged,private,private,unchanged,110024,110024,district_mode_selected,ambiguous_reference_mapping
+8615,13594579-5b83-48ec-8c81-4b21ad0a6881,PathSolutions Diagnostic & Research Center,True,,clinic,clinic,unchanged,private,private,unchanged,112001,112001,,unresolved
+8640,15863c6b-9e27-402b-8891-d3bdbb6023cc,Shyam Urosurgical Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,380 006,,,invalid_pincode
+8647,15e6621c-0013-4856-a820-3d7f5dc9ca47,Ajanta Heart Care & Diagnostic Centre,True,,clinic,clinic,unchanged,private,private,unchanged,201009,201009,district_mode_selected,ambiguous_reference_mapping
+8652,162efb6d-edb5-4511-ae99-8942517ab69a,Tarun Neuro Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,400 602,,,invalid_pincode
+8665,178ffcf3-a31b-41c9-b56d-ea8d05e60f05,SRM Global Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,603 203,,,invalid_pincode
+8676,181deb18-bf69-47f2-80cd-4977a43fa0de,Sarvanjna Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,249409,249409,,unresolved
+8684,1928cf09-8426-4ac9-adc4-0b4d33fc3946,NAOKON Diagnostics,True,,clinic,clinic,unchanged,private,private,unchanged,795 004,,,invalid_pincode
+8697,1a57eba5-2deb-451e-b437-4e1e905b08ba,Moolchand Fertility and IVF,True,,clinic,clinic,unchanged,private,private,unchanged,110024,110024,district_mode_selected,ambiguous_reference_mapping
+8717,1c5d4d78-c780-4b1a-875b-32280d82a84e,"Jain Dental Centre - F-19, Near Happy English School, Mandir Marg, Krishna Nagar, Delhi – 110051",True,,dentist,dentist,unchanged,private,private,unchanged,110051,110051,ambiguous_district,ambiguous_reference_mapping
+8719,1c8f1c87-0bcb-4d6c-855b-7bc34618c8d0,UBM Institute,True,,clinic,clinic,unchanged,,,missing,400 019,,,invalid_pincode
+8727,1d855c8a-ab08-45fa-b6bc-49e634edaa13,Green Park Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,110 016,,,invalid_pincode
+8731,1e682e64-6078-4a9d-a456-88c1c7698a9e,Rastogi Nursing Home,True,,clinic,clinic,unchanged,private,private,unchanged,244713,244713,district_mode_selected,ambiguous_reference_mapping
+8756,20774a82-1f39-46b5-b5c0-a7f1d7d2e053,Hospital A,True,,hospital,hospital,unchanged,public,public,unchanged,848201,848201,district_mode_selected,ambiguous_reference_mapping
+8757,20b7095a-22a3-4754-86c0-d1c42c6009eb,Sonkul Diagnostic Centre,True,,clinic,clinic,unchanged,private,private,unchanged,440009,440009,,unresolved
+8769,2227b79f-194f-4739-99e9-1b053d84be93,Aarogya Naturopathy Village,True,,clinic,clinic,unchanged,private,private,unchanged,125112,125112,district_mode_selected,ambiguous_reference_mapping
+8777,23076610-4f93-4892-be08-7bae98b24308,Narayan Children Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,382421,382421,district_mode_selected,ambiguous_reference_mapping
+8791,24234b88-a333-4914-a0fb-12268fa98df9,LION Homoeo Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,MADURAI -1,,,invalid_pincode
+8803,25172145-107b-452a-b61e-a561c4181106,"Dr. Piyush's Homoeopathic clinic, Rajendrabhuvan rd. Veraval",True,,clinic,clinic,unchanged,private,private,unchanged,362200,362200,,unresolved
+8811,259ef131-74d0-439f-b33e-4af29f62e33c,Dental Aesthetics,True,,dentist,dentist,unchanged,private,private,unchanged,110049,110049,district_mode_selected,ambiguous_reference_mapping
+8848,In order to record the electrical signals in your heart,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+8849,Our facility has a Trade Mill Test (TMT) which is a stress test. This test illustrates how your heart functions when you exercise. It helps identify clogged arteries and direct heart patients' treatment regimens.,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+8850,The Pulmonary Function Test (PFT) is another crucial service we provide. PFT is essential for patients with heart conditions that impact breathing,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+8851,We are also experts in Stress ECHO,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+8852,"At Dr. Manjari Ultrasound your heart's health is our first concern. We make sure you receive the care you need in a secure and encouraging setting by using skilled professionals and cutting-edge equipment.""","[""cardiology"",""gynecologyAndObstetrics"",""radiology"",""pathology"",""familyMedicine"",""cardiology"",""pathology"",""cardiology"",""radiology"",""familyMedicine""]",False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,28.57648468017578,,,invalid_pincode
+8907,2dcce573-3a15-48bf-b3f1-8ef25d7d3f55,Adarsh Medical Stores,True,,farmacy,pharmacy,corrected_typo,private,private,unchanged,362001,362001,exact,exact_reference_mapping
+8919,2f61e07e-1482-4b96-aecf-d3b5f0a7f51e,Redefine Skin and Hair Transplant Center,True,,clinic,clinic,unchanged,private,private,unchanged,500032,500032,ambiguous_district,ambiguous_reference_mapping
+8929,2ff66dd6-8bb5-46e4-a6ea-7fbd0f7a64fa,Sri Sai Diabetes and Andrology Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,625510,625510,,unresolved
+8950,31a69711-72c6-4a10-a88c-07f292174345,Burari Hospital,True,,hospital,hospital,unchanged,public,public,unchanged,110084,110084,district_mode_selected,ambiguous_reference_mapping
+8956,3220dfad-7091-48ae-aacc-42943db663ba,Hp Orthocare Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,144004,144004,,unresolved
+8976,3437e5aa-101e-4a91-9543-e1a4e6907291,Relox Diagnostic Center,True,,clinic,clinic,unchanged,private,private,unchanged,382715,382715,,unresolved
+8992,35741683-5d4c-4011-9115-792913161fb9,Shantideep Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,203001,203001,district_mode_selected,ambiguous_reference_mapping
+8996,35c3e836-1d4e-4b0a-92f6-7016ba6e45e0,Balaji Healthcare,True,,clinic,clinic,unchanged,private,private,unchanged,734001,734001,district_mode_selected,ambiguous_reference_mapping
+9016,37d6e184-df9f-4118-973a-d9aa9d384ae4,Archana Trauma & Orthopaedics Hospital & Research Centre,True,,hospital,hospital,unchanged,private,private,unchanged,786005,786005,,unresolved
+9021,384ddede-9549-43bd-ae64-62faa23649e7,Elixir Fertility Centre,True,,hospital,hospital,unchanged,private,private,unchanged,110009,110009,district_mode_selected,ambiguous_reference_mapping
+9041,3a0d8a4d-6a25-4ba6-8bd3-e9bb40e4335b,Vita Diagnostics,True,,clinic,clinic,unchanged,private,private,unchanged,COCHIN-16,,,invalid_pincode
+9044,3a5cf18f-6ed9-4d65-bba1-85fff87ecfc8,S. Partap Singh Bahra Memorial Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,144632,144632,ambiguous_district,ambiguous_reference_mapping
+9062,3bdbc896-c54c-4557-9dcd-b746284f5f58,"Nan’s Clinic - Bannerghatta Road, Bangalore",True,,clinic,clinic,unchanged,private,private,unchanged,83,,,invalid_pincode
+9063,3bfb144f-2d1f-4436-ac90-b6423df3a45e,Harjivan Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,382027,382027,,unresolved
+9064,3c1e6cab-a85b-4240-af60-b545dfdae040,Dr.Gawande Cancer Day Care Center,True,,clinic,clinic,unchanged,private,private,unchanged,19,,,invalid_pincode
+9079,3dd7e589-7041-48ca-9fbc-9da6adae5ab4,Beyondcare Diagnostics,True,,clinic,clinic,unchanged,private,private,unchanged,122050,122050,,unresolved
+9105,401fae06-a08c-43b5-ae34-8ce4b7f43d39,Indhira Hospital,True,,hospital,hospital,unchanged,,,missing,517501,517501,district_mode_selected,ambiguous_reference_mapping
+9114,40891eeb-dc6b-4308-b8d0-6414eac258b6,"Lunglei Civil Hospital, Lunglei",True,,hospital,hospital,unchanged,public,public,unchanged,796701,796701,district_mode_selected,ambiguous_reference_mapping
+9126,41b69536-3f3e-4784-9fe7-393558a5d55a,Al-Aiman Diagnostic Centre,True,,clinic,clinic,unchanged,private,private,unchanged,110014,110014,ambiguous_district,ambiguous_reference_mapping
+9127,41bf4cb5-a1e0-479f-951e-dfd453a12786,Meenakshi Cleft and Craniofacial Centre,True,,clinic,clinic,unchanged,private,private,unchanged,600095,600095,district_mode_selected,ambiguous_reference_mapping
+9131,We specialize in 395+ surgeries,,False,invalid_unique_id|invalid_organization_type,08f60b0952d93041035b12518be4088c,,unmapped,"[""https://www.justdial.com/Warangal/Guardian-Multispeciality-Hospital-Opposite-L-B-College-Rangampet/9999PX870-X870-100429171709-B7L1DC_BZDET"",""http://www.onefivenine.com/india/Listing/Town/hospitals/Warangal/Hanamkonda"",""https://www.drlogy.com/ayushman-bharat/hospitals/telangana/warangal-urban/guardian-multi-specialty-hospital"",""https://www.justdial.com/Warangal/Guardain-Multi-Speciality-Hospital-Opp-LB-College-Mulugu-Road/9999PX870-X870-180213133512-A3A9_BZDET"",null]",,unmapped,kie,,,invalid_pincode
+9133,41ec22c9-9cfb-49be-871c-9ef8a07fac88,Anubhav Pathology Lab,True,,clinic,clinic,unchanged,private,private,unchanged,248008,248008,district_mode_selected,ambiguous_reference_mapping
+9141,425f3a24-740c-4d56-9b7d-d7bd482905f3,SRN Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,221214,221214,,unresolved
+9145,4298e0d6-7f55-4305-bb0f-8c2a7ec80176,M Cure Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,382421,382421,district_mode_selected,ambiguous_reference_mapping
+9147,42b80002-abdf-4115-a9e8-87a568df31a9,Dr Paul Path,True,,clinic,clinic,unchanged,private,private,unchanged,70004,,,invalid_pincode
+9152,42fdaaab-e7ed-4951-bf0c-9306c68dca5e,Institute of Kidney Diseases Urology & Organ Transplantation,True,,clinic,clinic,unchanged,private,private,unchanged,600037,600037,ambiguous_district,ambiguous_reference_mapping
+9168,43f8b198-6b94-4458-b3fb-155945c904d5,Danth Care,True,,clinic,clinic,unchanged,private,private,unchanged,400047,400047,,unresolved
+9175,44b6ff8f-70cb-4406-a762-f864931503fa,Fertility Foundation,True,,clinic,clinic,unchanged,private,private,unchanged,83,,,invalid_pincode
+9178,44f168e0-b71e-409e-8264-25f5e9d508df,Manipal Hospitals,True,,hospital,hospital,unchanged,private,private,unchanged,201 002,,,invalid_pincode
+9193,463597f9-4ceb-4e49-a7c6-2b6265b99ab7,CHURACHANDPUR DISTRICT HOSPITAL,True,,hospital,hospital,unchanged,public,public,unchanged,795128,795128,district_mode_selected,ambiguous_reference_mapping
+9207,47d58476-142d-4365-b5d3-1eb912708ec8,Dr. Khurana Homeo Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,160021,160021,,unresolved
+9220,48a0ddf3-3df5-45a6-97eb-f1d42adc0a18,Child Ortho Care,True,,clinic,clinic,unchanged,private,private,unchanged,110009,110009,district_mode_selected,ambiguous_reference_mapping
+9228,496f8b9e-ba9c-4c9d-a1f2-a7abd29b8b36,Visual Aids Centre,True,,clinic,clinic,unchanged,,,missing,110024,110024,district_mode_selected,ambiguous_reference_mapping
+9231,4998ce3d-2c41-48e7-8743-6cbb2c73e808,Doctor32,True,,clinic,clinic,unchanged,private,private,unchanged,682 021,,,invalid_pincode
+9233,49a1eb64-e758-45a8-bf58-3fc5a27e8298,Divine Grace Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,560046,560046,,unresolved
+9234,49d31c4f-7801-449d-bca0-5eafaa4c92a6,Smt. S.C. & Sheth D.M. Sarvajanik Hospital,True,,hospital,hospital,unchanged,public,public,unchanged,382825,382825,,unresolved
+9250,4b0ab6e2-ce03-4ec2-904f-19e0f1ac7fde,Dr.Ghosh's Oral & Dental clinic,True,,clinic,clinic,unchanged,private,private,unchanged,781300,781300,,unresolved
+9259,4bd16e32-abfc-4456-b4ae-38e14d47fbea,"KM NU Hospitals, Ambur",True,,hospital,hospital,unchanged,private,private,unchanged,635 814,,,invalid_pincode
+9278,4d6863dc-85f9-4fa5-94a2-715bb4a4c3d3,GMR Varalakshmi Care Hospital,True,,hospital,hospital,unchanged,,,missing,532127,532127,district_mode_selected,ambiguous_reference_mapping
+9279,4d7879fb-92a6-473c-85a6-26d9cb48881b,Magpins Multispeciality Hospital,True,,hospital,hospital,unchanged,,,missing,786005,786005,,unresolved
+9288,4e79f607-5d4a-46f2-a6a9-198f67397389,Haji Abdul Majid Memorial Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,782435,782435,district_mode_selected,ambiguous_reference_mapping
+9307,5061096d-8761-45f8-ac8c-847b7a1cd994,Al-Hayat Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,590002,590002,,unresolved
+9313,50c79e07-8e9e-4c4e-a348-f94ad33dd75b,Kritanjali Dental Implant And Physiotherapy Centre,True,,clinic,clinic,unchanged,private,private,unchanged,203001,203001,district_mode_selected,ambiguous_reference_mapping
+9320,51506d7a-e3e7-48e3-b49b-39ac41e17a96,BD Petit Parsee General Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,400036,400036,,unresolved
+9337,5240da38-79e8-4a58-9007-3dfd3f94a505,Janta X Ray Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,ND-18,,,invalid_pincode
+9357,53cec980-1df0-42e4-85e9-8564e18038e2,Ortho Care Ayurvedic and Sports Injury Speciality Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,676308,676308,,unresolved
+9358,5432f858-4a3e-40b6-8846-fbed08af2165,"Singhal Medical Center Krishna Nagar, Delhi",True,,hospital,hospital,unchanged,private,private,unchanged,110051,110051,ambiguous_district,ambiguous_reference_mapping
+9361,54af5892-b771-4c41-b9af-be4ce22ddbe4,Lifeline Eye Centre,True,,hospital,hospital,unchanged,private,private,unchanged,110031,110031,district_mode_selected,ambiguous_reference_mapping
+9365,55021d21-de2f-433e-b3a4-7e351f7e5683,"Pardaya Memorial Hospital, Jaipur",True,,hospital,hospital,unchanged,private,private,unchanged,302011,302011,,unresolved
+9369,55894fd2-0483-45b2-b169-6176c124dc8c,Roy's Clinic & Multispeciality Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,734001,734001,district_mode_selected,ambiguous_reference_mapping
+9386,Equipped with the latest advancements in dental technology and adhering to strict international sterilization protocols, to specialized procedures such as root canal therapy,False,invalid_unique_id|invalid_organization_type,6,,unmapped,true,,unmapped,"[""Performs root canal therapy"",""Provides dental implants"",""Offers orthodontics"",""Offers cosmetic dentistry including teeth whitening and veneers"",""Provides smile makeover services"",""Performs routine dental check-ups, cleanings, and fillings""]",,,invalid_pincode
+9394,57aa0edb-b38f-44f7-bff8-cf84e1df5297,Virdi Hospital,True,,hospital,hospital,unchanged,,,missing,148023,148023,district_mode_selected,ambiguous_reference_mapping
+9430,5b00a82b-e740-4119-b4c1-6012d8808c9d,Cosmetic Care & Surgery Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,482007,482007,missing_geo,ambiguous_reference_mapping
+9444,5c191e28-f27f-4d88-b431-6b991e992420,Alipore Hospital,True,,hospital,hospital,unchanged,,,missing,396 409,,,invalid_pincode
+9460,5d8e52e0-3a05-4f34-ad66-a2c72ad4e538,Shri B D Mehta Mahavir Heart Institute,True,,hospital,hospital,unchanged,private,private,unchanged,395039,395039,,unresolved
+9488,5f865d29-a48a-4c51-a668-cb79bdc74dce,Alaknanda Diagnostic Lab,True,,clinic,clinic,unchanged,private,private,unchanged,110019,110019,district_mode_selected,ambiguous_reference_mapping
+9496,6094934d-97b6-4598-87d1-70d31a4a9c94,Venkateswara Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,35,,,invalid_pincode
+9502,60ca34fd-7f89-4483-9fc7-da9f0cab0be5,Ayurveda Speciality Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,403 703,,,invalid_pincode
+9535,Our goal is to provide a range of professional services at the highest level available in Ghaziabad,,False,invalid_unique_id|invalid_organization_type,"[""https://www.drvaibhavjoshi.com/"",""https://www.drvaibhavjoshi.com/our-team.html"",""http://www.drvaibhavjoshi.com/"",""https://www.facebook.com/378237392213592"",""https://www.proptiger.com/ghaziabad/raj-bagh-51282/hospitals"",null]",,unmapped,,,missing,"{""coordinates"":[77.35955047607422,28.655179977416992],""type"":""Point""}",,,invalid_pincode
+9542,6484f55f-c698-4f1d-a3ef-dc95492d0791,Poona Diagnostic Centre,True,,clinic,clinic,unchanged,private,private,unchanged,411029,411029,,unresolved
+9553,657d1687-d4ae-4dc4-9329-07de6d35750a,Government Ayurvedic Hospital,True,,hospital,hospital,unchanged,government,public,mapped_synonym,362037,362037,exact,exact_reference_mapping
+9590,688b1f7e-8e27-4af1-9a87-71e2cf7f2496,Imaging World,True,,clinic,clinic,unchanged,private,private,unchanged,380025,380025,,unresolved
+9599,698cb8b2-55d5-4029-9e79-8745cbf85fda,AMI Laboratory,True,,,,missing,,,missing,392 001,,,invalid_pincode
+9632,6c493fb7-2a35-48e6-83ef-88db71f73dee,Chandkheda Orthopaedic And Surgical Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,382424,382424,district_mode_selected,ambiguous_reference_mapping
+9647,6d947540-8931-4d6d-92cb-50d5d76e1ac9,SK Roy Civil Hospital,True,,hospital,hospital,unchanged,public,public,unchanged,788150,788150,district_mode_selected,ambiguous_reference_mapping
+9667,We make every effort to ensure that your visit is comfortable and pain free. We assist you in making an informed decision by explaining all your treatment options every step of the way. We treat you with utmost care,,False,invalid_unique_id|invalid_organization_type,"[""https://www.drbasdentalcare.com/"",""https://www.justdial.com/Nagercoil/Dr-bas-Dental-Care-Meenakshipuram/9999P4652-4652-240814200308-Y4F4_BZDET"",""https://www.tabletbox.com/hospital/dr.basdentalcare/468"",""https://www.justdial.com/Nagercoil/Dr-bas-Dental-Care-Meenakshipuram/9999P4652-4652-240814200308-Y4F4_BZDET/reviews"",""https://www.facebook.com/61562214740500"",""https://fayumi.in/viewdoctor/71889"",""https://drbasdentalcare.in/contact/"",null]",,unmapped,,,missing,"{""coordinates"":[77.43661499023438,8.182075500488281],""type"":""Point""}",,,invalid_pincode
+9695,71ed6960-8312-4dd3-859e-55396f9acaa3,Manavta Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,121004,121004,district_mode_selected,ambiguous_reference_mapping
+9720,741fa47e-12e0-454e-b174-c633d25ba7ce,ProSmile MultiSpeciality Dental Care,True,,dentist,dentist,unchanged,private,private,unchanged,690504,690504,district_mode_selected,ambiguous_reference_mapping
+9723,74b5d079-c0d3-4584-a909-cdb625c5ea8e,JJ Dental Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,533001,533001,district_mode_selected,ambiguous_reference_mapping
+9730,75047c69-2cce-4ec4-9365-c41893ca8e0a,Sanap ENT and Dental Care Jalna,True,,clinic,clinic,unchanged,private,private,unchanged,431200,431200,,unresolved
+9741,76291067-1c82-4c02-8160-f17e72d84e65,Varanasi Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,222005,222005,,unresolved
+9742,762a1678-dc6b-43d0-9c55-0e5d90132465,Madaan Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,125050,125050,district_mode_selected,ambiguous_reference_mapping
+9751,76d50984-a268-4fed-9238-358282996c56,Center for Urogynecology and Pelvic Health - C.U.P,True,,,,missing,,,missing,110049,110049,district_mode_selected,ambiguous_reference_mapping
+9758,77166475-5bb5-463a-a1aa-b82f23f1d79a,Dr. M. A. Londhe Paralysis & Arthritis Clinic - Charni Road,True,,clinic,clinic,unchanged,private,private,unchanged,400 004,,,invalid_pincode
+9765,78016ab5-bdcd-435f-947f-bc94a954f4e9,Dr. Prashant Bakshi,True,,doctor,doctor,unchanged,private,private,unchanged,411029,411029,,unresolved
+9780,795e3aed-a2bf-4685-8831-6f2bd93674ca,Central Referral Hospital,True,,hospital,hospital,unchanged,,,missing,737 102,,,invalid_pincode
+9798,7b22f461-713b-4537-83c1-5a8c982a0d36,"PG Path Labs & Scan Clinic — REGENT SUPERMARKET, 1st Floor, opposite to AMTALA CTC Bus stand, Amtala, 24Pgs (S), 743398",True,,clinic,clinic,unchanged,private,private,unchanged,743398,743398,,unresolved
+9802,7bb249be-cd13-4b32-a841-87f5659b67ad,Retina Foundation,True,,hospital,hospital,unchanged,private,private,unchanged,380 004,,,invalid_pincode
+9818,We treat people of all ages with the same level of care,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+9819,We are known for the care we take towards our patients and effective treatments. Choose us to ensure the best treatment possible for you and your loved ones. Ample parking is always available for the comfort of our patients.,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+9820,NOTE: Our only location is in KPHB Colony,,False,invalid_unique_id|invalid_organization_type,"[""https://www.1mg.com/doctors/dr-sravanthi-dental-surgery-in-hyderabad/DR-3o38q"",""https://eswardentalclinickphb.com/about-us/"",""https://eswardentalclinickphb.com/"",""https://www.facebook.com/440327963098033"",null]",,unmapped,,,missing,"{""coordinates"":[78.3896255493164,17.483631134033203],""type"":""Point""}",,,invalid_pincode
+9830,7dd94c2c-e0bf-4f90-8735-0fede4483856,Gastro Care Clinics,True,,clinic,clinic,unchanged,private,private,unchanged,500032,500032,ambiguous_district,ambiguous_reference_mapping
+9852,7fea71eb-1e73-4c9b-8723-0621aad3deb9,Ananya Hospital & Research Center,True,,hospital,hospital,unchanged,,,missing,244713,244713,district_mode_selected,ambiguous_reference_mapping
+9862,81e0d772-04df-4277-9874-1f50f7bd6949,"Alaqaband Child Health Clinic, Dermatology Clinic And vaccination centre.",True,,clinic,clinic,unchanged,private,private,unchanged,190018,190018,district_mode_selected,ambiguous_reference_mapping
+9865,At Aansh IVF Hospital,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+9866,Our Nationally recognized infertility specialists work with tailored fertility solutions to increase the chances of pregnancy. Our comprehensive,,False,invalid_unique_id|invalid_organization_type,,,missing,,,missing,,,,missing_pincode
+9867,AANSH IVF Hospital is one of the Best IVF Hospitals in Koramangala, ICSI,False,invalid_unique_id|invalid_organization_type,,,missing,kie,,unmapped,,,,missing_pincode
+9874,82b9d649-e588-43fe-abcb-cbe36fb20188,Ahuja Dental Care,True,,clinic,clinic,unchanged,private,private,unchanged,141 001,,,invalid_pincode
+9882,836a84fc-cdf2-4496-91e1-0accd20ab2d1,Promise Healthcare Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,,,,missing_pincode
+9889,83c7172b-2692-49b5-ad63-41f9c015bc74,Deccan Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,411 001,,,invalid_pincode
+9891,83ef8bcb-5241-42fc-a7ed-2befb216d5b7,Dental clinic,True,,clinic,clinic,unchanged,,,missing,627 007,,,invalid_pincode
+9892,8403e19b-c0fe-43c9-8c1e-fa313e832364,Aishal Medicity,True,,hospital,hospital,unchanged,private,private,unchanged,671329,671329,,unresolved
+9915,86164514-63ff-47f7-b28e-fefcff2b115f,ADC-Centre for Restorative and Implant Dentistry,True,,dentist,dentist,unchanged,private,private,unchanged,160021,160021,,unresolved
+9919,8675833f-5eb4-4be6-84c7-3a264f8c26f9,Advanced Diagnostics Centre,True,,clinic,clinic,unchanged,private,private,unchanged,781313,781313,district_mode_selected,ambiguous_reference_mapping
+9934,87b11c3e-9e85-4591-864c-edc431f11b7d,Skinos,True,,clinic,clinic,unchanged,private,private,unchanged,110007,110007,district_mode_selected,ambiguous_reference_mapping
+9946,889a158d-74e2-4d43-a081-cb2c3851aded,Kriti Ayurvedic Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,64,,,invalid_pincode
+9953,89162a9c-6c70-43a7-84c2-3df22b28b697,Swapnika Gastro & Liver Care,True,,clinic,clinic,unchanged,private,private,unchanged,533100,533100,,unresolved
+9966,89aac17c-7785-4ea1-9fee-1c1d325262cf,Florence Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,783101,783101,district_mode_selected,ambiguous_reference_mapping
+9994,8baaef79-e3d1-4acd-a068-5b38de64741c,Gowtham Dental Hospital,True,,hospital,hospital,unchanged,private,private,unchanged,517501,517501,district_mode_selected,ambiguous_reference_mapping
+9997,8c2726fb-32b9-4edb-be98-dc6aede7fc3b,Ratnagiri Test Tube Baby & Research Center,True,,clinic,clinic,unchanged,private,private,unchanged,415 639,,,invalid_pincode
+10001,8c9b7996-dd88-483f-b24e-7f2d673ccd4a,Hi Tech Dental & Implant Center,True,,dentist,dentist,unchanged,private,private,unchanged,201009,201009,district_mode_selected,ambiguous_reference_mapping
+10002,8cd45bfe-b76c-4935-a7d6-c0642b68f806,Ashok Blood Bank and Clinical Laboratory,True,,,,missing,private,private,unchanged,636702,636702,,unresolved
+10011,8dbc5135-ae9c-4ff2-8751-1bea93599515,Holistic Health Care Clinic,True,,clinic,clinic,unchanged,,,missing,797112,797112,district_mode_selected,ambiguous_reference_mapping
+10035,90018e6d-b4ec-4372-8e55-91f8dccc58fd,Max Lab - Pacific Golf Course - Dehradun (Pacific Golf Course - Dehra Dun),True,,clinic,clinic,unchanged,private,private,unchanged,,,,missing_pincode
+10052,9109a8d9-7d98-4e68-9a93-5d09dcda16eb,"Hissaria Multispeciality Hospital, Opp. Satipura Bypass Road, Hanumangarh, India, Rajasthan",True,,hospital,hospital,unchanged,private,private,unchanged,335513,335513,ambiguous_state,ambiguous_reference_mapping
+10053,913e242c-c9f3-436a-bdde-7243dee901bc,Sankalp Eye Hospital and Retina Centre,True,,hospital,hospital,unchanged,private,private,unchanged,7,,,invalid_pincode
+10055,914d3341-57d0-4c98-98c9-7f5e5f5e705a,South Delhi Cosmetic Clinic,True,,clinic,clinic,unchanged,private,private,unchanged,110019,110019,district_mode_selected,ambiguous_reference_mapping
+10062,91878843-b3f4-46c7-a6eb-7ec0f550e389,All India Hijama Health Care,True,,clinic,clinic,unchanged,private,private,unchanged,110025,110025,ambiguous_state,ambiguous_reference_mapping

@@ -1,0 +1,4 @@
+pandas==2.3.3
+pyarrow==23.0.0
+pydantic==2.12.5
+streamlit==1.54.0

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-07-19T05:13:44.530461+00:00",
+  "raw_rows": 10088,
+  "analysis_base_rows": 10088,
+  "source_columns_preserved": 51,
+  "derived_columns": 36,
+  "structurally_valid_rows": 10000,
+  "scoring_eligible_rows": 9989,
+  "facility_type_actions": {
+    "unchanged": 9921,
+    "missing": 57,
+    "corrected_typo": 10,
+    "unmapped": 1
+  },
+  "operator_type_actions": {
+    "unchanged": 9300,
+    "missing": 687,
+    "mapped_synonym": 2
+  },
+  "pincode_join_confidence": {
+    "exact_reference_mapping": 9159,
+    "ambiguous_reference_mapping": 400,
+    "invalid_pincode": 223,
+    "unresolved": 203,
+    "missing_pincode": 4
+  },
+  "coordinate_pair_status": {
+    "valid": 9953,
+    "missing_pair": 30,
+    "out_of_bounds": 6
+  },
+  "claim_parse_status": {
+    "capability": {
+      "parsed_list": 9933,
+      "missing": 37,
+      "empty_list": 19
+    },
+    "procedure": {
+      "parsed_list": 9202,
+      "empty_list": 722,
+      "missing": 60,
+      "invalid_members": 5
+    },
+    "equipment": {
+      "parsed_list": 7666,
+      "empty_list": 2178,
+      "missing": 140,
+      "invalid_members": 5
+    }
+  }
+}

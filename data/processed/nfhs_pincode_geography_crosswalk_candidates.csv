@@ -1,0 +1,707 @@
+nfhs_state_raw,nfhs_district_raw,state_normalized,district_normalized,exact_match,candidate_1,candidate_2,candidate_3,review_status
+Andaman & Nicobar Islands,Nicobars,ANDAMAN & NICOBAR ISLANDS,NICOBARS,False,,,,requires_review
+Andaman & Nicobar Islands,North & Middle Andaman,ANDAMAN & NICOBAR ISLANDS,NORTH & MIDDLE ANDAMAN,False,,,,requires_review
+Andaman & Nicobar Islands,South Andaman,ANDAMAN & NICOBAR ISLANDS,SOUTH ANDAMAN,False,,,,requires_review
+Andhra Pradesh,Anantapur,ANDHRA PRADESH,ANANTAPUR,True,,,,accepted_exact
+Andhra Pradesh,Chittoor,ANDHRA PRADESH,CHITTOOR,True,,,,accepted_exact
+Andhra Pradesh,East Godavari,ANDHRA PRADESH,EAST GODAVARI,True,,,,accepted_exact
+Andhra Pradesh,Guntur,ANDHRA PRADESH,GUNTUR,True,,,,accepted_exact
+Andhra Pradesh,Krishna,ANDHRA PRADESH,KRISHNA,True,,,,accepted_exact
+Andhra Pradesh,Kurnool,ANDHRA PRADESH,KURNOOL,True,,,,accepted_exact
+Andhra Pradesh,Prakasam,ANDHRA PRADESH,PRAKASAM,True,,,,accepted_exact
+Andhra Pradesh,Sri Potti Sriramulu Nello,ANDHRA PRADESH,SRI POTTI SRIRAMULU NELLO,False,,,,requires_review
+Andhra Pradesh,Srikakulam,ANDHRA PRADESH,SRIKAKULAM,True,,,,accepted_exact
+Andhra Pradesh,Visakhapatnam,ANDHRA PRADESH,VISAKHAPATNAM,False,VISAKHAPATANAM,KRISHNA,BAPATLA,requires_review
+Andhra Pradesh,Vizianagaram,ANDHRA PRADESH,VIZIANAGARAM,True,,,,accepted_exact
+Andhra Pradesh,West Godavari,ANDHRA PRADESH,WEST GODAVARI,True,,,,accepted_exact
+Andhra Pradesh,Y.S.R.,ANDHRA PRADESH,Y.S.R.,True,,,,accepted_exact
+Arunachal Pradesh,Anjaw,ARUNACHAL PRADESH,ANJAW,True,,,,accepted_exact
+Arunachal Pradesh,Changlang,ARUNACHAL PRADESH,CHANGLANG,True,,,,accepted_exact
+Arunachal Pradesh,Dibang Valley,ARUNACHAL PRADESH,DIBANG VALLEY,True,,,,accepted_exact
+Arunachal Pradesh,East Kameng,ARUNACHAL PRADESH,EAST KAMENG,True,,,,accepted_exact
+Arunachal Pradesh,East Siang,ARUNACHAL PRADESH,EAST SIANG,True,,,,accepted_exact
+Arunachal Pradesh,Kra Daadi,ARUNACHAL PRADESH,KRA DAADI,True,,,,accepted_exact
+Arunachal Pradesh,Kurung Kumey,ARUNACHAL PRADESH,KURUNG KUMEY,True,,,,accepted_exact
+Arunachal Pradesh,Lohit,ARUNACHAL PRADESH,LOHIT,True,,,,accepted_exact
+Arunachal Pradesh,Longding,ARUNACHAL PRADESH,LONGDING,True,,,,accepted_exact
+Arunachal Pradesh,Lower Dibang Valley,ARUNACHAL PRADESH,LOWER DIBANG VALLEY,True,,,,accepted_exact
+Arunachal Pradesh,Lower Subansiri,ARUNACHAL PRADESH,LOWER SUBANSIRI,True,,,,accepted_exact
+Arunachal Pradesh,Namsai,ARUNACHAL PRADESH,NAMSAI,True,,,,accepted_exact
+Arunachal Pradesh,Papum Pare,ARUNACHAL PRADESH,PAPUM PARE,True,,,,accepted_exact
+Arunachal Pradesh,Siang,ARUNACHAL PRADESH,SIANG,True,,,,accepted_exact
+Arunachal Pradesh,Tawang,ARUNACHAL PRADESH,TAWANG,True,,,,accepted_exact
+Arunachal Pradesh,Tirap,ARUNACHAL PRADESH,TIRAP,True,,,,accepted_exact
+Arunachal Pradesh,Upper Siang,ARUNACHAL PRADESH,UPPER SIANG,True,,,,accepted_exact
+Arunachal Pradesh,Upper Subansiri,ARUNACHAL PRADESH,UPPER SUBANSIRI,True,,,,accepted_exact
+Arunachal Pradesh,West Kameng,ARUNACHAL PRADESH,WEST KAMENG,True,,,,accepted_exact
+Arunachal Pradesh,West Siang,ARUNACHAL PRADESH,WEST SIANG,True,,,,accepted_exact
+Assam,Baksa,ASSAM,BAKSA,True,,,,accepted_exact
+Assam,Barpeta,ASSAM,BARPETA,True,,,,accepted_exact
+Assam,Biswanath,ASSAM,BISWANATH,True,,,,accepted_exact
+Assam,Bongaigaon,ASSAM,BONGAIGAON,True,,,,accepted_exact
+Assam,Cachar,ASSAM,CACHAR,True,,,,accepted_exact
+Assam,Charaideo,ASSAM,CHARAIDEO,True,,,,accepted_exact
+Assam,Chirang,ASSAM,CHIRANG,True,,,,accepted_exact
+Assam,Darrang,ASSAM,DARRANG,True,,,,accepted_exact
+Assam,Dhemaji,ASSAM,DHEMAJI,True,,,,accepted_exact
+Assam,Dhubri,ASSAM,DHUBRI,True,,,,accepted_exact
+Assam,Dibrugarh,ASSAM,DIBRUGARH,True,,,,accepted_exact
+Assam,Dima Hasao,ASSAM,DIMA HASAO,True,,,,accepted_exact
+Assam,Goalpara,ASSAM,GOALPARA,True,,,,accepted_exact
+Assam,Golaghat,ASSAM,GOLAGHAT,True,,,,accepted_exact
+Assam,Hailakandi,ASSAM,HAILAKANDI,True,,,,accepted_exact
+Assam,Hojai,ASSAM,HOJAI,True,,,,accepted_exact
+Assam,Jorhat,ASSAM,JORHAT,True,,,,accepted_exact
+Assam,Kamrup,ASSAM,KAMRUP,True,,,,accepted_exact
+Assam,Kamrup Metropolitan,ASSAM,KAMRUP METROPOLITAN,False,KAMRUP METRO,KAMRUP,BARPETA,requires_review
+Assam,Karbi Anglong,ASSAM,KARBI ANGLONG,True,,,,accepted_exact
+Assam,Karimganj,ASSAM,KARIMGANJ,True,,,,accepted_exact
+Assam,Kokrajhar,ASSAM,KOKRAJHAR,True,,,,accepted_exact
+Assam,Lakhimpur,ASSAM,LAKHIMPUR,True,,,,accepted_exact
+Assam,Majuli,ASSAM,MAJULI,True,,,,accepted_exact
+Assam,Morigaon,ASSAM,MORIGAON,False,MARIGAON,BONGAIGAON,KARIMGANJ,requires_review
+Assam,Nagaon,ASSAM,NAGAON,True,,,,accepted_exact
+Assam,Nalbari,ASSAM,NALBARI,True,,,,accepted_exact
+Assam,Sivasagar,ASSAM,SIVASAGAR,True,,,,accepted_exact
+Assam,Sonitpur,ASSAM,SONITPUR,True,,,,accepted_exact
+Assam,South Salmara Mancachar,ASSAM,SOUTH SALMARA MANCACHAR,True,,,,accepted_exact
+Assam,Tinsukia,ASSAM,TINSUKIA,True,,,,accepted_exact
+Assam,Udalguri,ASSAM,UDALGURI,True,,,,accepted_exact
+Assam,West Karbi Anglong,ASSAM,WEST KARBI ANGLONG,True,,,,accepted_exact
+Bihar,Araria,BIHAR,ARARIA,True,,,,accepted_exact
+Bihar,Arwal,BIHAR,ARWAL,True,,,,accepted_exact
+Bihar,Aurangabad,BIHAR,AURANGABAD,True,,,,accepted_exact
+Bihar,Banka,BIHAR,BANKA,True,,,,accepted_exact
+Bihar,Begusarai,BIHAR,BEGUSARAI,True,,,,accepted_exact
+Bihar,Bhagalpur,BIHAR,BHAGALPUR,True,,,,accepted_exact
+Bihar,Bhojpur,BIHAR,BHOJPUR,True,,,,accepted_exact
+Bihar,Buxar,BIHAR,BUXAR,True,,,,accepted_exact
+Bihar,Darbhanga,BIHAR,DARBHANGA,True,,,,accepted_exact
+Bihar,Gaya,BIHAR,GAYA,True,,,,accepted_exact
+Bihar,Gopalganj,BIHAR,GOPALGANJ,True,,,,accepted_exact
+Bihar,Jamui,BIHAR,JAMUI,True,,,,accepted_exact
+Bihar,Jehanabad,BIHAR,JEHANABAD,True,,,,accepted_exact
+Bihar,Kaimur (Bhabua),BIHAR,KAIMUR (BHABUA),True,,,,accepted_exact
+Bihar,Katihar,BIHAR,KATIHAR,True,,,,accepted_exact
+Bihar,Khagaria,BIHAR,KHAGARIA,True,,,,accepted_exact
+Bihar,Kishanganj,BIHAR,KISHANGANJ,True,,,,accepted_exact
+Bihar,Lakhisarai,BIHAR,LAKHISARAI,True,,,,accepted_exact
+Bihar,Madhepura,BIHAR,MADHEPURA,True,,,,accepted_exact
+Bihar,Madhubani,BIHAR,MADHUBANI,True,,,,accepted_exact
+Bihar,Munger,BIHAR,MUNGER,True,,,,accepted_exact
+Bihar,Muzaffarpur,BIHAR,MUZAFFARPUR,True,,,,accepted_exact
+Bihar,Nalanda,BIHAR,NALANDA,True,,,,accepted_exact
+Bihar,Nawada,BIHAR,NAWADA,True,,,,accepted_exact
+Bihar,Pashchim Champaran,BIHAR,PASHCHIM CHAMPARAN,True,,,,accepted_exact
+Bihar,Patna,BIHAR,PATNA,True,,,,accepted_exact
+Bihar,Purba Champaran,BIHAR,PURBA CHAMPARAN,False,PURBI CHAMPARAN,PASHCHIM CHAMPARAN,SAHARSA,requires_review
+Bihar,Purnia,BIHAR,PURNIA,True,,,,accepted_exact
+Bihar,Rohtas,BIHAR,ROHTAS,True,,,,accepted_exact
+Bihar,Saharsa,BIHAR,SAHARSA,True,,,,accepted_exact
+Bihar,Samastipur,BIHAR,SAMASTIPUR,True,,,,accepted_exact
+Bihar,Saran,BIHAR,SARAN,True,,,,accepted_exact
+Bihar,Sheikhpura,BIHAR,SHEIKHPURA,True,,,,accepted_exact
+Bihar,Sheohar,BIHAR,SHEOHAR,True,,,,accepted_exact
+Bihar,Sitamarhi,BIHAR,SITAMARHI,True,,,,accepted_exact
+Bihar,Siwan,BIHAR,SIWAN,True,,,,accepted_exact
+Bihar,Supaul,BIHAR,SUPAUL,True,,,,accepted_exact
+Bihar,Vaishali,BIHAR,VAISHALI,True,,,,accepted_exact
+Chandigarh,Chandigarh,CHANDIGARH,CHANDIGARH,True,,,,accepted_exact
+Chhattisgarh,Balod,CHHATTISGARH,BALOD,True,,,,accepted_exact
+Chhattisgarh,Baloda Bazar,CHHATTISGARH,BALODA BAZAR,True,,,,accepted_exact
+Chhattisgarh,Balrampur,CHHATTISGARH,BALRAMPUR,True,,,,accepted_exact
+Chhattisgarh,Bastar,CHHATTISGARH,BASTAR,True,,,,accepted_exact
+Chhattisgarh,Bemetara,CHHATTISGARH,BEMETARA,True,,,,accepted_exact
+Chhattisgarh,Bijapur,CHHATTISGARH,BIJAPUR,True,,,,accepted_exact
+Chhattisgarh,Bilaspur,CHHATTISGARH,BILASPUR,True,,,,accepted_exact
+Chhattisgarh,Dantewada,CHHATTISGARH,DANTEWADA,True,,,,accepted_exact
+Chhattisgarh,Dhamtari,CHHATTISGARH,DHAMTARI,True,,,,accepted_exact
+Chhattisgarh,Durg,CHHATTISGARH,DURG,True,,,,accepted_exact
+Chhattisgarh,Gariyaband,CHHATTISGARH,GARIYABAND,True,,,,accepted_exact
+Chhattisgarh,Janjgir - Champa,CHHATTISGARH,JANJGIR - CHAMPA,False,JANJGIR-CHAMPA,KABIRDHAM,,requires_review
+Chhattisgarh,Jashpur,CHHATTISGARH,JASHPUR,True,,,,accepted_exact
+Chhattisgarh,Kabeerdham,CHHATTISGARH,KABEERDHAM,False,KABIRDHAM,KANKER,,requires_review
+Chhattisgarh,Kodagaon,CHHATTISGARH,KODAGAON,False,KONDAGAON,RAJNANDGAON,KOREA,requires_review
+Chhattisgarh,Korba,CHHATTISGARH,KORBA,True,,,,accepted_exact
+Chhattisgarh,Koriya,CHHATTISGARH,KORIYA,False,KOREA,KORBA,GARIYABAND,requires_review
+Chhattisgarh,Mahasamund,CHHATTISGARH,MAHASAMUND,True,,,,accepted_exact
+Chhattisgarh,Mungeli,CHHATTISGARH,MUNGELI,True,,,,accepted_exact
+Chhattisgarh,Narayanpur,CHHATTISGARH,NARAYANPUR,True,,,,accepted_exact
+Chhattisgarh,Raigarh,CHHATTISGARH,RAIGARH,True,,,,accepted_exact
+Chhattisgarh,Raipur,CHHATTISGARH,RAIPUR,True,,,,accepted_exact
+Chhattisgarh,Rajnandgaon,CHHATTISGARH,RAJNANDGAON,True,,,,accepted_exact
+Chhattisgarh,Sukma,CHHATTISGARH,SUKMA,True,,,,accepted_exact
+Chhattisgarh,Surajpur,CHHATTISGARH,SURAJPUR,True,,,,accepted_exact
+Chhattisgarh,Surguja,CHHATTISGARH,SURGUJA,True,,,,accepted_exact
+Chhattisgarh,Uttar Bastar Kanker,CHHATTISGARH,UTTAR BASTAR KANKER,False,KANKER,BASTAR,,requires_review
+Dadra and Nagar Haveli & Daman and Diu,Dadra & Nagar Haveli,DADRA AND NAGAR HAVELI & DAMAN AND DIU,DADRA & NAGAR HAVELI,False,,,,requires_review
+Dadra and Nagar Haveli & Daman and Diu,Daman,DADRA AND NAGAR HAVELI & DAMAN AND DIU,DAMAN,False,,,,requires_review
+Dadra and Nagar Haveli & Daman and Diu,Diu,DADRA AND NAGAR HAVELI & DAMAN AND DIU,DIU,False,,,,requires_review
+Goa,North Goa,GOA,NORTH GOA,True,,,,accepted_exact
+Goa,South Goa,GOA,SOUTH GOA,True,,,,accepted_exact
+Gujarat,Ahmadabad,GUJARAT,AHMADABAD,True,,,,accepted_exact
+Gujarat,Amreli,GUJARAT,AMRELI,True,,,,accepted_exact
+Gujarat,Anand,GUJARAT,ANAND,True,,,,accepted_exact
+Gujarat,Aravali,GUJARAT,ARAVALI,False,ARVALLI,AMRELI,NAVSARI,requires_review
+Gujarat,Banas Kantha,GUJARAT,BANAS KANTHA,True,,,,accepted_exact
+Gujarat,Bharuch,GUJARAT,BHARUCH,True,,,,accepted_exact
+Gujarat,Bhavnagar,GUJARAT,BHAVNAGAR,True,,,,accepted_exact
+Gujarat,Botad,GUJARAT,BOTAD,True,,,,accepted_exact
+Gujarat,Chhota Udaipur,GUJARAT,CHHOTA UDAIPUR,False,CHHOTAUDEPUR,,,requires_review
+Gujarat,Devbhumi Dwarka,GUJARAT,DEVBHUMI DWARKA,True,,,,accepted_exact
+Gujarat,Dohad,GUJARAT,DOHAD,True,,,,accepted_exact
+Gujarat,Gandhinagar,GUJARAT,GANDHINAGAR,True,,,,accepted_exact
+Gujarat,Gir Somnath,GUJARAT,GIR SOMNATH,True,,,,accepted_exact
+Gujarat,Jamnagar,GUJARAT,JAMNAGAR,True,,,,accepted_exact
+Gujarat,Junagadh,GUJARAT,JUNAGADH,True,,,,accepted_exact
+Gujarat,Kachchh,GUJARAT,KACHCHH,True,,,,accepted_exact
+Gujarat,Kheda,GUJARAT,KHEDA,True,,,,accepted_exact
+Gujarat,Mahesana,GUJARAT,MAHESANA,True,,,,accepted_exact
+Gujarat,Mahisagar,GUJARAT,MAHISAGAR,True,,,,accepted_exact
+Gujarat,Morbi,GUJARAT,MORBI,True,,,,accepted_exact
+Gujarat,Narmada,GUJARAT,NARMADA,True,,,,accepted_exact
+Gujarat,Navsari,GUJARAT,NAVSARI,True,,,,accepted_exact
+Gujarat,Panch Mahals,GUJARAT,PANCH MAHALS,True,,,,accepted_exact
+Gujarat,Patan,GUJARAT,PATAN,True,,,,accepted_exact
+Gujarat,Porbandar,GUJARAT,PORBANDAR,True,,,,accepted_exact
+Gujarat,Rajkot,GUJARAT,RAJKOT,True,,,,accepted_exact
+Gujarat,Sabar Kantha,GUJARAT,SABAR KANTHA,True,,,,accepted_exact
+Gujarat,Surat,GUJARAT,SURAT,True,,,,accepted_exact
+Gujarat,Surendranagar,GUJARAT,SURENDRANAGAR,True,,,,accepted_exact
+Gujarat,Tapi,GUJARAT,TAPI,True,,,,accepted_exact
+Gujarat,The Dangs,GUJARAT,THE DANGS,False,DANG,KHEDA,MAHESANA,requires_review
+Gujarat,Vadodara,GUJARAT,VADODARA,True,,,,accepted_exact
+Gujarat,Valsad,GUJARAT,VALSAD,True,,,,accepted_exact
+Haryana,Ambala,HARYANA,AMBALA,True,,,,accepted_exact
+Haryana,Bhiwani,HARYANA,BHIWANI,True,,,,accepted_exact
+Haryana,Charkhi Dadri,HARYANA,CHARKHI DADRI,False,CHARKI DADRI,FARIDABAD,,requires_review
+Haryana,Faridabad,HARYANA,FARIDABAD,True,,,,accepted_exact
+Haryana,Fatehabad,HARYANA,FATEHABAD,True,,,,accepted_exact
+Haryana,Gurgaon,HARYANA,GURGAON,False,GURUGRAM,,,requires_review
+Haryana,Hisar,HARYANA,HISAR,True,,,,accepted_exact
+Haryana,Jhajjar,HARYANA,JHAJJAR,True,,,,accepted_exact
+Haryana,Jind,HARYANA,JIND,True,,,,accepted_exact
+Haryana,Kaithal,HARYANA,KAITHAL,True,,,,accepted_exact
+Haryana,Karnal,HARYANA,KARNAL,True,,,,accepted_exact
+Haryana,Kurukshetra,HARYANA,KURUKSHETRA,True,,,,accepted_exact
+Haryana,Mahendragarh,HARYANA,MAHENDRAGARH,True,,,,accepted_exact
+Haryana,Mewat,HARYANA,MEWAT,False,REWARI,,,requires_review
+Haryana,Palwal,HARYANA,PALWAL,True,,,,accepted_exact
+Haryana,Panchkula,HARYANA,PANCHKULA,True,,,,accepted_exact
+Haryana,Panipat,HARYANA,PANIPAT,True,,,,accepted_exact
+Haryana,Rewari,HARYANA,REWARI,True,,,,accepted_exact
+Haryana,Rohtak,HARYANA,ROHTAK,True,,,,accepted_exact
+Haryana,Sirsa,HARYANA,SIRSA,True,,,,accepted_exact
+Haryana,Sonipat,HARYANA,SONIPAT,True,,,,accepted_exact
+Haryana,Yamunanagar,HARYANA,YAMUNANAGAR,True,,,,accepted_exact
+Himachal Pradesh,Bilaspur,HIMACHAL PRADESH,BILASPUR,True,,,,accepted_exact
+Himachal Pradesh,Chamba,HIMACHAL PRADESH,CHAMBA,True,,,,accepted_exact
+Himachal Pradesh,Hamirpur,HIMACHAL PRADESH,HAMIRPUR,True,,,,accepted_exact
+Himachal Pradesh,Kangra,HIMACHAL PRADESH,KANGRA,True,,,,accepted_exact
+Himachal Pradesh,Kinnaur,HIMACHAL PRADESH,KINNAUR,True,,,,accepted_exact
+Himachal Pradesh,Kullu,HIMACHAL PRADESH,KULLU,True,,,,accepted_exact
+Himachal Pradesh,Lahul & Spiti,HIMACHAL PRADESH,LAHUL & SPITI,False,LAHUL AND SPITI,,,requires_review
+Himachal Pradesh,Mandi,HIMACHAL PRADESH,MANDI,True,,,,accepted_exact
+Himachal Pradesh,Shimla,HIMACHAL PRADESH,SHIMLA,True,,,,accepted_exact
+Himachal Pradesh,Sirmaur,HIMACHAL PRADESH,SIRMAUR,True,,,,accepted_exact
+Himachal Pradesh,Solan,HIMACHAL PRADESH,SOLAN,True,,,,accepted_exact
+Himachal Pradesh,Una,HIMACHAL PRADESH,UNA,True,,,,accepted_exact
+Jammu & Kashmir,Anantnag,JAMMU & KASHMIR,ANANTNAG,False,,,,requires_review
+Jammu & Kashmir,Badgam,JAMMU & KASHMIR,BADGAM,False,,,,requires_review
+Jammu & Kashmir,Bandipore,JAMMU & KASHMIR,BANDIPORE,False,,,,requires_review
+Jammu & Kashmir,Baramula,JAMMU & KASHMIR,BARAMULA,False,,,,requires_review
+Jammu & Kashmir,Doda,JAMMU & KASHMIR,DODA,False,,,,requires_review
+Jammu & Kashmir,Ganderbal,JAMMU & KASHMIR,GANDERBAL,False,,,,requires_review
+Jammu & Kashmir,Jammu,JAMMU & KASHMIR,JAMMU,False,,,,requires_review
+Jammu & Kashmir,Kathua,JAMMU & KASHMIR,KATHUA,False,,,,requires_review
+Jammu & Kashmir,Kishtwar,JAMMU & KASHMIR,KISHTWAR,False,,,,requires_review
+Jammu & Kashmir,Kulgam,JAMMU & KASHMIR,KULGAM,False,,,,requires_review
+Jammu & Kashmir,Kupwara,JAMMU & KASHMIR,KUPWARA,False,,,,requires_review
+Jammu & Kashmir,Pulwama,JAMMU & KASHMIR,PULWAMA,False,,,,requires_review
+Jammu & Kashmir,Punch,JAMMU & KASHMIR,PUNCH,False,,,,requires_review
+Jammu & Kashmir,Rajouri,JAMMU & KASHMIR,RAJOURI,False,,,,requires_review
+Jammu & Kashmir,Ramban,JAMMU & KASHMIR,RAMBAN,False,,,,requires_review
+Jammu & Kashmir,Reasi,JAMMU & KASHMIR,REASI,False,,,,requires_review
+Jammu & Kashmir,Samba,JAMMU & KASHMIR,SAMBA,False,,,,requires_review
+Jammu & Kashmir,Shupiyan,JAMMU & KASHMIR,SHUPIYAN,False,,,,requires_review
+Jammu & Kashmir,Srinagar,JAMMU & KASHMIR,SRINAGAR,False,,,,requires_review
+Jammu & Kashmir,Udhampur,JAMMU & KASHMIR,UDHAMPUR,False,,,,requires_review
+Jharkhand,Bokaro,JHARKHAND,BOKARO,True,,,,accepted_exact
+Jharkhand,Chatra,JHARKHAND,CHATRA,True,,,,accepted_exact
+Jharkhand,Deoghar,JHARKHAND,DEOGHAR,True,,,,accepted_exact
+Jharkhand,Dhanbad,JHARKHAND,DHANBAD,True,,,,accepted_exact
+Jharkhand,Dumka,JHARKHAND,DUMKA,True,,,,accepted_exact
+Jharkhand,Garhwa,JHARKHAND,GARHWA,True,,,,accepted_exact
+Jharkhand,Giridih,JHARKHAND,GIRIDIH,True,,,,accepted_exact
+Jharkhand,Godda,JHARKHAND,GODDA,True,,,,accepted_exact
+Jharkhand,Gumla,JHARKHAND,GUMLA,True,,,,accepted_exact
+Jharkhand,Hazaribagh,JHARKHAND,HAZARIBAGH,True,,,,accepted_exact
+Jharkhand,Jamtara,JHARKHAND,JAMTARA,True,,,,accepted_exact
+Jharkhand,Khunti,JHARKHAND,KHUNTI,True,,,,accepted_exact
+Jharkhand,Kodarma,JHARKHAND,KODARMA,False,KODERMA,LOHARDAGA,GODDA,requires_review
+Jharkhand,Latehar,JHARKHAND,LATEHAR,True,,,,accepted_exact
+Jharkhand,Lohardaga,JHARKHAND,LOHARDAGA,True,,,,accepted_exact
+Jharkhand,Pakur,JHARKHAND,PAKUR,True,,,,accepted_exact
+Jharkhand,Palamu,JHARKHAND,PALAMU,True,,,,accepted_exact
+Jharkhand,Pashchimi Singhbhum,JHARKHAND,PASHCHIMI SINGHBHUM,False,EAST SINGHBUM,WEST SINGHBHUM,,requires_review
+Jharkhand,Purbi Singhbhum,JHARKHAND,PURBI SINGHBHUM,False,WEST SINGHBHUM,EAST SINGHBUM,,requires_review
+Jharkhand,Ramgarh,JHARKHAND,RAMGARH,True,,,,accepted_exact
+Jharkhand,Ranchi,JHARKHAND,RANCHI,True,,,,accepted_exact
+Jharkhand,Sahibganj,JHARKHAND,SAHIBGANJ,False,SAHEBGANJ,SIMDEGA,,requires_review
+Jharkhand,Saraikela-Kharsawan,JHARKHAND,SARAIKELA-KHARSAWAN,False,SARAIKELA KHARSAWAN,,,requires_review
+Jharkhand,Simdega,JHARKHAND,SIMDEGA,True,,,,accepted_exact
+Karnataka,Bagalkot,KARNATAKA,BAGALKOT,True,,,,accepted_exact
+Karnataka,Bangalore,KARNATAKA,BANGALORE,False,BAGALKOT,DAVANGERE,VIJAYNAGAR,requires_review
+Karnataka,Bangalore Rural,KARNATAKA,BANGALORE RURAL,False,BENGALURU RURAL,BENGALURU URBAN,BAGALKOT,requires_review
+Karnataka,Belgaum,KARNATAKA,BELGAUM,False,BELAGAVI,BENGALURU URBAN,BENGALURU RURAL,requires_review
+Karnataka,Bellary,KARNATAKA,BELLARY,False,BALLARI,BELAGAVI,KOLAR,requires_review
+Karnataka,Bidar,KARNATAKA,BIDAR,True,,,,accepted_exact
+Karnataka,Bijapur,KARNATAKA,BIJAPUR,False,VIJAYAPURA,BIDAR,VIJAYNAGAR,requires_review
+Karnataka,Chamarajanagar,KARNATAKA,CHAMARAJANAGAR,False,CHAMARAJANAGARA,RAMANAGARA,VIJAYNAGAR,requires_review
+Karnataka,Chikkaballapura,KARNATAKA,CHIKKABALLAPURA,True,,,,accepted_exact
+Karnataka,Chikmagalur,KARNATAKA,CHIKMAGALUR,False,CHIKKAMAGALURU,CHIKKABALLAPURA,CHITRADURGA,requires_review
+Karnataka,Chitradurga,KARNATAKA,CHITRADURGA,True,,,,accepted_exact
+Karnataka,Dakshina Kannada,KARNATAKA,DAKSHINA KANNADA,True,,,,accepted_exact
+Karnataka,Davanagere,KARNATAKA,DAVANAGERE,False,DAVANGERE,VIJAYNAGAR,RAMANAGARA,requires_review
+Karnataka,Dharwad,KARNATAKA,DHARWAD,True,,,,accepted_exact
+Karnataka,Gadag,KARNATAKA,GADAG,True,,,,accepted_exact
+Karnataka,Gulbarga,KARNATAKA,GULBARGA,False,BELAGAVI,BAGALKOT,KOLAR,requires_review
+Karnataka,Hassan,KARNATAKA,HASSAN,True,,,,accepted_exact
+Karnataka,Haveri,KARNATAKA,HAVERI,True,,,,accepted_exact
+Karnataka,Kodagu,KARNATAKA,KODAGU,True,,,,accepted_exact
+Karnataka,Kolar,KARNATAKA,KOLAR,True,,,,accepted_exact
+Karnataka,Koppal,KARNATAKA,KOPPAL,True,,,,accepted_exact
+Karnataka,Mandya,KARNATAKA,MANDYA,True,,,,accepted_exact
+Karnataka,Mysore,KARNATAKA,MYSORE,False,MYSURU,,,requires_review
+Karnataka,Raichur,KARNATAKA,RAICHUR,True,,,,accepted_exact
+Karnataka,Ramanagara,KARNATAKA,RAMANAGARA,True,,,,accepted_exact
+Karnataka,Shimoga,KARNATAKA,SHIMOGA,False,SHIVAMOGGA,CHIKKAMAGALURU,,requires_review
+Karnataka,Tumkur,KARNATAKA,TUMKUR,False,TUMAKURU,MYSURU,,requires_review
+Karnataka,Udupi,KARNATAKA,UDUPI,True,,,,accepted_exact
+Karnataka,Uttara Kannada,KARNATAKA,UTTARA KANNADA,True,,,,accepted_exact
+Karnataka,Yadgir,KARNATAKA,YADGIR,True,,,,accepted_exact
+Kerala,Alappuzha,KERALA,ALAPPUZHA,True,,,,accepted_exact
+Kerala,Ernakulam,KERALA,ERNAKULAM,True,,,,accepted_exact
+Kerala,Idukki,KERALA,IDUKKI,True,,,,accepted_exact
+Kerala,Kannur,KERALA,KANNUR,True,,,,accepted_exact
+Kerala,Kasaragod,KERALA,KASARAGOD,True,,,,accepted_exact
+Kerala,Kollam,KERALA,KOLLAM,True,,,,accepted_exact
+Kerala,Kottayam,KERALA,KOTTAYAM,True,,,,accepted_exact
+Kerala,Kozhikode,KERALA,KOZHIKODE,True,,,,accepted_exact
+Kerala,Malappuram,KERALA,MALAPPURAM,True,,,,accepted_exact
+Kerala,Palakkad,KERALA,PALAKKAD,True,,,,accepted_exact
+Kerala,Pathanamthitta,KERALA,PATHANAMTHITTA,True,,,,accepted_exact
+Kerala,Thiruvananthapuram,KERALA,THIRUVANANTHAPURAM,True,,,,accepted_exact
+Kerala,Thrissur,KERALA,THRISSUR,True,,,,accepted_exact
+Kerala,Wayanad,KERALA,WAYANAD,True,,,,accepted_exact
+Ladakh,Kargil,LADAKH,KARGIL,True,,,,accepted_exact
+Ladakh,Leh(Ladakh),LADAKH,LEH(LADAKH),False,LEH LADAKH,,,requires_review
+Lakshadweep,Lakshadweep,LAKSHADWEEP,LAKSHADWEEP,False,LAKSHADWEEP DISTRICT,,,requires_review
+Madhya Pradesh,Agar Malwa,MADHYA PRADESH,AGAR MALWA,True,,,,accepted_exact
+Madhya Pradesh,Alirajpur,MADHYA PRADESH,ALIRAJPUR,True,,,,accepted_exact
+Madhya Pradesh,Anuppur,MADHYA PRADESH,ANUPPUR,True,,,,accepted_exact
+Madhya Pradesh,Ashoknagar,MADHYA PRADESH,ASHOKNAGAR,True,,,,accepted_exact
+Madhya Pradesh,Balaghat,MADHYA PRADESH,BALAGHAT,True,,,,accepted_exact
+Madhya Pradesh,Barwani,MADHYA PRADESH,BARWANI,True,,,,accepted_exact
+Madhya Pradesh,Betul,MADHYA PRADESH,BETUL,True,,,,accepted_exact
+Madhya Pradesh,Bhind,MADHYA PRADESH,BHIND,True,,,,accepted_exact
+Madhya Pradesh,Bhopal,MADHYA PRADESH,BHOPAL,True,,,,accepted_exact
+Madhya Pradesh,Burhanpur,MADHYA PRADESH,BURHANPUR,True,,,,accepted_exact
+Madhya Pradesh,Chhatarpur,MADHYA PRADESH,CHHATARPUR,True,,,,accepted_exact
+Madhya Pradesh,Chhindwara,MADHYA PRADESH,CHHINDWARA,True,,,,accepted_exact
+Madhya Pradesh,Damoh,MADHYA PRADESH,DAMOH,True,,,,accepted_exact
+Madhya Pradesh,Datia,MADHYA PRADESH,DATIA,True,,,,accepted_exact
+Madhya Pradesh,Dewas,MADHYA PRADESH,DEWAS,True,,,,accepted_exact
+Madhya Pradesh,Dhar,MADHYA PRADESH,DHAR,True,,,,accepted_exact
+Madhya Pradesh,Dindori,MADHYA PRADESH,DINDORI,True,,,,accepted_exact
+Madhya Pradesh,Guna,MADHYA PRADESH,GUNA,True,,,,accepted_exact
+Madhya Pradesh,Gwalior,MADHYA PRADESH,GWALIOR,True,,,,accepted_exact
+Madhya Pradesh,Harda,MADHYA PRADESH,HARDA,True,,,,accepted_exact
+Madhya Pradesh,Hoshangabad,MADHYA PRADESH,HOSHANGABAD,True,,,,accepted_exact
+Madhya Pradesh,Indore,MADHYA PRADESH,INDORE,True,,,,accepted_exact
+Madhya Pradesh,Jabalpur,MADHYA PRADESH,JABALPUR,True,,,,accepted_exact
+Madhya Pradesh,Jhabua,MADHYA PRADESH,JHABUA,True,,,,accepted_exact
+Madhya Pradesh,Katni,MADHYA PRADESH,KATNI,True,,,,accepted_exact
+Madhya Pradesh,Khandwa (East Nimar),MADHYA PRADESH,KHANDWA (EAST NIMAR),False,EAST NIMAR,,,requires_review
+Madhya Pradesh,Khargone (West Nimar),MADHYA PRADESH,KHARGONE (WEST NIMAR),False,EAST NIMAR,KHARGONE,,requires_review
+Madhya Pradesh,Mandla,MADHYA PRADESH,MANDLA,True,,,,accepted_exact
+Madhya Pradesh,Mandsaur,MADHYA PRADESH,MANDSAUR,True,,,,accepted_exact
+Madhya Pradesh,Morena,MADHYA PRADESH,MORENA,True,,,,accepted_exact
+Madhya Pradesh,Narsimhapur,MADHYA PRADESH,NARSIMHAPUR,False,NARSINGHPUR,SHAJAPUR,BURHANPUR,requires_review
+Madhya Pradesh,Neemuch,MADHYA PRADESH,NEEMUCH,True,,,,accepted_exact
+Madhya Pradesh,Panna,MADHYA PRADESH,PANNA,True,,,,accepted_exact
+Madhya Pradesh,Raisen,MADHYA PRADESH,RAISEN,True,,,,accepted_exact
+Madhya Pradesh,Rajgarh,MADHYA PRADESH,RAJGARH,True,,,,accepted_exact
+Madhya Pradesh,Ratlam,MADHYA PRADESH,RATLAM,True,,,,accepted_exact
+Madhya Pradesh,Rewa,MADHYA PRADESH,REWA,True,,,,accepted_exact
+Madhya Pradesh,Sagar,MADHYA PRADESH,SAGAR,True,,,,accepted_exact
+Madhya Pradesh,Satna,MADHYA PRADESH,SATNA,True,,,,accepted_exact
+Madhya Pradesh,Sehore,MADHYA PRADESH,SEHORE,True,,,,accepted_exact
+Madhya Pradesh,Seoni,MADHYA PRADESH,SEONI,True,,,,accepted_exact
+Madhya Pradesh,Shahdol,MADHYA PRADESH,SHAHDOL,True,,,,accepted_exact
+Madhya Pradesh,Shajapur,MADHYA PRADESH,SHAJAPUR,True,,,,accepted_exact
+Madhya Pradesh,Sheopur,MADHYA PRADESH,SHEOPUR,True,,,,accepted_exact
+Madhya Pradesh,Shivpuri,MADHYA PRADESH,SHIVPURI,True,,,,accepted_exact
+Madhya Pradesh,Sidhi,MADHYA PRADESH,SIDHI,True,,,,accepted_exact
+Madhya Pradesh,Singrauli,MADHYA PRADESH,SINGRAULI,True,,,,accepted_exact
+Madhya Pradesh,Tikamgarh,MADHYA PRADESH,TIKAMGARH,True,,,,accepted_exact
+Madhya Pradesh,Ujjain,MADHYA PRADESH,UJJAIN,True,,,,accepted_exact
+Madhya Pradesh,Umaria,MADHYA PRADESH,UMARIA,True,,,,accepted_exact
+Madhya Pradesh,Vidisha,MADHYA PRADESH,VIDISHA,True,,,,accepted_exact
+Maharastra,Ahmadnagar,MAHARASTRA,AHMADNAGAR,False,,,,requires_review
+Maharastra,Akola,MAHARASTRA,AKOLA,False,,,,requires_review
+Maharastra,Amravati,MAHARASTRA,AMRAVATI,False,,,,requires_review
+Maharastra,Aurangabad,MAHARASTRA,AURANGABAD,False,,,,requires_review
+Maharastra,Bhandara,MAHARASTRA,BHANDARA,False,,,,requires_review
+Maharastra,Bid,MAHARASTRA,BID,False,,,,requires_review
+Maharastra,Buldana,MAHARASTRA,BULDANA,False,,,,requires_review
+Maharastra,Chandrapur,MAHARASTRA,CHANDRAPUR,False,,,,requires_review
+Maharastra,Dhule,MAHARASTRA,DHULE,False,,,,requires_review
+Maharastra,Gadchiroli,MAHARASTRA,GADCHIROLI,False,,,,requires_review
+Maharastra,Gondiya,MAHARASTRA,GONDIYA,False,,,,requires_review
+Maharastra,Hingoli,MAHARASTRA,HINGOLI,False,,,,requires_review
+Maharastra,Jalgaon,MAHARASTRA,JALGAON,False,,,,requires_review
+Maharastra,Jalna,MAHARASTRA,JALNA,False,,,,requires_review
+Maharastra,Kolhapur,MAHARASTRA,KOLHAPUR,False,,,,requires_review
+Maharastra,Latur,MAHARASTRA,LATUR,False,,,,requires_review
+Maharastra,Mumbai,MAHARASTRA,MUMBAI,False,,,,requires_review
+Maharastra,Mumbai Suburban,MAHARASTRA,MUMBAI SUBURBAN,False,,,,requires_review
+Maharastra,Nagpur,MAHARASTRA,NAGPUR,False,,,,requires_review
+Maharastra,Nanded,MAHARASTRA,NANDED,False,,,,requires_review
+Maharastra,Nandurbar,MAHARASTRA,NANDURBAR,False,,,,requires_review
+Maharastra,Nashik,MAHARASTRA,NASHIK,False,,,,requires_review
+Maharastra,Osmanabad,MAHARASTRA,OSMANABAD,False,,,,requires_review
+Maharastra,Palghar,MAHARASTRA,PALGHAR,False,,,,requires_review
+Maharastra,Parbhani,MAHARASTRA,PARBHANI,False,,,,requires_review
+Maharastra,Pune,MAHARASTRA,PUNE,False,,,,requires_review
+Maharastra,Raigarh,MAHARASTRA,RAIGARH,False,,,,requires_review
+Maharastra,Ratnagiri,MAHARASTRA,RATNAGIRI,False,,,,requires_review
+Maharastra,Sangli,MAHARASTRA,SANGLI,False,,,,requires_review
+Maharastra,Satara,MAHARASTRA,SATARA,False,,,,requires_review
+Maharastra,Sindhudurg,MAHARASTRA,SINDHUDURG,False,,,,requires_review
+Maharastra,Solapur,MAHARASTRA,SOLAPUR,False,,,,requires_review
+Maharastra,Thane,MAHARASTRA,THANE,False,,,,requires_review
+Maharastra,Wardha,MAHARASTRA,WARDHA,False,,,,requires_review
+Maharastra,Washim,MAHARASTRA,WASHIM,False,,,,requires_review
+Maharastra,Yavatmal,MAHARASTRA,YAVATMAL,False,,,,requires_review
+Manipur,Bishnupur,MANIPUR,BISHNUPUR,True,,,,accepted_exact
+Manipur,Chandel,MANIPUR,CHANDEL,True,,,,accepted_exact
+Manipur,Churachandpur,MANIPUR,CHURACHANDPUR,True,,,,accepted_exact
+Manipur,Imphal East,MANIPUR,IMPHAL EAST,True,,,,accepted_exact
+Manipur,Imphal West,MANIPUR,IMPHAL WEST,True,,,,accepted_exact
+Manipur,Senapati,MANIPUR,SENAPATI,True,,,,accepted_exact
+Manipur,Tamenglong,MANIPUR,TAMENGLONG,True,,,,accepted_exact
+Manipur,Thoubal,MANIPUR,THOUBAL,True,,,,accepted_exact
+Manipur,Ukhrul,MANIPUR,UKHRUL,True,,,,accepted_exact
+Meghalaya,East Garo Hills,MEGHALAYA,EAST GARO HILLS,True,,,,accepted_exact
+Meghalaya,East Jantia Hills,MEGHALAYA,EAST JANTIA HILLS,False,EAST JAINTIA HILLS,WEST JAINTIA HILLS,EAST KHASI HILLS,requires_review
+Meghalaya,East Khasi Hills,MEGHALAYA,EAST KHASI HILLS,True,,,,accepted_exact
+Meghalaya,North Garo Hills,MEGHALAYA,NORTH GARO HILLS,True,,,,accepted_exact
+Meghalaya,Ribhoi,MEGHALAYA,RIBHOI,False,RI BHOI,,,requires_review
+Meghalaya,South Garo Hills,MEGHALAYA,SOUTH GARO HILLS,True,,,,accepted_exact
+Meghalaya,South West Garo Hills,MEGHALAYA,SOUTH WEST GARO HILLS,True,,,,accepted_exact
+Meghalaya,South West Khasi Hills,MEGHALAYA,SOUTH WEST KHASI HILLS,True,,,,accepted_exact
+Meghalaya,West Garo Hills,MEGHALAYA,WEST GARO HILLS,True,,,,accepted_exact
+Meghalaya,West Jaintia Hills,MEGHALAYA,WEST JAINTIA HILLS,True,,,,accepted_exact
+Meghalaya,West Khasi Hills,MEGHALAYA,WEST KHASI HILLS,True,,,,accepted_exact
+Mizoram,Aizawl,MIZORAM,AIZAWL,True,,,,accepted_exact
+Mizoram,Champhai,MIZORAM,CHAMPHAI,True,,,,accepted_exact
+Mizoram,Chandel,MIZORAM,CHANDEL,False,,,,requires_review
+Mizoram,Kolasib,MIZORAM,KOLASIB,True,,,,accepted_exact
+Mizoram,Lawngtlai,MIZORAM,LAWNGTLAI,True,,,,accepted_exact
+Mizoram,Lunglei,MIZORAM,LUNGLEI,True,,,,accepted_exact
+Mizoram,Mamit,MIZORAM,MAMIT,True,,,,accepted_exact
+Mizoram,Serchhip,MIZORAM,SERCHHIP,True,,,,accepted_exact
+Nagaland,Dimapur,NAGALAND,DIMAPUR,True,,,,accepted_exact
+Nagaland,Kiphire,NAGALAND,KIPHIRE,True,,,,accepted_exact
+Nagaland,Kohima,NAGALAND,KOHIMA,True,,,,accepted_exact
+Nagaland,Longleng,NAGALAND,LONGLENG,True,,,,accepted_exact
+Nagaland,Mokokchung,NAGALAND,MOKOKCHUNG,True,,,,accepted_exact
+Nagaland,Mon,NAGALAND,MON,True,,,,accepted_exact
+Nagaland,Peren,NAGALAND,PEREN,True,,,,accepted_exact
+Nagaland,Phek,NAGALAND,PHEK,True,,,,accepted_exact
+Nagaland,Tuensang,NAGALAND,TUENSANG,True,,,,accepted_exact
+Nagaland,Wokha,NAGALAND,WOKHA,True,,,,accepted_exact
+Nagaland,Zunheboto,NAGALAND,ZUNHEBOTO,True,,,,accepted_exact
+NCT of Delhi,Central,NCT OF DELHI,CENTRAL,False,,,,requires_review
+NCT of Delhi,East,NCT OF DELHI,EAST,False,,,,requires_review
+NCT of Delhi,New Delhi,NCT OF DELHI,NEW DELHI,False,,,,requires_review
+NCT of Delhi,North,NCT OF DELHI,NORTH,False,,,,requires_review
+NCT of Delhi,North East,NCT OF DELHI,NORTH EAST,False,,,,requires_review
+NCT of Delhi,North West,NCT OF DELHI,NORTH WEST,False,,,,requires_review
+NCT of Delhi,Shahdara,NCT OF DELHI,SHAHDARA,False,,,,requires_review
+NCT of Delhi,South,NCT OF DELHI,SOUTH,False,,,,requires_review
+NCT of Delhi,South East,NCT OF DELHI,SOUTH EAST,False,,,,requires_review
+NCT of Delhi,South West,NCT OF DELHI,SOUTH WEST,False,,,,requires_review
+NCT of Delhi,West,NCT OF DELHI,WEST,False,,,,requires_review
+Odisha,Anugul,ODISHA,ANUGUL,True,,,,accepted_exact
+Odisha,Balangir,ODISHA,BALANGIR,True,,,,accepted_exact
+Odisha,Baleshwar,ODISHA,BALESHWAR,True,,,,accepted_exact
+Odisha,Bargarh,ODISHA,BARGARH,True,,,,accepted_exact
+Odisha,Baudh,ODISHA,BAUDH,False,BOUDH,BARGARH,,requires_review
+Odisha,Bhadrak,ODISHA,BHADRAK,True,,,,accepted_exact
+Odisha,Cuttack,ODISHA,CUTTACK,True,,,,accepted_exact
+Odisha,Debagarh,ODISHA,DEBAGARH,False,DEOGARH,BARGARH,SUNDARGARH,requires_review
+Odisha,Dhenkanal,ODISHA,DHENKANAL,True,,,,accepted_exact
+Odisha,Gajapati,ODISHA,GAJAPATI,True,,,,accepted_exact
+Odisha,Ganjam,ODISHA,GANJAM,True,,,,accepted_exact
+Odisha,Jagatsinghapur,ODISHA,JAGATSINGHAPUR,True,,,,accepted_exact
+Odisha,Jajapur,ODISHA,JAJAPUR,True,,,,accepted_exact
+Odisha,Jharsuguda,ODISHA,JHARSUGUDA,True,,,,accepted_exact
+Odisha,Kalahandi,ODISHA,KALAHANDI,True,,,,accepted_exact
+Odisha,Kandhamal,ODISHA,KANDHAMAL,True,,,,accepted_exact
+Odisha,Kendrapara,ODISHA,KENDRAPARA,True,,,,accepted_exact
+Odisha,Kendujhar,ODISHA,KENDUJHAR,True,,,,accepted_exact
+Odisha,Khordha,ODISHA,KHORDHA,True,,,,accepted_exact
+Odisha,Koraput,ODISHA,KORAPUT,True,,,,accepted_exact
+Odisha,Malkangiri,ODISHA,MALKANGIRI,True,,,,accepted_exact
+Odisha,Mayurbhanj,ODISHA,MAYURBHANJ,True,,,,accepted_exact
+Odisha,Nabarangapur,ODISHA,NABARANGAPUR,False,NABARANGPUR,BARGARH,JAGATSINGHAPUR,requires_review
+Odisha,Nayagarh,ODISHA,NAYAGARH,True,,,,accepted_exact
+Odisha,Nuapada,ODISHA,NUAPADA,True,,,,accepted_exact
+Odisha,Puri,ODISHA,PURI,True,,,,accepted_exact
+Odisha,Rayagada,ODISHA,RAYAGADA,True,,,,accepted_exact
+Odisha,Sambalpur,ODISHA,SAMBALPUR,True,,,,accepted_exact
+Odisha,Subarnapur,ODISHA,SUBARNAPUR,False,NABARANGPUR,SAMBALPUR,SUNDARGARH,requires_review
+Odisha,Sundargarh,ODISHA,SUNDARGARH,True,,,,accepted_exact
+Puducherry,Karaikal,PUDUCHERRY,KARAIKAL,True,,,,accepted_exact
+Puducherry,Mahe,PUDUCHERRY,MAHE,True,,,,accepted_exact
+Puducherry,Puducherry,PUDUCHERRY,PUDUCHERRY,False,PONDICHERRY,,,requires_review
+Puducherry,Yanam,PUDUCHERRY,YANAM,True,,,,accepted_exact
+Punjab,Amritsar,PUNJAB,AMRITSAR,True,,,,accepted_exact
+Punjab,Barnala,PUNJAB,BARNALA,True,,,,accepted_exact
+Punjab,Bathinda,PUNJAB,BATHINDA,True,,,,accepted_exact
+Punjab,Faridkot,PUNJAB,FARIDKOT,True,,,,accepted_exact
+Punjab,Fatehgarh Sahib,PUNJAB,FATEHGARH SAHIB,True,,,,accepted_exact
+Punjab,Fazilka,PUNJAB,FAZILKA,True,,,,accepted_exact
+Punjab,Firozpur,PUNJAB,FIROZPUR,False,FIROZEPUR,GURDASPUR,,requires_review
+Punjab,Gurdaspur,PUNJAB,GURDASPUR,True,,,,accepted_exact
+Punjab,Hoshiarpur,PUNJAB,HOSHIARPUR,True,,,,accepted_exact
+Punjab,Jalandhar,PUNJAB,JALANDHAR,True,,,,accepted_exact
+Punjab,Kapurthala,PUNJAB,KAPURTHALA,True,,,,accepted_exact
+Punjab,Ludhiana,PUNJAB,LUDHIANA,True,,,,accepted_exact
+Punjab,Mansa,PUNJAB,MANSA,True,,,,accepted_exact
+Punjab,Moga,PUNJAB,MOGA,True,,,,accepted_exact
+Punjab,Muktsar,PUNJAB,MUKTSAR,False,AMRITSAR,SRI MUKTSAR SAHIB,MANSA,requires_review
+Punjab,Pathankot,PUNJAB,PATHANKOT,True,,,,accepted_exact
+Punjab,Patiala,PUNJAB,PATIALA,True,,,,accepted_exact
+Punjab,Rupnagar,PUNJAB,RUPNAGAR,True,,,,accepted_exact
+Punjab,Sahibzada Ajit Singh Nagar,PUNJAB,SAHIBZADA AJIT SINGH NAGAR,False,SHAHID BHAGAT SINGH NAGAR,S.A.S NAGAR,,requires_review
+Punjab,Sangrur,PUNJAB,SANGRUR,True,,,,accepted_exact
+Punjab,Shahid Bhagat Singh Nagar,PUNJAB,SHAHID BHAGAT SINGH NAGAR,True,,,,accepted_exact
+Punjab,Tarn Taran,PUNJAB,TARN TARAN,True,,,,accepted_exact
+Rajasthan,Ajmer,RAJASTHAN,AJMER,True,,,,accepted_exact
+Rajasthan,Alwar,RAJASTHAN,ALWAR,True,,,,accepted_exact
+Rajasthan,Banswara,RAJASTHAN,BANSWARA,True,,,,accepted_exact
+Rajasthan,Baran,RAJASTHAN,BARAN,True,,,,accepted_exact
+Rajasthan,Barmer,RAJASTHAN,BARMER,True,,,,accepted_exact
+Rajasthan,Bharatpur,RAJASTHAN,BHARATPUR,True,,,,accepted_exact
+Rajasthan,Bhilwara,RAJASTHAN,BHILWARA,True,,,,accepted_exact
+Rajasthan,Bikaner,RAJASTHAN,BIKANER,True,,,,accepted_exact
+Rajasthan,Bundi,RAJASTHAN,BUNDI,True,,,,accepted_exact
+Rajasthan,Chittaurgarh,RAJASTHAN,CHITTAURGARH,False,CHITTORGARH,HANUMANGARH,PRATAPGARH,requires_review
+Rajasthan,Churu,RAJASTHAN,CHURU,True,,,,accepted_exact
+Rajasthan,Dausa,RAJASTHAN,DAUSA,True,,,,accepted_exact
+Rajasthan,Dhaulpur,RAJASTHAN,DHAULPUR,False,DHOLPUR,JODHPUR,DUNGARPUR,requires_review
+Rajasthan,Dungarpur,RAJASTHAN,DUNGARPUR,True,,,,accepted_exact
+Rajasthan,Ganganagar,RAJASTHAN,GANGANAGAR,True,,,,accepted_exact
+Rajasthan,Hanumangarh,RAJASTHAN,HANUMANGARH,True,,,,accepted_exact
+Rajasthan,Jaipur,RAJASTHAN,JAIPUR,True,,,,accepted_exact
+Rajasthan,Jaisalmer,RAJASTHAN,JAISALMER,True,,,,accepted_exact
+Rajasthan,Jalor,RAJASTHAN,JALOR,False,JALORE,JHALAWAR,ALWAR,requires_review
+Rajasthan,Jhalawar,RAJASTHAN,JHALAWAR,True,,,,accepted_exact
+Rajasthan,Jhunjhunun,RAJASTHAN,JHUNJHUNUN,False,JHUNJHUNU,,,requires_review
+Rajasthan,Jodhpur,RAJASTHAN,JODHPUR,True,,,,accepted_exact
+Rajasthan,Karauli,RAJASTHAN,KARAULI,True,,,,accepted_exact
+Rajasthan,Kota,RAJASTHAN,KOTA,True,,,,accepted_exact
+Rajasthan,Nagaur,RAJASTHAN,NAGAUR,True,,,,accepted_exact
+Rajasthan,Pali,RAJASTHAN,PALI,True,,,,accepted_exact
+Rajasthan,Pratapgarh,RAJASTHAN,PRATAPGARH,True,,,,accepted_exact
+Rajasthan,Rajsamand,RAJASTHAN,RAJSAMAND,True,,,,accepted_exact
+Rajasthan,Sawai Madhopur,RAJASTHAN,SAWAI MADHOPUR,True,,,,accepted_exact
+Rajasthan,Sikar,RAJASTHAN,SIKAR,True,,,,accepted_exact
+Rajasthan,Sirohi,RAJASTHAN,SIROHI,True,,,,accepted_exact
+Rajasthan,Tonk,RAJASTHAN,TONK,True,,,,accepted_exact
+Rajasthan,Udaipur,RAJASTHAN,UDAIPUR,True,,,,accepted_exact
+Sikkim,East District,SIKKIM,EAST DISTRICT,True,,,,accepted_exact
+Sikkim,North  District,SIKKIM,NORTH DISTRICT,True,,,,accepted_exact
+Sikkim,South District,SIKKIM,SOUTH DISTRICT,True,,,,accepted_exact
+Sikkim,West District,SIKKIM,WEST DISTRICT,True,,,,accepted_exact
+Tamil Nadu,Ariyalur,TAMIL NADU,ARIYALUR,True,,,,accepted_exact
+Tamil Nadu,Chennai,TAMIL NADU,CHENNAI,True,,,,accepted_exact
+Tamil Nadu,Coimbatore,TAMIL NADU,COIMBATORE,True,,,,accepted_exact
+Tamil Nadu,Cuddalore,TAMIL NADU,CUDDALORE,True,,,,accepted_exact
+Tamil Nadu,Dharmapuri,TAMIL NADU,DHARMAPURI,True,,,,accepted_exact
+Tamil Nadu,Dindigul,TAMIL NADU,DINDIGUL,True,,,,accepted_exact
+Tamil Nadu,Erode,TAMIL NADU,ERODE,True,,,,accepted_exact
+Tamil Nadu,Kancheepuram,TAMIL NADU,KANCHEEPURAM,False,KANCHIPURAM,RAMANATHAPURAM,KARUR,requires_review
+Tamil Nadu,Kanniyakumari,TAMIL NADU,KANNIYAKUMARI,True,,,,accepted_exact
+Tamil Nadu,Karur,TAMIL NADU,KARUR,True,,,,accepted_exact
+Tamil Nadu,Krishnagiri,TAMIL NADU,KRISHNAGIRI,True,,,,accepted_exact
+Tamil Nadu,Madurai,TAMIL NADU,MADURAI,True,,,,accepted_exact
+Tamil Nadu,Nagapattinam,TAMIL NADU,NAGAPATTINAM,True,,,,accepted_exact
+Tamil Nadu,Namakkal,TAMIL NADU,NAMAKKAL,True,,,,accepted_exact
+Tamil Nadu,Perambalur,TAMIL NADU,PERAMBALUR,True,,,,accepted_exact
+Tamil Nadu,Pudukkottai,TAMIL NADU,PUDUKKOTTAI,True,,,,accepted_exact
+Tamil Nadu,Ramanathapuram,TAMIL NADU,RAMANATHAPURAM,True,,,,accepted_exact
+Tamil Nadu,Salem,TAMIL NADU,SALEM,True,,,,accepted_exact
+Tamil Nadu,Sivaganga,TAMIL NADU,SIVAGANGA,True,,,,accepted_exact
+Tamil Nadu,Thanjavur,TAMIL NADU,THANJAVUR,True,,,,accepted_exact
+Tamil Nadu,The Nilgiris,TAMIL NADU,THE NILGIRIS,True,,,,accepted_exact
+Tamil Nadu,Theni,TAMIL NADU,THENI,True,,,,accepted_exact
+Tamil Nadu,Thiruvallur,TAMIL NADU,THIRUVALLUR,True,,,,accepted_exact
+Tamil Nadu,Thiruvarur,TAMIL NADU,THIRUVARUR,True,,,,accepted_exact
+Tamil Nadu,Thoothukkudi,TAMIL NADU,THOOTHUKKUDI,False,,,,requires_review
+Tamil Nadu,Tiruchirappalli,TAMIL NADU,TIRUCHIRAPPALLI,True,,,,accepted_exact
+Tamil Nadu,Tirunelveli,TAMIL NADU,TIRUNELVELI,True,,,,accepted_exact
+Tamil Nadu,Tiruppur,TAMIL NADU,TIRUPPUR,True,,,,accepted_exact
+Tamil Nadu,Tiruvannamalai,TAMIL NADU,TIRUVANNAMALAI,True,,,,accepted_exact
+Tamil Nadu,Vellore,TAMIL NADU,VELLORE,True,,,,accepted_exact
+Tamil Nadu,Viluppuram,TAMIL NADU,VILUPPURAM,False,VILLUPURAM,TIRUPPUR,KANCHIPURAM,requires_review
+Tamil Nadu,Virudhunagar,TAMIL NADU,VIRUDHUNAGAR,True,,,,accepted_exact
+Telangana,Adilabad,TELANGANA,ADILABAD,True,,,,accepted_exact
+Telangana,Bhadradri Kothagudem,TELANGANA,BHADRADRI KOTHAGUDEM,True,,,,accepted_exact
+Telangana,Hyderabad,TELANGANA,HYDERABAD,True,,,,accepted_exact
+Telangana,Jagitial,TELANGANA,JAGITIAL,True,,,,accepted_exact
+Telangana,Jangoan,TELANGANA,JANGOAN,True,,,,accepted_exact
+Telangana,Jayashankar Bhupalapally,TELANGANA,JAYASHANKAR BHUPALAPALLY,True,,,,accepted_exact
+Telangana,Jogulamba Gadwal,TELANGANA,JOGULAMBA GADWAL,True,,,,accepted_exact
+Telangana,Kamareddy,TELANGANA,KAMAREDDY,True,,,,accepted_exact
+Telangana,Karimnagar,TELANGANA,KARIMNAGAR,True,,,,accepted_exact
+Telangana,Khammam,TELANGANA,KHAMMAM,True,,,,accepted_exact
+Telangana,Komaram Bheem Asifabad,TELANGANA,KOMARAM BHEEM ASIFABAD,False,KUMURAM BHEEM ASIFABAD,MAHABUBABAD,VIKARABAD,requires_review
+Telangana,Mahabubabad,TELANGANA,MAHABUBABAD,True,,,,accepted_exact
+Telangana,Mahabubnagar,TELANGANA,MAHABUBNAGAR,True,,,,accepted_exact
+Telangana,Mancherial,TELANGANA,MANCHERIAL,True,,,,accepted_exact
+Telangana,Medak,TELANGANA,MEDAK,True,,,,accepted_exact
+Telangana,Medchal-Malkajgiri,TELANGANA,MEDCHAL-MALKAJGIRI,False,MEDCHAL MALKAJGIRI,,,requires_review
+Telangana,Nagarkurnool,TELANGANA,NAGARKURNOOL,True,,,,accepted_exact
+Telangana,Nalgonda,TELANGANA,NALGONDA,True,,,,accepted_exact
+Telangana,Nirmal,TELANGANA,NIRMAL,True,,,,accepted_exact
+Telangana,Nizamabad,TELANGANA,NIZAMABAD,True,,,,accepted_exact
+Telangana,Peddapalli,TELANGANA,PEDDAPALLI,True,,,,accepted_exact
+Telangana,Rajanna Sircilla,TELANGANA,RAJANNA SIRCILLA,True,,,,accepted_exact
+Telangana,Ranga Reddy,TELANGANA,RANGA REDDY,True,,,,accepted_exact
+Telangana,Sangareddy,TELANGANA,SANGAREDDY,True,,,,accepted_exact
+Telangana,Siddipet,TELANGANA,SIDDIPET,True,,,,accepted_exact
+Telangana,Suryapet,TELANGANA,SURYAPET,True,,,,accepted_exact
+Telangana,Vikarabad,TELANGANA,VIKARABAD,True,,,,accepted_exact
+Telangana,Wanaparthy,TELANGANA,WANAPARTHY,True,,,,accepted_exact
+Telangana,Warangal Rural,TELANGANA,WARANGAL RURAL,False,WARANGAL,RANGA REDDY,NAGARKURNOOL,requires_review
+Telangana,Warangal Urban,TELANGANA,WARANGAL URBAN,False,WARANGAL,RANGA REDDY,KARIMNAGAR,requires_review
+Telangana,Yadadri Bhuvanagiri,TELANGANA,YADADRI BHUVANAGIRI,True,,,,accepted_exact
+Tripura,Dhalai,TRIPURA,DHALAI,True,,,,accepted_exact
+Tripura,Gomati,TRIPURA,GOMATI,True,,,,accepted_exact
+Tripura,Khowai,TRIPURA,KHOWAI,True,,,,accepted_exact
+Tripura,North Tripura,TRIPURA,NORTH TRIPURA,True,,,,accepted_exact
+Tripura,Sepahijala,TRIPURA,SEPAHIJALA,True,,,,accepted_exact
+Tripura,South Tripura,TRIPURA,SOUTH TRIPURA,True,,,,accepted_exact
+Tripura,Unakoti,TRIPURA,UNAKOTI,True,,,,accepted_exact
+Tripura,West Tripura,TRIPURA,WEST TRIPURA,True,,,,accepted_exact
+Uttar Pradesh,Agra,UTTAR PRADESH,AGRA,True,,,,accepted_exact
+Uttar Pradesh,Aligarh,UTTAR PRADESH,ALIGARH,True,,,,accepted_exact
+Uttar Pradesh,Allahabad,UTTAR PRADESH,ALLAHABAD,False,FARRUKHABAD,MORADABAD,GHAZIABAD,requires_review
+Uttar Pradesh,Ambedkar Nagar,UTTAR PRADESH,AMBEDKAR NAGAR,True,,,,accepted_exact
+Uttar Pradesh,Amethi,UTTAR PRADESH,AMETHI,True,,,,accepted_exact
+Uttar Pradesh,Auraiya,UTTAR PRADESH,AURAIYA,True,,,,accepted_exact
+Uttar Pradesh,Azamgarh,UTTAR PRADESH,AZAMGARH,True,,,,accepted_exact
+Uttar Pradesh,Baghpat,UTTAR PRADESH,BAGHPAT,True,,,,accepted_exact
+Uttar Pradesh,Bahraich,UTTAR PRADESH,BAHRAICH,True,,,,accepted_exact
+Uttar Pradesh,Ballia,UTTAR PRADESH,BALLIA,True,,,,accepted_exact
+Uttar Pradesh,Balrampur,UTTAR PRADESH,BALRAMPUR,True,,,,accepted_exact
+Uttar Pradesh,Banda,UTTAR PRADESH,BANDA,True,,,,accepted_exact
+Uttar Pradesh,Bara Banki,UTTAR PRADESH,BARA BANKI,False,BARABANKI,RAE BARELI,VARANASI,requires_review
+Uttar Pradesh,Bareilly,UTTAR PRADESH,BAREILLY,True,,,,accepted_exact
+Uttar Pradesh,Basti,UTTAR PRADESH,BASTI,True,,,,accepted_exact
+Uttar Pradesh,Bijnor,UTTAR PRADESH,BIJNOR,True,,,,accepted_exact
+Uttar Pradesh,Budaun,UTTAR PRADESH,BUDAUN,True,,,,accepted_exact
+Uttar Pradesh,Bulandshahr,UTTAR PRADESH,BULANDSHAHR,True,,,,accepted_exact
+Uttar Pradesh,Chandauli,UTTAR PRADESH,CHANDAULI,True,,,,accepted_exact
+Uttar Pradesh,Chitrakoot,UTTAR PRADESH,CHITRAKOOT,True,,,,accepted_exact
+Uttar Pradesh,Deoria,UTTAR PRADESH,DEORIA,True,,,,accepted_exact
+Uttar Pradesh,Etah,UTTAR PRADESH,ETAH,True,,,,accepted_exact
+Uttar Pradesh,Etawah,UTTAR PRADESH,ETAWAH,True,,,,accepted_exact
+Uttar Pradesh,Faizabad,UTTAR PRADESH,FAIZABAD,False,FIROZABAD,GHAZIABAD,FARRUKHABAD,requires_review
+Uttar Pradesh,Farrukhabad,UTTAR PRADESH,FARRUKHABAD,True,,,,accepted_exact
+Uttar Pradesh,Fatehpur,UTTAR PRADESH,FATEHPUR,True,,,,accepted_exact
+Uttar Pradesh,Firozabad,UTTAR PRADESH,FIROZABAD,True,,,,accepted_exact
+Uttar Pradesh,Gautam Buddha Nagar,UTTAR PRADESH,GAUTAM BUDDHA NAGAR,True,,,,accepted_exact
+Uttar Pradesh,Ghaziabad,UTTAR PRADESH,GHAZIABAD,True,,,,accepted_exact
+Uttar Pradesh,Ghazipur,UTTAR PRADESH,GHAZIPUR,True,,,,accepted_exact
+Uttar Pradesh,Gonda,UTTAR PRADESH,GONDA,True,,,,accepted_exact
+Uttar Pradesh,Gorakhpur,UTTAR PRADESH,GORAKHPUR,True,,,,accepted_exact
+Uttar Pradesh,Hamirpur,UTTAR PRADESH,HAMIRPUR,True,,,,accepted_exact
+Uttar Pradesh,Hapur,UTTAR PRADESH,HAPUR,True,,,,accepted_exact
+Uttar Pradesh,Hardoi,UTTAR PRADESH,HARDOI,True,,,,accepted_exact
+Uttar Pradesh,Jalaun,UTTAR PRADESH,JALAUN,True,,,,accepted_exact
+Uttar Pradesh,Jaunpur,UTTAR PRADESH,JAUNPUR,True,,,,accepted_exact
+Uttar Pradesh,Jhansi,UTTAR PRADESH,JHANSI,True,,,,accepted_exact
+Uttar Pradesh,Jyotiba Phule Nagar,UTTAR PRADESH,JYOTIBA PHULE NAGAR,False,KANPUR NAGAR,SANT KABEER NAGAR,AMBEDKAR NAGAR,requires_review
+Uttar Pradesh,Kannauj,UTTAR PRADESH,KANNAUJ,True,,,,accepted_exact
+Uttar Pradesh,Kanpur Dehat,UTTAR PRADESH,KANPUR DEHAT,True,,,,accepted_exact
+Uttar Pradesh,Kanpur Nagar,UTTAR PRADESH,KANPUR NAGAR,True,,,,accepted_exact
+Uttar Pradesh,Kanshiram Nagar,UTTAR PRADESH,KANSHIRAM NAGAR,False,KUSHI NAGAR,KANPUR NAGAR,SIDDHARTH NAGAR,requires_review
+Uttar Pradesh,Kaushambi,UTTAR PRADESH,KAUSHAMBI,True,,,,accepted_exact
+Uttar Pradesh,Kheri,UTTAR PRADESH,KHERI,True,,,,accepted_exact
+Uttar Pradesh,Kushinagar,UTTAR PRADESH,KUSHINAGAR,False,KUSHI NAGAR,KANPUR NAGAR,SIDDHARTH NAGAR,requires_review
+Uttar Pradesh,Lalitpur,UTTAR PRADESH,LALITPUR,True,,,,accepted_exact
+Uttar Pradesh,Lucknow,UTTAR PRADESH,LUCKNOW,True,,,,accepted_exact
+Uttar Pradesh,Mahamaya Nagar,UTTAR PRADESH,MAHAMAYA NAGAR,False,AMBEDKAR NAGAR,GAUTAM BUDDHA NAGAR,MUZAFFARNAGAR,requires_review
+Uttar Pradesh,Mahoba,UTTAR PRADESH,MAHOBA,True,,,,accepted_exact
+Uttar Pradesh,Mahrajganj,UTTAR PRADESH,MAHRAJGANJ,False,MAHARAJGANJ,MATHURA,KASGANJ,requires_review
+Uttar Pradesh,Mainpuri,UTTAR PRADESH,MAINPURI,True,,,,accepted_exact
+Uttar Pradesh,Mathura,UTTAR PRADESH,MATHURA,True,,,,accepted_exact
+Uttar Pradesh,Mau,UTTAR PRADESH,MAU,True,,,,accepted_exact
+Uttar Pradesh,Meerut,UTTAR PRADESH,MEERUT,True,,,,accepted_exact
+Uttar Pradesh,Mirzapur,UTTAR PRADESH,MIRZAPUR,True,,,,accepted_exact
+Uttar Pradesh,Moradabad,UTTAR PRADESH,MORADABAD,True,,,,accepted_exact
+Uttar Pradesh,Muzaffarnagar,UTTAR PRADESH,MUZAFFARNAGAR,True,,,,accepted_exact
+Uttar Pradesh,Pilibhit,UTTAR PRADESH,PILIBHIT,True,,,,accepted_exact
+Uttar Pradesh,Pratapgarh,UTTAR PRADESH,PRATAPGARH,True,,,,accepted_exact
+Uttar Pradesh,Rae Bareli,UTTAR PRADESH,RAE BARELI,True,,,,accepted_exact
+Uttar Pradesh,Rampur,UTTAR PRADESH,RAMPUR,True,,,,accepted_exact
+Uttar Pradesh,Saharanpur,UTTAR PRADESH,SAHARANPUR,True,,,,accepted_exact
+Uttar Pradesh,Sambhal,UTTAR PRADESH,SAMBHAL,True,,,,accepted_exact
+Uttar Pradesh,Sant Kabir Nagar,UTTAR PRADESH,SANT KABIR NAGAR,False,SANT KABEER NAGAR,AMBEDKAR NAGAR,KANPUR NAGAR,requires_review
+Uttar Pradesh,Sant Ravidas Nagar (Bhadohi),UTTAR PRADESH,SANT RAVIDAS NAGAR (BHADOHI),False,SANT KABEER NAGAR,GAUTAM BUDDHA NAGAR,SIDDHARTH NAGAR,requires_review
+Uttar Pradesh,Shahjahanpur,UTTAR PRADESH,SHAHJAHANPUR,True,,,,accepted_exact
+Uttar Pradesh,Shamli,UTTAR PRADESH,SHAMLI,True,,,,accepted_exact
+Uttar Pradesh,Shrawasti,UTTAR PRADESH,SHRAWASTI,False,SHRAVASTI,VARANASI,BASTI,requires_review
+Uttar Pradesh,Siddharthnagar,UTTAR PRADESH,SIDDHARTHNAGAR,False,SIDDHARTH NAGAR,AMBEDKAR NAGAR,KUSHI NAGAR,requires_review
+Uttar Pradesh,Sitapur,UTTAR PRADESH,SITAPUR,True,,,,accepted_exact
+Uttar Pradesh,Sonbhadra,UTTAR PRADESH,SONBHADRA,True,,,,accepted_exact
+Uttar Pradesh,Sultanpur,UTTAR PRADESH,SULTANPUR,True,,,,accepted_exact
+Uttar Pradesh,Unnao,UTTAR PRADESH,UNNAO,True,,,,accepted_exact
+Uttar Pradesh,Varanasi,UTTAR PRADESH,VARANASI,True,,,,accepted_exact
+Uttarakhand,Almora,UTTARAKHAND,ALMORA,True,,,,accepted_exact
+Uttarakhand,Bageshwar,UTTARAKHAND,BAGESHWAR,True,,,,accepted_exact
+Uttarakhand,Chamoli,UTTARAKHAND,CHAMOLI,True,,,,accepted_exact
+Uttarakhand,Champawat,UTTARAKHAND,CHAMPAWAT,True,,,,accepted_exact
+Uttarakhand,Dehradun,UTTARAKHAND,DEHRADUN,True,,,,accepted_exact
+Uttarakhand,Garhwal,UTTARAKHAND,GARHWAL,False,TEHRI GARHWAL,PAURI GARHWAL,HARIDWAR,requires_review
+Uttarakhand,Hardwar,UTTARAKHAND,HARDWAR,False,HARIDWAR,TEHRI GARHWAL,CHAMPAWAT,requires_review
+Uttarakhand,Nainital,UTTARAKHAND,NAINITAL,True,,,,accepted_exact
+Uttarakhand,Pithoragarh,UTTARAKHAND,PITHORAGARH,True,,,,accepted_exact
+Uttarakhand,Rudraprayag,UTTARAKHAND,RUDRAPRAYAG,False,RUDRA PRAYAG,,,requires_review
+Uttarakhand,Tehri Garhwal,UTTARAKHAND,TEHRI GARHWAL,True,,,,accepted_exact
+Uttarakhand,Udham Singh Nagar,UTTARAKHAND,UDHAM SINGH NAGAR,False,UDAM SINGH NAGAR,,,requires_review
+Uttarakhand,Uttarkashi,UTTARAKHAND,UTTARKASHI,False,UTTAR KASHI,,,requires_review
+West Bengal,Bankura,WEST BENGAL,BANKURA,True,,,,accepted_exact
+West Bengal,Birbhum,WEST BENGAL,BIRBHUM,True,,,,accepted_exact
+West Bengal,Dakshin Dinajpur,WEST BENGAL,DAKSHIN DINAJPUR,False,DINAJPUR UTTAR,DINAJPUR DAKSHIN,,requires_review
+West Bengal,Darjiling,WEST BENGAL,DARJILING,False,DARJEELING,KALIMPONG,,requires_review
+West Bengal,Haora,WEST BENGAL,HAORA,False,HOWRAH,JHARGRAM,BANKURA,requires_review
+West Bengal,Hugli,WEST BENGAL,HUGLI,False,PURULIA,HOOGHLY,,requires_review
+West Bengal,Jalpaiguri,WEST BENGAL,JALPAIGURI,True,,,,accepted_exact
+West Bengal,Koch Bihar,WEST BENGAL,KOCH BIHAR,False,COOCHBEHAR,,,requires_review
+West Bengal,Kolkata,WEST BENGAL,KOLKATA,True,,,,accepted_exact
+West Bengal,Maldah,WEST BENGAL,MALDAH,True,,,,accepted_exact
+West Bengal,Murshidabad,WEST BENGAL,MURSHIDABAD,True,,,,accepted_exact
+West Bengal,Nadia,WEST BENGAL,NADIA,True,,,,accepted_exact
+West Bengal,North Twenty Four Pargana,WEST BENGAL,NORTH TWENTY FOUR PARGANA,False,,,,requires_review
+West Bengal,Paschim Barddhaman,WEST BENGAL,PASCHIM BARDDHAMAN,False,PASCHIM BARDHAMAN,PURBA BARDHAMAN,,requires_review
+West Bengal,Paschim Medinipur,WEST BENGAL,PASCHIM MEDINIPUR,False,MEDINIPUR WEST,MEDINIPUR EAST,PASCHIM BARDHAMAN,requires_review
+West Bengal,Purba Medinipur,WEST BENGAL,PURBA MEDINIPUR,False,MEDINIPUR WEST,MEDINIPUR EAST,PURBA BARDHAMAN,requires_review
+West Bengal,Puruliya,WEST BENGAL,PURULIYA,False,PURULIA,ALIPURDUAR,DINAJPUR UTTAR,requires_review
+West Bengal,South Twenty Four Pargana,WEST BENGAL,SOUTH TWENTY FOUR PARGANA,False,,,,requires_review
+West Bengal,Uttar Dinajpur,WEST BENGAL,UTTAR DINAJPUR,False,DINAJPUR UTTAR,DINAJPUR DAKSHIN,,requires_review

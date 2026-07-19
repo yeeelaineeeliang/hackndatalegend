@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-07-19T06:06:41.693695+00:00",
+  "overall_status": "passed",
+  "summary": {
+    "checks": 6,
+    "passed": 6,
+    "warnings": 0,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "check_id": "app.queue_grain",
+      "status": "pass",
+      "message": "Review index contains one row per queued facility.",
+      "observed": {
+        "rows": 9958,
+        "unique_ids": 9958
+      }
+    },
+    {
+      "check_id": "app.detail_coverage",
+      "status": "pass",
+      "message": "Every queued facility has exactly one packaged detail record.",
+      "observed": {
+        "queue_ids": 9958,
+        "detail_ids": 9958
+      }
+    },
+    {
+      "check_id": "app.flag_referential_integrity",
+      "status": "pass",
+      "message": "Every packaged flag references a queued facility.",
+      "observed": 0
+    },
+    {
+      "check_id": "app.flag_coverage",
+      "status": "pass",
+      "message": "Every queued facility has at least one packaged flag.",
+      "observed": 0
+    },
+    {
+      "check_id": "app.deployment_file_size",
+      "status": "pass",
+      "message": "Every generated app data file is below the Databricks Apps file limit.",
+      "observed": {
+        "max_file_bytes": 4162384,
+        "limit_bytes": 10485760
+      }
+    },
+    {
+      "check_id": "app.shard_row_count",
+      "status": "pass",
+      "message": "Detail shards preserve the complete queued facility set.",
+      "observed": {
+        "shard_rows": 9958,
+        "detail_rows": 9958
+      }
+    }
+  ]
+}

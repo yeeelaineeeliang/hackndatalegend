@@ -1,0 +1,79 @@
+{
+  "generated_at": "2026-07-19T05:09:21.237266+00:00",
+  "source_name": "healthcare_facilities.csv",
+  "contract_version": "1.0.0",
+  "rows": 10088,
+  "structurally_valid_rows": 10000,
+  "quarantined_malformed_rows": 88,
+  "exact_duplicate_rows": 11,
+  "scoring_eligible_rows": 9989,
+  "columns": 51,
+  "duplicate_rows": 11,
+  "resolved_columns": {
+    "name": "name",
+    "description": "description",
+    "address_stateOrRegion": "address_stateOrRegion",
+    "operatorTypeId": "operatorTypeId",
+    "address_line3": "address_line3",
+    "capability": "capability",
+    "procedure": "procedure",
+    "address_zipOrPostcode": "address_zipOrPostcode",
+    "yearEstablished": "yearEstablished",
+    "address_line2": "address_line2",
+    "capacity": "capacity",
+    "address_country": "address_country",
+    "affiliationTypeIds": "affiliationTypeIds",
+    "numberDoctors": "numberDoctors",
+    "facilityTypeId": "facilityTypeId",
+    "address_line1": "address_line1",
+    "address_countryCode": "address_countryCode",
+    "address_city": "address_city",
+    "latitude": "latitude",
+    "equipment": "equipment",
+    "longitude": "longitude"
+  },
+  "core_field_coverage": {
+    "name": 1.0,
+    "description": 1.0,
+    "capability": 0.9963,
+    "procedure": 0.994,
+    "equipment": 0.986,
+    "numberDoctors": 0.363,
+    "capacity": 0.2516,
+    "yearEstablished": 0.4782
+  },
+  "claim_field_parsing": {
+    "capability": {
+      "parsed_list": 9944,
+      "missing": 37,
+      "empty_list": 19
+    },
+    "procedure": {
+      "parsed_list": 9216,
+      "empty_list": 724,
+      "missing": 60
+    },
+    "equipment": {
+      "parsed_list": 7680,
+      "empty_list": 2180,
+      "missing": 140
+    }
+  },
+  "numeric_field_parsing": {
+    "numberDoctors": {
+      "non_missing": 3630,
+      "parse_failures": 0,
+      "negative_values": 0
+    },
+    "capacity": {
+      "non_missing": 2516,
+      "parse_failures": 0,
+      "negative_values": 0
+    },
+    "yearEstablished": {
+      "non_missing": 4782,
+      "parse_failures": 0,
+      "negative_values": 0
+    }
+  }
+}

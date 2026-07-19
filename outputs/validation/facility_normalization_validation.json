@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-07-19T05:13:44.530416+00:00",
+  "overall_status": "passed_with_warnings",
+  "summary": {
+    "checks": 9,
+    "passed": 6,
+    "warnings": 3,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "check_id": "normalization.row_preservation",
+      "status": "pass",
+      "message": "Normalization preserves every raw source row.",
+      "observed": {
+        "raw_rows": 10088,
+        "normalized_rows": 10088
+      }
+    },
+    {
+      "check_id": "normalization.source_field_preservation",
+      "status": "pass",
+      "message": "All 51 source columns remain unchanged in the analysis base.",
+      "observed": {
+        "source_columns": 51,
+        "preserved": true
+      }
+    },
+    {
+      "check_id": "normalization.scoring_grain",
+      "status": "pass",
+      "message": "Scoring-eligible rows are one row per facility ID.",
+      "observed": {
+        "eligible_rows": 9989,
+        "unique_facility_ids": 9989
+      }
+    },
+    {
+      "check_id": "normalization.facility_type_normalized",
+      "status": "pass",
+      "message": "facility_type_normalized contains only contract values or null.",
+      "observed": []
+    },
+    {
+      "check_id": "normalization.operator_type_normalized",
+      "status": "pass",
+      "message": "operator_type_normalized contains only contract values or null.",
+      "observed": []
+    },
+    {
+      "check_id": "normalization.unmapped_facility_types",
+      "status": "warn",
+      "message": "Unsupported facility categories remain null and visible for review.",
+      "observed": 1
+    },
+    {
+      "check_id": "normalization.pincode_assignment_safety",
+      "status": "pass",
+      "message": "PIN-derived districts are assigned only from exact reference mappings.",
+      "observed": 0
+    },
+    {
+      "check_id": "normalization.pincode_coverage",
+      "status": "warn",
+      "message": "Unresolved or ambiguous PIN joins remain explicitly flagged.",
+      "observed": {
+        "exact_reference_mappings": 9159,
+        "not_exact": 830
+      }
+    },
+    {
+      "check_id": "normalization.claim_parsing",
+      "status": "warn",
+      "message": "Claim parsing failures are counted and never converted into empty lists.",
+      "observed": 10
+    }
+  ]
+}
