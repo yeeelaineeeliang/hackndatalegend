@@ -1,42 +1,23 @@
-# dataLegend
+# Data Readiness Desk — a lie detector for hospital capability claims
 
-Hackathon workspace for the Databricks challenge: building the trust layer for Indian healthcare.
+**Live app:** https://data-readiness-desk-7474649574693760.aws.databricksapps.com · Databricks Apps, Free Edition · Track: `Data Readiness Desk`
 
-Current focus:
+In India, a family can drive six hours to a hospital whose ICU was a claim, not a capability. We ran every capability claim in the 10,000-facility challenge dataset against the operational evidence in its own record — equipment, staff, procedures — and the results are the argument for this product:
 
-- Track: `Data Readiness Desk`
-- Product: reviewer-facing app that identifies which healthcare facility records must be fixed before planners can trust the dataset
-- Outcome: ranked review queue, evidence-backed flags, persisted reviewer decisions
+- **1,061 facilities claim an ICU with zero supporting evidence anywhere in their record.**
+- Of `6,616` facilities claiming high-acuity care (ICU, trauma, NICU, maternity, oncology, cardiac, dialysis, surgery), only **`681` — about 10% — are fully evidence-backed**.
+- **38% of the entire dataset** contains at least one capability claim with no textual support at all.
+- The consolidated record ranked #1 for review contains a maternity claim that literally cites *a different hospital*.
 
-## Repository Purpose
+Planners cannot act on claims like these. The Data Readiness Desk is the trust gate in front of them: every suspicious claim is flagged with the **exact text that was searched and what was — or wasn't — found**, ranked by where review most changes planning outcomes, and every human decision persists as a durable, auditable record.
 
-This repo is the execution workspace for:
+## What It Does
 
-- dataset profiling
-- scoring and flag generation
-- app development
-- demo preparation
-- submission packaging
-
-## Core Problem
-
-The challenge dataset contains messy structured and unstructured facility records. Claims such as ICU, trauma, or maternity capability may be incomplete, unsupported, or contradictory. Planners should not act directly on those claims.
-
-This project builds a `Data Readiness Desk` that helps reviewers:
-
-- find incomplete records
-- detect suspicious or contradictory claims
-- prioritize high-leverage fixes
-- persist review decisions for downstream planning use
-
-## Planned Workflow
-
-1. Ingest and profile the dataset.
-2. Compute completeness, evidence support, contradiction, and leverage signals.
-3. Produce a ranked review queue.
-4. Build an app for inspection, review, and note-taking.
-5. Persist reviewer decisions.
-6. Package a clean live demo and submission.
+1. **Scores** all 10k records for completeness, evidence support, consistency, and leverage — precomputed, reproducible, versioned rules.
+2. **Corroborates** every high-acuity capability claim against operational evidence across fields; uncorroborated claims are flagged with receipts.
+3. **Ranks** a review queue by where human attention most improves the dataset.
+4. **Persists** reviewer decisions (confirm / needs review / incorrect claim / missing evidence / resolved, plus notes) in Lakebase Postgres — an append-only audit trail that survives sessions and redeploys.
+5. **Admits what it doesn't know**: evidence scores are capped until claims align to exact source spans, and missing data is never presented as missing care.
 
 ## Expected Repository Structure
 
@@ -125,11 +106,11 @@ streamlit run app.py
 
 ## One-Minute Demo Path
 
-1. Planners cannot trust raw facility claims, so we built the Data Readiness Desk.
-2. Overview: the queue ranks 9,958 facilities by where review matters most.
-3. Open a top-priority facility: it claims ICU care, but no ventilator, intensivist, or critical-care evidence exists anywhere in the record — the flag shows exactly what was searched.
-4. Record the decision "incorrect claim" with a note; it persists and the queue updates.
-5. The review log shows the durable audit trail downstream planners inherit.
+1. "1,061 hospitals in this dataset claim an ICU with zero supporting evidence. A wrong referral is a family driving six hours for nothing. We built the trust gate that catches it."
+2. Overview: the queue ranks 9,958 facilities by where human review most changes planning outcomes.
+3. Open the #1 record: its maternity claim literally cites a different hospital — the flag shows the exact text we searched and what we found.
+4. Record a decision with a note; it persists to Lakebase and the queue updates instantly.
+5. The review log is the durable audit trail downstream planners inherit: human judgment becomes institutional knowledge.
 
 ## Deployment
 
