@@ -30,6 +30,14 @@ def load_flags(data_dir: Path = DATA_DIR) -> pd.DataFrame:
     return pd.read_parquet(data_dir / "flags.parquet")
 
 
+@lru_cache(maxsize=1)
+def load_ai_opinions(data_dir: Path = DATA_DIR) -> pd.DataFrame:
+    path = data_dir / "ai_opinions.parquet"
+    if not path.exists():
+        return pd.DataFrame(columns=["unique_id", "ai_opinion", "model"])
+    return pd.read_parquet(path)
+
+
 @lru_cache(maxsize=16)
 def load_detail_shard(shard: int, data_dir: Path = DATA_DIR) -> pd.DataFrame:
     return pd.read_parquet(data_dir / f"facility_details_{shard:02d}.parquet")

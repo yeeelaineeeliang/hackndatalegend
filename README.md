@@ -18,6 +18,7 @@ Planners cannot act on claims like these. The Data Readiness Desk is the trust g
 3. **Ranks** a review queue by where human attention most improves the dataset.
 4. **Persists** reviewer decisions (confirm / needs review / incorrect claim / missing evidence / resolved, plus notes) in Lakebase Postgres — an append-only audit trail that survives sessions and redeploys.
 5. **Admits what it doesn't know**: evidence scores are capped until claims align to exact source spans, and missing data is never presented as missing care.
+6. **Double-checks its own work**: a Databricks foundation model (`ai_query` batch over the top 150 flagged records) issues an independent AGREE/DISAGREE second opinion on each rule-based flag — it concurs on 59%, and its dissents are shown, not hidden. Advisory only; human review always wins.
 
 ## Expected Repository Structure
 
@@ -103,14 +104,6 @@ Run locally:
 cd app
 streamlit run app.py
 ```
-
-## One-Minute Demo Path
-
-1. "1,061 hospitals in this dataset claim an ICU with zero supporting evidence. A wrong referral is a family driving six hours for nothing. We built the trust gate that catches it."
-2. Overview: the queue ranks 9,958 facilities by where human review most changes planning outcomes.
-3. Open the #1 record: its maternity claim literally cites a different hospital — the flag shows the exact text we searched and what we found.
-4. Record a decision with a note; it persists to Lakebase and the queue updates instantly.
-5. The review log is the durable audit trail downstream planners inherit: human judgment becomes institutional knowledge.
 
 ## Deployment
 

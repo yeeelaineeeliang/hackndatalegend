@@ -177,6 +177,7 @@ def build_app_assets(
 
     manifest = {
         "generated_at": pd.Timestamp.utcnow().isoformat(),
+        "eligible_rows": len(signals),
         "queue_rows": len(index),
         "flag_rows": len(flags),
         "detail_rows": len(details),
