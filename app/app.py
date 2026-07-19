@@ -488,6 +488,8 @@ with st.sidebar:
         f"{manifest['flag_rows']:,} flags"
     )
     st.caption(f"Decision store: {store.backend}")
+    if store.backend == "sqlite" and "unavailable" in store.backend_detail:
+        st.caption(store.backend_detail[:300])
 
 filtered = filter_review_index(
     index,
