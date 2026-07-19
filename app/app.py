@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import html
 import json
+import os
 
 import pandas as pd
 import streamlit as st
@@ -645,6 +646,13 @@ with queue_tab:
             '<div class="section-kicker">Reviewer decision</div>',
             unsafe_allow_html=True,
         )
+        if store.backend != "lakebase" and os.environ.get("PGHOST"):
+            st.error(
+                "Durable persistence unavailable: Lakebase is configured but "
+                "unreachable, so decisions are falling back to local ephemeral "
+                "storage and may not survive an app restart. "
+                f"Reason: {store.backend_detail[:200]}"
+            )
         if st.session_state.pop("decision_saved_for", None) == selected_id:
             st.success("Decision recorded. The queue now reflects this review.")
         current_status = str(summary.get("review_status", "unreviewed"))

@@ -117,9 +117,9 @@ Placeholder claims and missing fields are never silently rewritten. Contradictio
 ## Current Result
 
 - facility signal rows: `9,989`
-- flags: `30,646`
-- flagged facilities: `9,774`
-- queue rows: `9,774`
+- flags: `43,255` (rules `v1.1.0`, including claim-corroboration flags)
+- flagged facilities: `9,958`
+- queue rows: `9,958`
 - validation: `6` passed, `1` warning, `0` failed
 
 The warning applies to all facilities because claim-level source alignment is unavailable.

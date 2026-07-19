@@ -9,4 +9,8 @@ __pycache__/
 .ruff_cache/
 app/data/review_decisions.sqlite
 data/raw/facilities/healthcare_facilities.csv
+HACKATHON_PLAN.md
+PROJECT.md
+ROADMAP.md
+
 

@@ -54,7 +54,7 @@ Files:
 - `app/requirements.txt`
 - `app/data/`
 
-The detail dataset is split into eight deterministic Parquet shards. The largest packaged file is approximately `2.54 MB`, below the Databricks Apps `10 MB` per-file limit.
+The detail dataset is split into eight deterministic Parquet shards. The largest packaged file is approximately `4.2 MB`, below the Databricks Apps `10 MB` per-file limit.
 
 The package does not include the `36 MB` full analysis base.
 
@@ -100,8 +100,19 @@ Official references:
 - https://docs.databricks.com/aws/en/dev-tools/databricks-apps/deploy
 - https://docs.databricks.com/gcp/en/dev-tools/databricks-apps/app-runtime
 
-## Current Boundary
+## Persistence
 
-Phase 4 is read-only. Reviewer decisions and notes are not yet durable and must not be represented as persisted.
+Reviewer decisions are durable. `app/review_store.py` is an append-only store:
 
-Persistence is the next phase.
+- on Databricks Apps with a database resource attached, decisions are written
+  to Lakebase Postgres (`review_decisions` table), outside the app filesystem,
+  so they survive restarts and redeploys
+- locally, a SQLite file is used for development
+- the sidebar displays the active backend; if Lakebase is configured but
+  unreachable, the decision form shows an explicit fallback warning instead of
+  claiming durable persistence
+- the latest decision per facility defines queue status; history is never
+  overwritten and is visible in the Review log tab with CSV export
+
+Verified in production on `July 19, 2026`: a decision recorded through the
+deployed app was read back directly from the Lakebase instance.
