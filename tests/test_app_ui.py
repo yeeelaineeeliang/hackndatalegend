@@ -77,8 +77,13 @@ class AppUiContractTests(unittest.TestCase):
 
     def test_databricks_runtime_config_uses_proxy_safe_streamlit_settings(self) -> None:
         app_yaml = (ROOT / "app" / "app.yaml").read_text(encoding="utf-8")
-        self.assertIn("${DATABRICKS_APP_PORT:-8000}", app_yaml)
-        self.assertIn("0.0.0.0", app_yaml)
+        # The Apps runtime exec's the command array without a shell, so any
+        # unexpanded ${...} syntax reaches Streamlit literally and crashes it
+        # (verified in production on 2026-07-19). The platform injects the
+        # port itself; the command must stay free of shell substitutions.
+        self.assertNotIn("${", app_yaml)
+        self.assertNotIn("--server.port", app_yaml)
+        self.assertIn("streamlit", app_yaml)
         self.assertIn("STREAMLIT_SERVER_ENABLE_CORS", app_yaml)
         self.assertIn("STREAMLIT_SERVER_ENABLE_XSRF_PROTECTION", app_yaml)
 

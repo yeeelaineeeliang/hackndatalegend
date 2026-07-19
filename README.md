@@ -1,110 +1,98 @@
-# Data Readiness Desk — a lie detector for hospital capability claims
+# Pramaan (प्रमाण) — proof before planning
 
-**Live app:** https://data-readiness-desk-7474649574693760.aws.databricksapps.com · Databricks Apps, Free Edition · Track: `Data Readiness Desk`
+**A lie detector for hospital capability claims.**
+Hack-Nation × Databricks · "Data Legend" Challenge · Track: `Data Readiness Desk`
 
-In India, a family can drive six hours to a hospital whose ICU was a claim, not a capability. We ran every capability claim in the 10,000-facility challenge dataset against the operational evidence in its own record — equipment, staff, procedures — and the results are the argument for this product:
+**Live app:** https://data-readiness-desk-7474649574693760.aws.databricksapps.com *(Databricks Apps, Free Edition)*
 
-- **1,061 facilities claim an ICU with zero supporting evidence anywhere in their record.**
-- Of `6,616` facilities claiming high-acuity care (ICU, trauma, NICU, maternity, oncology, cardiac, dialysis, surgery), only **`681` — about 10% — are fully evidence-backed**.
-- **38% of the entire dataset** contains at least one capability claim with no textual support at all.
-- The consolidated record ranked #1 for review contains a maternity claim that literally cites *a different hospital*.
+*Pramaan* is Sanskrit for **proof** — the one thing we demand from every hospital record before a planner is allowed to trust it.
 
-Planners cannot act on claims like these. The Data Readiness Desk is the trust gate in front of them: every suspicious claim is flagged with the **exact text that was searched and what was — or wasn't — found**, ranked by where review most changes planning outcomes, and every human decision persists as a durable, auditable record.
+---
 
-## What It Does
+## The Problem, in Four Numbers
 
-1. **Scores** all 10k records for completeness, evidence support, consistency, and leverage — precomputed, reproducible, versioned rules.
-2. **Corroborates** every high-acuity capability claim against operational evidence across fields; uncorroborated claims are flagged with receipts.
-3. **Ranks** a review queue by where human attention most improves the dataset.
-4. **Persists** reviewer decisions (confirm / needs review / incorrect claim / missing evidence / resolved, plus notes) in Lakebase Postgres — an append-only audit trail that survives sessions and redeploys.
-5. **Admits what it doesn't know**: evidence scores are capped until claims align to exact source spans, and missing data is never presented as missing care.
-6. **Double-checks its own work**: a Databricks foundation model (`ai_query` batch over the top 150 flagged records) issues an independent AGREE/DISAGREE second opinion on each rule-based flag — it concurs on 59%, and its dissents are shown, not hidden. Advisory only; human review always wins.
+In India, a family can drive six hours to a hospital whose ICU was a claim, not a capability. We cross-examined every capability claim in the 10,000-facility challenge dataset against the operational evidence in its own record — equipment, staff, procedures. The results are the argument for this product:
 
-## Expected Repository Structure
+| Finding | Count |
+|---|---|
+| Facilities claiming an **ICU with zero supporting evidence** anywhere in their record | **1,061** |
+| Facilities claiming high-acuity care (ICU, trauma, NICU, maternity, oncology, cardiac, dialysis, surgery) | 6,616 |
+| … of which are **fully evidence-backed** | **681 (~10%)** |
+| Share of the entire dataset carrying **at least one claim with no textual support** | **38%** |
 
-This structure can evolve, but this is the intended shape:
+And the record ranked #1 for review? Its maternity claim literally cites *a different hospital*.
 
-```text
-.
-├── README.md
-├── PROJECT.md
-├── AGENTS.md
-├── HACKATHON_PLAN.md
-├── data/
-├── notebooks/
-├── src/
-├── app/
-├── outputs/
-└── docs/
+## What Pramaan Does
+
+Pramaan is the trust gate between messy facility data and life-or-death planning decisions:
+
+1. **Scores** all 10k records for completeness, evidence support, consistency, and leverage — precomputed, reproducible, versioned rules (`config/trust_scoring_rules.json`).
+2. **Cross-examines** every high-acuity capability claim against operational evidence across fields. Every flag carries a **receipt**: the exact text searched, and what was — or wasn't — found.
+3. **Ranks** a review queue by where human attention most improves the dataset, not just by what's worst.
+4. **Persists** reviewer decisions in **Lakebase Postgres** — an append-only audit trail that survives sessions, restarts, and redeploys. Human judgment becomes institutional knowledge.
+5. **Admits what it doesn't know.** Evidence scores are hard-capped until claims align to exact source spans, and missing data is never presented as missing care.
+6. **Double-checks its own work.** A Databricks foundation model (`ai_query` batch) issues an independent AGREE/DISAGREE second opinion on each of the top 150 flags. It concurs on 59% — and its dissents are displayed, not hidden. Advisory only; human review always wins.
+
+## The Reviewer's Minute
+
+> Open the overview → see 9,958 records ranked by review priority → open the #1 facility → read the receipt showing exactly why its claim failed cross-examination → read the AI validator's independent opinion → record a decision with a note → watch the queue and the durable audit log update.
+
+That's the whole product. No chat box. No black box.
+
+## Architecture
+
+```
+raw CSV (10,118 rows)
+   │  intake gate: schema, parsing, claim-shape, geography checks
+   ▼
+facilities_analysis_base ── 51 raw columns preserved + 36 provenance columns
+   │  trust engine: completeness · evidence · consistency · corroboration · leverage
+   ▼
+trust_signals + 43,255 receipt-backed flags + ranked review_queue
+   │  packaged as sharded parquet (largest shard 4.2 MB < 10 MB Apps limit)
+   ▼
+Streamlit app on Databricks Apps ──── reviewer decisions ──► Lakebase Postgres
+   ▲                                                          (append-only audit trail)
+   └── AI second opinions: ai_query batch over top 150 flags
 ```
 
-## Documentation Guide
+Every stage emits a machine-readable validation report and fails loudly (`outputs/validation/`). The suite of 34 unit tests covers intake, normalization, scoring, app assets, and the decision store.
 
-- `README.md`: fast orientation and repo usage
-- `PROJECT.md`: product scope, architecture, and delivery plan
-- `ROADMAP.md`: phased execution plan, status tracker, and pivot reference
-- `AGENTS.md`: working rules for human and AI collaborators
-- `HACKATHON_PLAN.md`: competition strategy and track-specific product framing
-- `DATA_SOURCES.md`: source overview, enrichment datasets, and join-risk guidance
-- `docs/REFERENCE_LAYER.md`: canonical cleaned-reference policy for PIN and NFHS joins
-- `docs/EXTRACTION_CONTRACT.md`: reconciled facility schema, evidence rules, and prompt caveats
-- `docs/FACILITY_INTAKE.md`: challenge dataset access, staging, profiling, and validation
-- `docs/NORMALIZED_FACILITY_LAYER.md`: canonical analysis-base transformations and provenance policy
-- `docs/TRUST_SCORING.md`: score formulas, flag traceability, review ranking, and limitations
-- `docs/APP.md`: reviewer workflow, deployment package, local run, and Databricks deployment
+**Databricks stack:** Apps · Lakebase · Unity Catalog (`workspace.data_readiness`, 5 tables) · serverless SQL warehouse · foundation-model batch inference (`ai_query`).
 
-## Local Environment
+**Deliberate tradeoff:** scoring is precomputed and the app serves from packaged tables. We chose a demo that cannot fail over live inference that might. The AI validator runs as batch for the same reason.
 
-Create an isolated environment and install the pinned dependencies:
+## Run It
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
+python3 -m venv .venv && source .venv/bin/activate
 python3 -m pip install -r requirements.txt
-```
 
-Run the current pipeline:
-
-```bash
-python3 -m src.profiling.profile_supplemental_data
-python3 -m src.profiling.clean_supplemental_data
-python3 -m src.validation.validate_supplemental_data
+# full pipeline, each stage gated by validation
 python3 -m src.ingestion.facility_intake data/raw/facilities/healthcare_facilities.csv
 python3 -m src.processing.normalize_facilities
 python3 -m src.scoring.build_trust_signals
 python3 -m src.app_data.build_app_assets
 python3 -m unittest discover -v
+
+# the app
+cd app && streamlit run app.py
 ```
 
-The validation command exits non-zero for structural failures. Source uncertainty that has been quarantined remains visible as a warning.
+The raw challenge CSV is not redistributed in this repo; `data/raw/facilities/source_manifest.json` records its checksum. Deployment notes (including a hard-won `app.yaml` pitfall) live in `docs/APP.md`.
 
-## Current Data Readiness
+## Documentation
 
-The challenge export is staged and normalized. The canonical analysis base contains `9,989` unique scoring-eligible facilities while retaining every malformed and duplicate source row for audit.
+| Doc | What it covers |
+|---|---|
+| `docs/TRUST_SCORING.md` | Score formulas, flag taxonomy, corroboration rules, limitations |
+| `docs/APP.md` | Reviewer workflow, deployment package, Databricks Apps + Lakebase setup |
+| `docs/NORMALIZED_FACILITY_LAYER.md` | Analysis-base transformations and provenance policy |
+| `docs/EXTRACTION_CONTRACT.md` | Reconciled facility schema and upstream prompt caveats |
+| `docs/FACILITY_INTAKE.md` · `docs/REFERENCE_LAYER.md` · `DATA_SOURCES.md` | Intake gates, supplemental geography reference layer, join-risk policy |
 
-The trust layer materializes traceable, receipt-backed flags and a ranked queue of `9,958` facilities. Claim-vs-evidence corroboration (rules `v1.1.0`) checks every high-acuity capability claim — ICU, emergency and trauma, NICU, maternity, oncology, cardiac, dialysis, surgery — for operational evidence across description, procedure, and equipment: of `6,616` facilities claiming high-acuity care, only `681` are fully corroborated, and `3,799` carry at least one claim with no supporting evidence anywhere in the record.
+## Why It Matters
 
-Evidence support remains explicitly capped at `75` because the export does not align each extracted claim to an exact source span. The app says so out loud instead of hiding it.
+"Probably has an ICU" is not good enough. A wrong referral is not a failed query — it is a family that drove six hours for nothing. Pramaan turns 10,000 unverifiable claims into decisions a planner can trust, defend, and save — with receipts at every step, honesty about every gap, and a durable memory of every human judgment.
 
-## The Reviewer App
-
-The application under `app/` provides:
-
-- readiness overview with issue distribution and impact metrics
-- filterable ranked review queue that reflects live review status
-- facility detail with scores, claims, corroboration state, and flag receipts
-- reviewer decision form: confirm, needs review, incorrect claim, missing evidence, or resolved, plus a durable note
-- append-only audit log with CSV export
-
-Decisions persist in Lakebase Postgres when deployed on Databricks Apps with a database resource attached, and in local SQLite during development. The latest decision per facility defines its queue status; history is never overwritten.
-
-Run locally:
-
-```bash
-cd app
-streamlit run app.py
-```
-
-## Deployment
-
-The app ships to Databricks Apps from the `app/` directory (`app.yaml` is the entry point). After `databricks auth login`, sync `app/` to the workspace, create the app, and attach a Lakebase database resource so the decision store selects Postgres automatically.
+**Pramaan: proof before planning.**

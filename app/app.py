@@ -34,7 +34,7 @@ except ModuleNotFoundError:
 
 
 st.set_page_config(
-    page_title="Data Readiness Desk",
+    page_title="Pramaan · Data Readiness Desk",
     page_icon="DR",
     layout="wide",
     initial_sidebar_state="auto",
@@ -584,8 +584,8 @@ index = apply_review_status(index, latest_decisions)
 st.markdown(
     """
     <div class="desk-header">
-      <div class="eyebrow">India healthcare · Data Readiness Desk</div>
-      <div class="desk-title">The trust gate before planning.</div>
+      <div class="eyebrow">Pramaan · Data Readiness Desk · Indian healthcare</div>
+      <div class="desk-title">Proof before planning.</div>
       <p class="desk-subtitle">
         Turn noisy facility records into an auditable review queue. Every issue
         carries a reason, a receipt, and an explicit validation state.
@@ -621,7 +621,7 @@ with st.sidebar:
         unsafe_allow_html=True,
     )
     backend_label = (
-        "Lakebase · durable"
+        "Lakebase"
         if store.backend == "lakebase"
         else "SQLite · local demo"
     )
